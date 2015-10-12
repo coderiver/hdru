@@ -52,7 +52,7 @@ body { font-family: "Open Sans", sans-serif; }
 .l .l-col1 { float: left; width: 20%; }
 .l .l-col2 { float: right; width: 70%; }
 
-.level__in, .connect__in, .service__in, .l__in, .network__in, .sub__in, .router__in { width: 1140px; margin: auto; position: relative; }
+.level__in, .connect__in, .service__in, .l__in, .network__in, .sub__in, .router__in, .win__in, .award__in { width: 1140px; margin: auto; position: relative; }
 
 .headvpn_submenu ul { width: 626px !important; }
 .headvpn_submenu li { padding: 5px 25px !important; }
@@ -65,11 +65,11 @@ body { font-family: "Open Sans", sans-serif; }
 .level_title { margin: 74px 0 15px; }
 .level__txt { color: black; margin: 0; font: 400 16px/1.4 "Open Sans", sans-serif; }
 .level__logos { margin: 21px 0 30px; }
-.level__logos .icon__apple { background: url('../img/icons-sfb0bb5650a.png') 0 -51px no-repeat; width: 33px; height: 41px; display: inline-block; margin-right: 11px; }
-.level__logos .icon__windows { background: url('../img/icons-sfb0bb5650a.png') 0 -234px no-repeat; width: 36px; height: 41px; display: inline-block; margin-right: 11px; }
-.level__logos .icon__linux { background: url('../img/icons-sfb0bb5650a.png') 0 -183px no-repeat; width: 36px; height: 41px; display: inline-block; margin-right: 11px; }
-.level__logos .icon__android { background: url('../img/icons-sfb0bb5650a.png') 0 0 no-repeat; width: 36px; height: 41px; display: inline-block; margin-right: 11px; }
-.level__logos .icon__ios { background: url('../img/icons-sfb0bb5650a.png') 0 -132px no-repeat; width: 53px; height: 41px; display: inline-block; margin-right: 11px; }
+.level__logos .icon__apple { background: url('../img/icons-sa267404701.png') 0 -51px no-repeat; width: 33px; height: 41px; display: inline-block; margin-right: 11px; }
+.level__logos .icon__windows { background: url('../img/icons-sa267404701.png') 0 -687px no-repeat; width: 36px; height: 41px; display: inline-block; margin-right: 11px; }
+.level__logos .icon__linux { background: url('../img/icons-sa267404701.png') 0 -532px no-repeat; width: 36px; height: 41px; display: inline-block; margin-right: 11px; }
+.level__logos .icon__android { background: url('../img/icons-sa267404701.png') 0 0 no-repeat; width: 36px; height: 41px; display: inline-block; margin-right: 11px; }
+.level__logos .icon__ios { background: url('../img/icons-sa267404701.png') 0 -403px no-repeat; width: 53px; height: 41px; display: inline-block; margin-right: 11px; }
 .level__cinema { background: url("../img/cinema.png") no-repeat 0 0; width: 766px; height: 484px; position: relative; overflow: hidden; }
 .level__cinema .cinema__video { display: block; position: absolute; top: 58px; left: 100px; }
 .level__cinema .cinema__play { content: " "; display: block; position: absolute; margin: auto; top: 0; bottom: 0; left: 0; right: 0; cursor: pointer; background: url("../img/play.png") no-repeat 0 0; width: 121px; height: 121px; }
@@ -150,3 +150,24 @@ body { font-family: "Open Sans", sans-serif; }
 .router .button { width: 230px; background-color: #79bc00; margin-bottom: 70px; }
 
 .sub_r { background-color: #f8fbff; }
+
+.win { background: url("../img/windows_bg.jpg") no-repeat 0 0; width: 1600px; height: 315px; text-align: center; width: auto; height: auto; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding-top: 58px; }
+.win_headline { margin-bottom: 26px; }
+.win .button { width: 170px; margin-bottom: 70px; }
+.win__icon { background: url("../img/win.png") no-repeat 0 0; width: 32px; height: 29px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
+.win span { margin-left: 14px; vertical-align: baseline; }
+
+.award { background-color: #eef3f9; overflow: hidden; text-align: center; font-size: 0; padding: 66px 0 70px; }
+.award_headline { margin-bottom: 55px; }
+.award__pic { margin-bottom: 54px; }
+.award .item { width: 50%; display: inline-block; position: relative; vertical-align: top; text-align: left; padding-right: 15px; margin-bottom: 30px; }
+.award .item h4 { color: black; font-family: "Open Sans"; font-size: 24px; font-weight: 400; line-height: 1; padding-top: 16px; margin-bottom: 20px; }
+.award .item p { color: black; font-family: "Open Sans"; font-size: 16px; font-weight: 400; line-height: 23px; }
+.award .item__content { margin-left: 84px; overflow: hidden; }
+.award .item__pic { float: left; width: 68px; height: 68px; }
+.award .icon__click { background: url('../img/icons-sa267404701.png') 0 -166px no-repeat; width: 57px; height: 57px; display: block; }
+.award .icon__download { background: url('../img/icons-sa267404701.png') 0 -263px no-repeat; width: 61px; height: 61px; display: block; }
+.award .icon__ip { background: url('../img/icons-sa267404701.png') 0 -454px no-repeat; width: 58px; height: 68px; display: block; }
+.award .icon__func { background: url('../img/icons-sa267404701.png') 0 -334px no-repeat; width: 48px; height: 59px; display: block; }
+.award .icon__block { background: url('../img/icons-sa267404701.png') 0 -102px no-repeat; width: 73px; height: 54px; display: block; }
+.award .icon__protocol { background: url('../img/icons-sa267404701.png') 0 -583px no-repeat; width: 46px; height: 55px; display: block; }

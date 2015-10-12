@@ -1,5 +1,5 @@
 //For the main VPN
-.level__in, .connect__in, .service__in, .l__in, .network__in, .sub__in, .router__in
+.level__in, .connect__in, .service__in, .l__in, .network__in, .sub__in, .router__in, .win__in, .award__in
 	width: 1140px
 	margin: auto
 	position: relative
@@ -417,3 +417,87 @@
 	&_r
 		background-color: #f8fbff		
 
+
+//for Windows VPN
+
+.win
+	+jpg(windows_bg)
+	text-align: center
+	width: auto
+	height: auto
+	+cover
+	padding-top: 58px
+
+	&_headline
+		margin-bottom: 26px
+
+	.button
+		width: 170px
+		margin-bottom: 70px
+
+	&__icon
+		+png(win)	
+		display: inline-block	
+		vertical-align: middle
+		margin-bottom: 6px
+	span
+		margin-left: 14px	
+		vertical-align: baseline
+
+.award
+	background-color: #eef3f9
+	overflow: hidden
+	text-align: center
+	font-size: 0
+	padding: 66px 0 70px
+
+	&_headline
+		margin-bottom: 55px
+
+	&__pic
+		margin-bottom: 54px
+
+	
+	.item
+		width: 50%
+		display: inline-block
+		position: relative
+		vertical-align: top
+		text-align: left
+		padding-right: 15px
+		margin-bottom: 30px
+
+		h4
+			color: black
+			font-family: "Open Sans"
+			font-size: 24px
+			font-weight: 400
+			line-height: 1
+			padding-top: 16px
+			margin-bottom: 20px
+
+
+		p
+			color: black
+			font-family: "Open Sans"
+			font-size: 16px
+			font-weight: 400
+			line-height: 23px	
+
+		&__content
+			margin-left: 84px
+			overflow: hidden
+
+		
+
+		&__pic
+			float: left
+			width: 68px
+			height: 68px
+
+		
+
+	@each $s in click, download, ip, func, block, protocol 
+		.icon__#{$s}
+			+s(#{$s})
+			display: block
