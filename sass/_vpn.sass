@@ -1,8 +1,27 @@
-// Normally mainpage styles
-.level__in, .connect__in, .service__in, .l__in, .network__in, .sub__in
+//For the main VPN
+.level__in, .connect__in, .service__in, .l__in, .network__in, .sub__in, .router__in
 	width: 1140px
 	margin: auto
 	position: relative
+
+
+//HEADER
+.headvpn
+	&_submenu
+		ul
+			width: 626px !important
+		li
+			padding: 5px 25px !important
+
+	.header-nav
+		a
+			border-bottom: 3px solid transparent
+			+transition(all 0.2s ease)
+			
+			&:hover
+				border-bottom: 3px solid #1c98d7
+				padding-bottom: 3px
+				opacity: 1
 
 //LEVEL
 .level
@@ -156,7 +175,7 @@
 			margin-bottom: 0
 
 	&_test
-		background-color: #f8fbff			
+		background-color: #f8fbff		
 
 
 //VPN
@@ -366,4 +385,35 @@
 		margin-top: 45px	
 
 		
+//for the ROUTER VPN
+
+//ROUTER
+.router
+	text-align: center
+	+png(routerbg)
+	width: auto
+	height: auto
+	+cover
+	padding-top: 56px
+
+	&_headline
+		margin-bottom: 28px
+
+	&_text
+		width: 520px
+		margin: auto
+		line-height: 23px
+		margin-bottom: 35px
+
+	.button
+		width: 230px
+		background-color: #79bc00
+		margin-bottom: 70px
+
+
+//SUB
+.sub
 	
+	&_r
+		background-color: #f8fbff		
+

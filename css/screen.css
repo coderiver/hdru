@@ -52,7 +52,12 @@ body { font-family: "Open Sans", sans-serif; }
 .l .l-col1 { float: left; width: 20%; }
 .l .l-col2 { float: right; width: 70%; }
 
-.level__in, .connect__in, .service__in, .l__in, .network__in, .sub__in { width: 1140px; margin: auto; position: relative; }
+.level__in, .connect__in, .service__in, .l__in, .network__in, .sub__in, .router__in { width: 1140px; margin: auto; position: relative; }
+
+.headvpn_submenu ul { width: 626px !important; }
+.headvpn_submenu li { padding: 5px 25px !important; }
+.headvpn .header-nav a { border-bottom: 3px solid transparent; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; transition: all 0.2s ease; }
+.headvpn .header-nav a:hover { border-bottom: 3px solid #1c98d7; padding-bottom: 3px; opacity: 1; }
 
 .level { min-height: 484px; background-color: #FFF; }
 .level__left { float: left; width: 378px; position: relative; text-align: left; }
@@ -138,3 +143,10 @@ body { font-family: "Open Sans", sans-serif; }
 .sub__left p { color: black; font: 400 16px/23px "Open Sans", sans-serif; }
 .sub__right { overflow: hidden; margin-left: 536px; }
 .sub_headline { margin-top: 45px; }
+
+.router { text-align: center; background: url("../img/routerbg.png") no-repeat 0 0; width: 1600px; height: 314px; width: auto; height: auto; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding-top: 56px; }
+.router_headline { margin-bottom: 28px; }
+.router_text { width: 520px; margin: auto; line-height: 23px; margin-bottom: 35px; }
+.router .button { width: 230px; background-color: #79bc00; margin-bottom: 70px; }
+
+.sub_r { background-color: #f8fbff; }
