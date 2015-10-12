@@ -153,6 +153,7 @@ body { font-family: "Open Sans", sans-serif; }
 
 .win { background: url("../img/windows_bg.jpg") no-repeat 0 0; width: 1600px; height: 315px; text-align: center; width: auto; height: auto; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding-top: 58px; }
 .win_headline { margin-bottom: 26px; }
+.win_text { width: 515px; line-height: 1.4; margin: 0 auto 36px; }
 .win .button { width: 170px; margin-bottom: 70px; }
 .win__icon { background: url("../img/win.png") no-repeat 0 0; width: 32px; height: 29px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
 .win span { margin-left: 14px; vertical-align: baseline; }
