@@ -1,5 +1,8 @@
 //For the main VPN
-.level__in, .connect__in, .service__in, .l__in, .network__in, .sub__in, .router__in, .win__in, .award__in
+.level__in, .connect__in, .service__in,
+.l__in, .network__in, .sub__in, 
+.router__in, .win__in, .award__in,
+.linux__in, .mac__in, .ios__in, .android__in, .device__in
 	width: 1140px
 	margin: auto
 	position: relative
@@ -9,9 +12,10 @@
 .headvpn
 	&_submenu
 		ul
-			width: 626px !important
+			width: auto !important
+			display: inline-block
 		li
-			padding: 5px 25px !important
+			padding: 5px 17px !important
 
 	.header-nav
 		a
@@ -39,20 +43,29 @@
 		overflow: hidden	
 
 	&_title
-		margin: 74px 0 15px
+		margin: 78px 0 25px
+		line-height: 1.13
+		letter-spacing: 0.00003em
+		word-spacing: -2px
 
 	&__txt
 		color: black
 		margin: 0
 		font: 400 16px/1.4 'Open Sans', sans-serif
+		letter-spacing: 0.00088em
 
 	&__logos
-		margin: 21px 0 30px
+		margin: 21px 0 26px
 		@each $s in apple, windows, linux, android, ios
 			.icon__#{$s}
 				+s(#{$s})
 				display: inline-block
-				margin-right: 11px	
+				margin-right: 5px	
+
+	.button
+		white-spacing: -1px
+		text-indent: 5px	
+		line-height: 43px		
 	
 
 	&__cinema
@@ -65,8 +78,8 @@
 			&__video
 				display: block
 				position: absolute
-				top: 58px
-				left: 100px
+				top: 56px
+				left: 103px
 
 			&__play
 				content: ' '
@@ -93,21 +106,23 @@
 	&__pic
 		+png(cover)	
 		display: inline-block
-		margin-top: -9px
+		margin-top: -14px
 
 	&__text
 		display: inline-block
 		vertical-align: top
-		padding: 30px 30px 36px
+		padding: 26px 30px 36px
 		width: 493px
 		color: black
 		font-family: "Open Sans"
 		font-size: 24px
 		font-weight: 400
 		line-height: 32px
+		letter-spacing: 0.00003
+		word-spacing: -1px
 
 	&__input
-		padding-top: 37px
+		padding: 35px 0 0 23px
 		display: inline-block
 		vertical-align: top
 
@@ -124,13 +139,13 @@
 			background-color: white
 			border-radius: 5px
 			box-shadow: inset 0 2px 0 #ccd4dd
-			padding: 0 10px
+			padding: 0 13px
 			opacity: 0.75
 			color: #000
 			font-family: "Open Sans"
 			font-size: 18px
 			font-weight: 600
-			margin-right: 10px
+			margin-right: 7px
 
 			+placeholder
 				color: #000
@@ -417,38 +432,7 @@
 	&_r
 		background-color: #f8fbff		
 
-
-//for Windows VPN
-
-.win
-	+jpg(windows_bg)
-	text-align: center
-	width: auto
-	height: auto
-	+cover
-	padding-top: 58px
-
-	&_headline
-		margin-bottom: 26px
-
-	&_text
-		width: 515px
-		line-height: 1.4
-		margin: 0 auto 36px	
-
-	.button
-		width: 170px
-		margin-bottom: 70px
-
-	&__icon
-		+png(win)	
-		display: inline-block	
-		vertical-align: middle
-		margin-bottom: 6px
-	span
-		margin-left: 14px	
-		vertical-align: baseline
-
+//AWARD
 .award
 	background-color: #eef3f9
 	overflow: hidden
@@ -505,4 +489,184 @@
 	@each $s in click, download, ip, func, block, protocol 
 		.icon__#{$s}
 			+s(#{$s})
+			display: block		
+
+
+//TOP
+.top
+	text-align: center
+	background-color: #f8fbff
+	overflow: hidden
+
+	&__in
+		position: relative
+		width: 1140px
+		margin: auto
+
+	&_headline
+		padding: 58px 0 26px
+
+	&_text
+		line-height: 1.4
+		margin-bottom: 36px	
+		
+	&__wrp
+		width: 515px
+		margin: auto	
+		position: relative
+
+	.button
+		margin-bottom: 67px
+		width: 276px
+		// padding: 0 26px	
+
+	&_r
+		+png(router_bg)	
+		width: auto
+		+cover
+
+	&_router
+		&:before
 			display: block
+			content: ' '
+			+png(router)
+			position: absolute
+			z-index: 100
+			right: -7px-280px
+			bottom: 0		
+
+		.button
+			width: 230px
+
+	&_ios
+		&:before
+			display: block
+			content: ' '
+			+png(ios_bg)
+			position: absolute
+			z-index: 100
+			right: -300px
+			top: 42px
+
+		span
+			margin-left: 14px	
+			vertical-align: baseline	
+
+	&_mac
+		&:before
+			display: block
+			content: ' '
+			+png(mac_bg)
+			position: absolute
+			z-index: 100
+			right: -36px-344px
+			top: 44px
+
+		span
+			margin-left: 14px	
+			vertical-align: baseline	
+
+	&_android
+		&:before
+			display: block
+			content: ' '
+			+png(android_bg)
+			position: absolute
+			z-index: 100
+			right: -51px-370px
+			top: 42px
+
+		span
+			margin-left: 14px	
+			vertical-align: baseline
+					
+	&_linux
+		&:before
+			display: block
+			content: ' '
+			+png(linux_bg)
+			position: absolute
+			z-index: 100
+			right: -10px-370px
+			top: 59px	
+
+		span
+			margin-left: 14px	
+			vertical-align: baseline
+				
+	&_windows
+		&:before
+			display: block
+			content: ' '
+			+png(windows_bg)
+			position: absolute
+			z-index: 100
+			right: -36px-344px
+			top: 59px	
+
+		span
+			margin-left: 14px	
+			vertical-align: baseline						
+	
+	@each $s in ios_i, mac_i, android_i, windows_i, linux_i 
+		.icon__#{$s}
+			+s(#{$s})
+			display: inline-block	
+			vertical-align: middle
+			margin-bottom: 6px
+	
+
+
+//DEVICE
+.device
+	height: 790px
+	background-color: #eef3f9
+	text-align: center
+	
+	&__in
+		margin-bottom: 70px
+
+	&__left
+		float: left
+
+	&__right
+		padding-top: 20px
+		margin-left: 394px	
+	
+	&__item
+		width: 564px
+		display: inline-block
+		padding: 20px 30px 26px 20px
+		height: 138px
+		position: relative
+		letter-spacing: 0.005em
+		text-align: left
+
+		h4
+			color: black
+			font: 400 24px/1.1 'Open Sans', sans-serif
+			border-bottom: 1px dashed black
+			margin-bottom: 14px
+			display: inline-block
+
+		p
+			color: black
+			font: 400 16px/23px 'Open Sans', sans-serif
+
+	&__item.is-active
+		background-color: #FFF	
+		position: relative
+
+		&:before
+			display: block
+			content: ' '
+			position: absolute
+			top: 0
+			left: -109px
+			border: 69px solid transparent
+			//border-left: 20px solid white
+			border-right: 40px solid white
+
+
+	h2
+		padding: 63px 0 38px	
