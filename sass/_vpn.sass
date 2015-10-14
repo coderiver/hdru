@@ -32,6 +32,9 @@
 	min-height: 484px
 	background-color: #FFF
 
+	&__in
+		+clr
+
 	&__left
 		float: left
 		width: 378px
@@ -111,14 +114,14 @@
 	&__text
 		display: inline-block
 		vertical-align: top
-		padding: 26px 30px 36px
+		padding: 26px 30px 40px
 		width: 493px
 		color: black
-		font-family: "Open Sans"
+		font-family: "Open Sans", sans-serif
 		font-size: 24px
 		font-weight: 400
 		line-height: 32px
-		letter-spacing: 0.00003
+		letter-spacing: 0.00003em
 		word-spacing: -1px
 
 	&__input
@@ -142,7 +145,7 @@
 			padding: 0 13px
 			opacity: 0.75
 			color: #000
-			font-family: "Open Sans"
+			font-family: "Open Sans", sans-serif
 			font-size: 18px
 			font-weight: 600
 			margin-right: 7px
@@ -175,12 +178,15 @@
 		color: black
 		font: 400 16px/1.4 "Open Sans", sans-serif
 		margin-bottom: 20px
+		padding: 0 5px //add new
 
 	&__pic
-		margin-bottom: 40px
+		//margin-bottom: 40px
 		display: inline-block
 		vertical-align: top
-		min-height: 183px
+		//min-height: 183px
+		min-height: 173px
+
 
 		img
 			display: block
@@ -197,8 +203,8 @@
 .vpn
 	text-align: center
 	background-color: #f8fbff
-	padding-top: 50px
-	padding-bottom: 55px
+	//padding-top: 50px
+	//padding-bottom: 55px
 	font-size: 0
 	
 	&__in
@@ -239,7 +245,7 @@
 			display: inline-block
 			text-align: center
 			color: white
-			font-family: "Open Sans"
+			font-family: "Open Sans", sans-serif
 			font-size: 12px
 			font-weight: 400
 			line-height: 23px
@@ -262,7 +268,8 @@
 			
 
 	&_title
-		margin-bottom: 52px
+		padding: 37px 0 60px
+		letter-spacing: 0
 	
 	&__name
 		color: black
@@ -304,23 +311,31 @@
 	font-size: 0
 	text-align: center
 
+	&__row 
+		margin-bottom: 56px
+
+	&__row.row_2
+		margin-bottom: 0	
+		
 	&__col
 		display: inline-block
 		width: 32%
 		margin-right: 1.333%
 		vertical-align: top
 		text-align: left
-		margin-bottom: 56px
+		//margin-bottom: 56px
 
 	&__logo
 		min-height: 50px
-		margin-bottom: 18px	
+		margin-bottom: 13px	
 
 	&_title
-		margin: 0 0 20px
+		padding: 117px 0 20px
+		letter-spacing: 0
 
 	&_text
-		margin-bottom: 64px
+		margin-bottom: 59px
+		line-height: 1.4
 
 	&__content
 		font: 400 14px/20px 'Open Sans', sans-serif
@@ -331,6 +346,8 @@
 		color: #d90000
 		font: 400 14px/1 'Open Sans', sans-serif
 
+	&__wrp
+		margin-top: -10px	
 
 	&__more
 		position: relative
@@ -349,7 +366,7 @@
 			display: block
 			position: absolute
 			top: 0
-			left: -287px
+			left: -292px
 			+png(multimedia)				
 				
 
@@ -360,27 +377,33 @@
 //NETWORK
 .network
 	background-color: #f8fbff
-	padding: 64px 0 55px
+
+	&__in
+		padding-bottom: 55px
+
+	&_title
+		padding: 60px 0 20px	
+		letter-spacing: 0
 
 	&__atlas
 		float: left
 
-
 	&__countries
-		margin-left: 718px
+		margin-left: 720px
 		overflow: hidden	
-
-	&_title
-		margin-bottom: 20px	
 
 	&_text
 		line-height: 1.6
-		margin-bottom: 68px	
+		margin-bottom: 60px	
 
 
 //sub
 .sub	
+	min-height: 396px
 	background-color: #FFF
+
+	&__in
+		padding-top: 30px
 	
 	&__left
 		float: left
@@ -397,7 +420,8 @@
 		margin-left: 536px	
 
 	&_headline
-		margin-top: 45px	
+		margin-top: 36px
+		line-height: 1.2	
 
 		
 //for the ROUTER VPN
@@ -458,7 +482,7 @@
 
 		h4
 			color: black
-			font-family: "Open Sans"
+			font-family: "Open Sans", sans-serif
 			font-size: 24px
 			font-weight: 400
 			line-height: 1
@@ -468,7 +492,7 @@
 
 		p
 			color: black
-			font-family: "Open Sans"
+			font-family: "Open Sans", sans-serif
 			font-size: 16px
 			font-weight: 400
 			line-height: 23px	
@@ -623,8 +647,20 @@
 	background-color: #eef3f9
 	text-align: center
 	
+	&_android
+		.device__in
+			width: 958px
+
+	&_ios
+		.device__in
+			width: 947px
+
+		.device__right
+			margin-left: 382px			
+		
 	&__in
 		margin-bottom: 70px
+		+clr
 
 	&__left
 		float: left
@@ -670,3 +706,4 @@
 
 	h2
 		padding: 63px 0 38px	
+
