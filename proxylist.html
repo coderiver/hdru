@@ -159,6 +159,14 @@
 							<div class="select">
 								Все страны <span>(56)</span>
 							</div>
+							<div class="allcountries">
+								<div class="allcountries__col">
+									<!-- <label><input type="checkbox" name="checkbox"><div class="checktext">Все страны</div></label> -->
+								</div>
+								<div class="allcountries__col"></div>
+								<div class="allcountries__col"></div>
+								<div class="allcountries__col"></div>
+							</div>
 						</div>
 
 						<div class="pform__col pform_speed">
@@ -181,17 +189,17 @@
 					<div class="pform__right">
 						<div class="pform__col pform_type">
 							<div class="pform__topname">Типы проксы</div>
-							<label><input type="checkbox" name="checkbox">HTTP</label>
-							<label><input type="checkbox" name="checkbox">HTTS</label>
-							<label><input type="checkbox" name="checkbox">Socks 4</label>
-							<label><input type="checkbox" name="checkbox">Socks 5</label>
+							<label><input type="checkbox" name="checkbox"><div class="checktext">HTTP</div></label>
+							<label><input type="checkbox" name="checkbox"><div class="checktext">HTTS</div></label>
+							<label><input type="checkbox" name="checkbox"><div class="checktext">Socks 4</div></label>
+							<label><input type="checkbox" name="checkbox"><div class="checktext">Socks 5</div></label>
 						</div>
 						<div class="pform__col pform_anon">
 							<div class="pform__topname">Анонимность</div>
-							<label><input type="checkbox" name="checkbox">Высокая</label>
-							<label><input type="checkbox" name="checkbox">Средняя</label>
-							<label><input type="checkbox" name="checkbox">Низкая</label>
-							<label><input type="checkbox" name="checkbox">Нет</label>
+							<label><input type="checkbox" name="checkbox"><div class="checktext">Высокая</div></label>
+							<label><input type="checkbox" name="checkbox"><div class="checktext">Средняя</div></label>
+							<label><input type="checkbox" name="checkbox"><div class="checktext">Низкая</div></label>
+							<label><input type="checkbox" name="checkbox"><div class="checktext">Нет</div></label>
 						</div>
 					</div>
 
@@ -238,8 +246,8 @@
 					<tr>
 						<td>199.168.148.150</td>
 						<td>12345</td>
-						<td>United States, Santa Clara</td>
-						<td>1400 мс</td>
+						<td><img src="img/flags/us.png" alt="">United States, Santa Clara</td>
+						<td><div style="background-color: #ffd500; width: 48%; height: 20px"></div><span>1400 мс</span></td>
 						<td>HTTPS</td>
 						<td>Нет</td>
 						<td>1 мин.</td>
@@ -247,8 +255,8 @@
 					<tr>
 						<td>90.155.154.76</td>
 						<td>8080</td>
-						<td>Russian Federation, Velikiy Novgorod</td>
-						<td>80 мс</td>
+						<td><img src="img/flags/rus.png" alt="">Russian Federation, Velikiy Novgorod</td>
+						<td><div style="background-color: #79bc00; width: 80%; height: 20px"></div><span>80 мс</span></td>
 						<td>HTTP</td>
 						<td>Высокая</td>
 						<td>2 ч. 15 м.</td>
@@ -256,8 +264,8 @@
 					<tr>
 						<td>218.161.34.107</td>
 						<td>8080</td>
-						<td>Taiwan, Taipei</td>
-						<td>380 мс</td>
+						<td><img src="img/flags/ta.png" alt="">Taiwan, Taipei</td>
+						<td><div style="background-color: #79bc00; width: 70%; height: 20px"></div><span>380 мс</span></td>
 						<td>HTTP</td>
 						<td>Высокая</td>
 						<td>1 мин.</td>
@@ -265,8 +273,8 @@
 					<tr>
 						<td>211.47.68.210</td>
 						<td>1080</td>
-						<td>Korea, Sunnyvale</td>
-						<td>3320 мс</td>
+						<td><img src="img/flags/korea.png" alt="">Korea, Sunnyvale</td>
+						<td><div style="background-color: #e00000; width: 10%; height: 20px"></div><span>3320 мс</span></td>
 						<td>SOCKS5</td>
 						<td>Высокая</td>
 						<td>1 мин.</td>
@@ -274,8 +282,8 @@
 					<tr>
 						<td>199.168.148.150</td>
 						<td>12345</td>
-						<td>United States, Santa Clara</td>
-						<td>1400 мс</td>
+						<td><img src="img/flags/us.png" alt="">United States, Santa Clara</td>
+						<td><div style="background-color: #ffd500; width: 48%; height: 20px"></div><span>1400 мс</span></td>
 						<td>HTTPS</td>
 						<td>НЕТ</td>
 						<td>1 мин.</td>
@@ -283,8 +291,8 @@
 					<tr>
 						<td>90.155.154.76</td>
 						<td>8080</td>
-						<td>Russian Federation, Velikiy Novgorod</td>
-						<td>80 мс</td>
+						<td><img src="img/flags/rus.png" alt="">Russian Federation, Velikiy Novgorod</td>
+						<td><div style="background-color: #79bc00; width: 80%; height: 20px"></div><span>80 мс</span></td>
 						<td>HTTP</td>
 						<td>Высокая</td>
 						<td>1 мин.</td>
@@ -292,8 +300,8 @@
 					<tr>
 						<td>218.161.34.107</td>
 						<td>8080</td>
-						<td>Russian Federation, Moscow</td>
-						<td>380 мс</td>
+						<td><img src="img/flags/rus.png" alt="">Russian Federation, Moscow</td>
+						<td><div style="background-color: #79bc00; width: 70%; height: 20px"></div><span>380 мс</span></td>
 						<td>HTTP</td>
 						<td>Высокая</td>
 						<td>1 мин.</td>
@@ -301,8 +309,8 @@
 					<tr>
 						<td>211.47.68.210</td>
 						<td>1080</td>
-						<td>Korea, Sunnyvale</td>
-						<td>3320 мс</td>
+						<td><img src="img/flags/korea.png" alt="">Korea, Sunnyvale</td>
+						<td><div style="background-color: #e00000; width: 10%; height: 20px"></div><span>3320 мс</span></td>
 						<td>SOCKS5</td>
 						<td>Высокая</td>
 						<td>1 мин.</td>
@@ -310,8 +318,8 @@
 					<tr>
 						<td>199.168.148.150</td>
 						<td>12345</td>
-						<td>United States, Santa Clara</td>
-						<td>1400 мс</td>
+						<td><img src="img/flags/us.png" alt="">United States, Santa Clara</td>
+						<td><div style="background-color: #ffd500; width: 48%; height: 20px"></div><span>1400 мс</span></td>
 						<td>HTTPS</td>
 						<td>НЕТ</td>
 						<td>1 мин.</td>
@@ -319,8 +327,8 @@
 					<tr>
 						<td>90.155.154.76</td>
 						<td>8080</td>
-						<td>Russian Federation, Velikiy Novgorod</td>
-						<td>80 мс</td>
+						<td><img src="img/flags/rus.png" alt="">Russian Federation, Velikiy Novgorod</td>
+						<td><div style="background-color: #79bc00; width: 80%; height: 20px"></div><span>80 мс</span></td>
 						<td>HTTP</td>
 						<td>Высокая</td>
 						<td>1 мин.</td>
@@ -328,8 +336,8 @@
 					<tr>
 						<td>218.161.34.107</td>
 						<td>8080</td>
-						<td>Taiwan, Taipei</td>
-						<td>380 мс</td>
+						<td><img src="img/flags/ta.png" alt="">Taiwan, Taipei</td>
+						<td><div style="background-color: #79bc00; width: 70%; height: 20px"></div><span>380 мс</span></td>
 						<td>HTTP</td>
 						<td>Высокая</td>
 						<td>1 мин.</td>
@@ -337,8 +345,8 @@
 					<tr>
 						<td>211.47.68.210</td>
 						<td>1080</td>
-						<td>Korea, Sunnyvale</td>
-						<td>3320 мс</td>
+						<td><img src="img/flags/korea.png" alt="">Korea, Sunnyvale</td>
+						<td><div style="background-color: #e00000; width: 10%; height: 20px"></div><span>3320 мс</span></td>
 						<td>SOCKS5</td>
 						<td>Высокая</td>
 						<td>1 мин.</td>
@@ -346,8 +354,8 @@
 					<tr>
 						<td>199.168.148.150</td>
 						<td>12345</td>
-						<td>United States, Santa Clara</td>
-						<td>1400 мс</td>
+						<td><img src="img/flags/us.png" alt="">United States, Santa Clara</td>
+						<td><div style="background-color: #ffd500; width: 48%; height: 20px"></div><span>1400 мс</span></td>
 						<td>HTTPS</td>
 						<td>НЕТ</td>
 						<td>1 мин.</td>
@@ -355,8 +363,8 @@
 					<tr>
 						<td>90.155.154.76</td>
 						<td>8080</td>
-						<td>Russian Federation, Velikiy Novgorod</td>
-						<td>80 мс</td>
+						<td><img src="img/flags/rus.png" alt="">Russian Federation, Velikiy Novgorod</td>
+						<td><div style="background-color: #79bc00; width: 80%; height: 20px"></div><span>80 мс</span></td>
 						<td>HTTP</td>
 						<td>Высокая</td>
 						<td>1 мин.</td>
@@ -364,8 +372,8 @@
 					<tr>
 						<td>218.161.34.107</td>
 						<td>8080</td>
-						<td>Russian Federation, Moscow</td>
-						<td>380 мс</td>
+						<td><img src="img/flags/rus.png" alt="">Russian Federation, Moscow</td>
+						<td><div style="background-color: #79bc00; width: 70%; height: 20px"></div><span>380 мс</span></td>
 						<td>HTTP</td>
 						<td>Высокая</td>
 						<td>1 мин.</td>
@@ -373,8 +381,8 @@
 					<tr>
 						<td>211.47.68.210</td>
 						<td>1080</td>
-						<td>Korea, Sunnyvale</td>
-						<td>3320 мс</td>
+						<td><img src="img/flags/korea.png" alt="">Korea, Sunnyvale</td>
+						<td><div style="background-color: #e00000; width: 10%; height: 20px"></div><span>3320 мс</span></td>
 						<td>SOCKS5</td>
 						<td>Высокая</td>
 						<td>1 мин.</td>
@@ -385,16 +393,16 @@
 
 			<div class="proxy__pagination">
 				<ul>
-					<a href="#" class="arrow arrow__left"></a></li>
-					<a href="#" class="arrow arrow__right"></a></li>
+					<li class="arrow__left"><a href="#"></a></li>
+					<li class="arrow__right"><a href="#"></a></li> 
 					<li><a href="#">1</a></li>
-					<li><a class="dot" href="#">...</a></li>
+					<li><a href="#"><span>...</span></a></li>
 					<li><a href="#">4</a></li>
 					<li><a href="#">5</a></li>
-					<li><a class="is-active" href="#">6</a></li>
+					<li class="is-active"><a href="#">6</a></li>
 					<li><a href="#">7</a></li>
 					<li><a href="#">8</a></li>
-					<li><a class="dot" href="#">...</a></li>
+					<li><a href="#"><span>...</span></a></li>
 					<li><a href="#">10</a></li>
 				</ul>
 			</div>
@@ -430,30 +438,29 @@
 				<img src="img/grafik.png" alt="">
 			</div>
 
-
-
-
-
-
-
 			<h3 class="stat__title">Подробнее о прокси-листах</h3>
 
 			<p>От типа прокси зависит, каким образом вы сможете его использовать. <br>
 			Основные виды прокси:</p>
 
-			<p>HTTP — обычные прокси, поддерживающие HTTP запросы. С их помощью можно просматривать веб-сайты и скачивать файлы по HTTP протоколу.<br>
-			HTTPS — также их называют прокси-серверами с поддержкой SSL. Позволяют просматривать HTTPS сайты. С помощью специализированных программ их можно использовать для любого протокола, подобно SOCKS прокси-серверам.<br>
-			Socks 4 — прокси поддерживающие socks протокол 4 версии. С их помощью можно соединяться по TCP/IP протоколу с любым адресом и портом.<br>
-			Socks 5 — помимо возможностей 4 версии, в 5 можно использовать UDP протокол, делать DNS запросы через прокси, а также использовать метод BIND, позволяющий открыть порт для входящих соединений.</p>
+			<dl>
+				<dt>Основные виды прокси:</dt>
+				<dd>HTTP — обычные прокси, поддерживающие HTTP запросы. С их помощью можно просматривать веб-сайты и скачивать файлы по HTTP протоколу.</dd>
+				<dd>HTTPS — также их называют прокси-серверами с поддержкой SSL. Позволяют просматривать HTTPS сайты. С помощью специализированных программ их можно использовать для любого протокола, подобно SOCKS прокси-серверам.</dd>
+				<dd>Socks 4 — прокси поддерживающие socks протокол 4 версии. С их помощью можно соединяться по TCP/IP протоколу с любым адресом и портом.</dd>
+				<dd>Socks 5 — помимо возможностей 4 версии, в 5 можно использовать UDP протокол, делать DNS запросы через прокси, а также использовать метод BIND, позволяющий открыть порт для входящих соединений.</dd>
+			</dl>
 
-			<p>Анонимность прокси не менее важный параметр. От него зависит, будет ли скрыт ваш реальный адрес
-			и не заподозрит ли конечный сервер использование вами прокси. Чуть подробнее про категории анонимности используемые в нашем прокси-листе:</p>
-
-			<p>Нет: Удалённый сервер знает ваш IP, и знает, что вы используете прокси.<br>
-			Низкая: Удалённый сервер не знает ваш IP, но знает, что вы используете прокси.<br>
-			Средняя: Удалённый сервер знает, что вы используете прокси, и думает, что знает ваш IP, но он не ваш
-			(это обычно многосетевые прокси, показывающие удалённому серверу входящий интерфейс<br>
-			как REMOTE_ADDR).</p>
+			<dl>
+				<dt>
+					Анонимность прокси не менее важный параметр. От него зависит, будет ли скрыт ваш реальный адрес и не заподозрит ли конечный сервер использование вами прокси. Чуть подробнее про категории анонимности используемые в нашем прокси-листе:
+				</dt>
+				<dd>Нет: Удалённый сервер знает ваш IP, и знает, что вы используете прокси.</dd>
+				<dd>Низкая: Удалённый сервер не знает ваш IP, но знает, что вы используете прокси.</dd>
+				<dd>Низкая: Удалённый сервер не знает ваш IP, но знает, что вы используете прокси.</dd>
+				<dd>Средняя: Удалённый сервер знает, что вы используете прокси, и думает, что знает ваш IP, но он не ваш (это обычно многосетевые прокси, показывающие удалённому серверу входящий интерфейс как REMOTE_ADDR).</dd>
+			</dl>
+			
 		</div>
 	</section>
 

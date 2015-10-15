@@ -11,7 +11,8 @@
 		padding: 55px 0 24px	
 
 	&_text
-		padding-bottom: 66px	
+		width: 730px
+		margin: 0 auto 66px
 
 	.pform
 		width: 852px
@@ -19,7 +20,7 @@
 		border-radius: 5px	
 		font-size: 0
 		text-align: left
-		overflow: hidden
+		//overflow: hidden
 		+font-smoothing(antialiased)
 
 
@@ -27,7 +28,7 @@
 			min-height: 207px
 			position: relative
 			background-color: #eef3f9
-			overflow: hidden
+			//overflow: hidden
 			padding: 30px 35px 0
 			+clr
 
@@ -59,10 +60,31 @@
 			width: 179px	
 			margin-right: 27px	
 			margin-bottom: 16px
+			position: relative
+
+		.allcountries
+			display: none
+			position: absolute
+			top: 70px
+			left: 0
+			z-index: 999
+			width: 780px
+			height: 729px
+			background-color: white
+			border: 1px solid #1c98d7
+			border-radius: 5px
+			box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25)	
+
+			&__col
+				width: 190px
+				display: inline-block
+				height: 300px
+
 
 		&_speed
 			width: 142px
 			margin-bottom: 16px
+
 			label
 				padding-right: 10px
 
@@ -92,12 +114,24 @@
 			font-size: 16px
 			font-weight: 400
 			color: black
+			position: relative
 			padding: 0 5px
 			span
 				color: gray
 			&:hover, &:active
 				border-color: #1c98d7
 				cursor: pointer
+
+			&:after	
+				content: ' '
+				display: block
+				top: 50%
+				right: 15px
+				margin-top: -2px
+				border-left: 5px solid transparent
+				border-right: 5px solid transparent
+				border-top: 5px solid black
+				position: absolute
 
 		.time
 			position: absolute
@@ -107,6 +141,21 @@
 			margin: 0
 			font-weight: 400	
 			font-size: 16px	
+
+		.checktext
+			padding-left: 20px
+			&:hover
+				cursor: pointer
+			&:before
+				display: inline-block
+				content: ' '
+				position: absolute
+				left: 0
+				top: 3px
+				+png(check)
+
+		input[type="checkbox"]:checked + .checktext:before
+			+png(checked)			
 
 		label
 			display: block
@@ -141,7 +190,6 @@
 
 		&__export
 			display: inline-block
-			//vertical-align: middle
 			font: 400 16px/1 'Open Sans', sans-serif
 			color: black
 			margin-left: 36px
@@ -182,25 +230,30 @@
 	&__t
 		width: 100%
 		border-radius: 5px
-		overflow: hidden
 		text-align: left	
 		background-color: white
-		border: 1px solid #e6e6e6
 		font-size: 14px
 		position: relative
+		border-collapse: collapse
 
 		&:after
 			content: " "
 			+png(catflag)
 			position: absolute
-			bottom: 0
+			bottom: -80px
 			right: -229px-12px
 			z-index: 999
+			+r(1350)
+				display: none
 
 
 
 		thead
 			background-color: #697c81
+
+		tbody
+			border-left: 1px solid #e6e6e6
+			border-right: 1px solid #e6e6e6	
 
 		th
 			color: white
@@ -211,18 +264,54 @@
 			height: 62px
 			&:first-child
 				padding-left: 20px
-			&:last-child
-				padding-right: 20px	
+			&:nth-last-child(1)
+				padding-right: 10px
+				font-size: 14px
+			&:nth-last-child(2)
+				font-size: 14px	
+				padding-right: 15px
+				+prevent-text
 
 		td
 			vertical-align: middle
 			height: 50px	
-			border-bottom: 1px solid #697c81
-			&:first-child
-				padding-left: 20px
-			&:last-child
-				padding-right: 20px		
+			border-bottom: 1px solid #e6e6e6
+			position: relative
+
+			> div
+				position: absolute
+
+			span
+				position: relative
+				z-index: 100	
+
+
+			img
+				margin-right: 9px
+
+			&:nth-child(1)
+				width: 140px
+				padding-left: 15px	
+
+			&:nth-child(2)
+				width: 60px	
+
+			&:nth-child(3)
+				width: 302px
+
+			&:nth-child(4)
 				text-align: center
+				width: 102px		
+
+			&:nth-child(5)
+				width: 70px	
+
+			&:nth-child(6)
+				width: 76px	
+
+			&:nth-child(7)
+				width: 102px
+				padding-left: 20px					
 			
 	
 	&__pagination
@@ -242,17 +331,15 @@
 			color: #006fb6
 			padding: 0 10px
 
-			
+			span
+				color: #c9d0d2
 
-		.dot
-			color: #c9d0d2
-
-		.is-active
+		.is-active > a
 			background-color: #c9d0d2
 			color: white	
 
 
-		.arrow__left
+		.arrow__left > a
 			+png(arrow-left)
 			position: absolute
 			left: -50px
@@ -261,7 +348,7 @@
 			bottom: 0
 			margin: auto
 
-		.arrow__right
+		.arrow__right > a
 			+png(arrow-right)	
 			position: absolute	
 			right: -50px
@@ -271,19 +358,6 @@
 			margin: auto
 
 			
-
-				
-
-	
-
-			
-	
-
-
-
-
-
-
 //VPNSEC
 .vpnsec
 	min-height: 85px
@@ -320,21 +394,30 @@
 //STAT
 .stat
 	background-color: #FFF
+	font: 400 16px/1.4 'Open Sans', sans-serif	
 
 	&__in
 		width: 852px
 		margin: auto
+		padding-top: 50px
+		padding-bottom: 40px
 
 	&__title
 		color: black
 		font: 400 24px/1 'Open Sans', sans-serif
+		margin-bottom: 30px
 
 	&__pic
 		margin: 30px 0 50px	
 	
 	p
-		font: 400 16px/1.6 'Open Sans', sans-serif	
-		margin-bottom: 31px
+		margin-bottom: 30px
+
+	dt, dl
+		margin-bottom: 20px	
+
+
+		
 
 
 
