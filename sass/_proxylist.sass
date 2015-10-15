@@ -1,0 +1,341 @@
+.proxy
+	min-height: 251px
+	background-color: #FFF
+
+	&__in
+		width: 852px
+		margin: auto
+		text-align: center
+
+	&_headline
+		padding: 55px 0 24px	
+
+	&_text
+		padding-bottom: 66px	
+
+	.pform
+		width: 852px
+		height: 295px
+		border-radius: 5px	
+		font-size: 0
+		text-align: left
+		overflow: hidden
+		+font-smoothing(antialiased)
+
+
+		&__top
+			min-height: 207px
+			position: relative
+			background-color: #eef3f9
+			overflow: hidden
+			padding: 30px 35px 0
+			+clr
+
+		&__bottom
+			min-height: 88px
+			background-color: #f6faff	
+
+		&__left
+			float: left
+			width: 444px
+
+		&__right
+			float: right
+			font-size: 16px
+
+			label
+				margin-bottom: 10px
+
+			label > input
+				display: none
+				padding-left: 25px
+
+
+		&__col
+			display: inline-block	
+			vertical-align: top	
+
+		&_country
+			width: 179px	
+			margin-right: 27px	
+			margin-bottom: 16px
+
+		&_speed
+			width: 142px
+			margin-bottom: 16px
+			label
+				padding-right: 10px
+
+		&_number
+			width: 100%
+			display: block	
+
+		&_type
+			width: 166px	
+
+		&__topname	
+			color: black
+			font-family: "Open Sans", sans-serif
+			font-size: 16px
+			font-weight: 600
+			line-height: 23px
+			margin-bottom: 8px	
+
+		.select
+			width: 179px
+			height: 38px
+			line-height: 36px
+			background-color: white
+			border: 1px solid #d3d7dc
+			border-radius: 5px	
+			font-family: "Open Sans"
+			font-size: 16px
+			font-weight: 400
+			color: black
+			padding: 0 5px
+			span
+				color: gray
+			&:hover, &:active
+				border-color: #1c98d7
+				cursor: pointer
+
+		.time
+			position: absolute
+			z-index: 10
+			right: 22px
+			top: 8px	
+			margin: 0
+			font-weight: 400	
+			font-size: 16px	
+
+		label
+			display: block
+			position: relative		
+
+		input[type="text"]
+			width: 100%
+			height: 38px
+			background-color: white
+			border: 1px solid #d3d7dc
+			border-radius: 5px
+			padding: 0 9px
+			box-shadow: inset 0 2px 0 rgba(21, 23, 25, 0.06)
+			font: 400 16px/23px "Open Sans", sans-serif
+			+placeholder
+				color: black
+				opacity: 0.3
+
+		
+		&__buttons
+			display: inline-block
+			//vertical-align: middle	
+			cursor: pointer
+			margin: 20px 0 0 31px
+
+		.button_green
+			width: 197px
+			margin-right: 13px
+
+		.button_dark
+			width: 240px		
+
+		&__export
+			display: inline-block
+			//vertical-align: middle
+			font: 400 16px/1 'Open Sans', sans-serif
+			color: black
+			margin-left: 36px
+
+			a	
+				font: 400 16px/1 'Open Sans', sans-serif
+				text-decoration: underline
+				color: #006fb6
+				&:hover
+					text-decoration: none
+
+			img
+				vertical-align: middle	
+				margin: 0 10px	
+
+		
+	&__history
+		position: relative
+		+clr
+
+
+		> div
+			display: inline-block
+			vertical-align: middle
+			padding: 40px 8px 40px 0
+		
+		.browser
+			display: inline-block
+
+			li
+				display: inline-block
+				margin-right: 8px
+
+				&:last-child
+					margin-right: 0
+
+	
+	&__t
+		width: 100%
+		border-radius: 5px
+		overflow: hidden
+		text-align: left	
+		background-color: white
+		border: 1px solid #e6e6e6
+		font-size: 14px
+		position: relative
+
+		&:after
+			content: " "
+			+png(catflag)
+			position: absolute
+			bottom: 0
+			right: -229px-12px
+			z-index: 999
+
+
+
+		thead
+			background-color: #697c81
+
+		th
+			color: white
+			font-family: "Open Sans"
+			font-size: 16px
+			font-weight: 400	
+			vertical-align: middle
+			height: 62px
+			&:first-child
+				padding-left: 20px
+			&:last-child
+				padding-right: 20px	
+
+		td
+			vertical-align: middle
+			height: 50px	
+			border-bottom: 1px solid #697c81
+			&:first-child
+				padding-left: 20px
+			&:last-child
+				padding-right: 20px		
+				text-align: center
+			
+	
+	&__pagination
+		display: inline-block
+		margin: auto
+		position: relative
+		font-size: 0
+		padding: 40px 0
+
+		li
+			display: inline-block
+
+		a
+			font-family: "Open Sans"
+			font-size: 24px
+			font-weight: 400
+			color: #006fb6
+			padding: 0 10px
+
+			
+
+		.dot
+			color: #c9d0d2
+
+		.is-active
+			background-color: #c9d0d2
+			color: white	
+
+
+		.arrow__left
+			+png(arrow-left)
+			position: absolute
+			left: -50px
+			display: block
+			top: 0
+			bottom: 0
+			margin: auto
+
+		.arrow__right
+			+png(arrow-right)	
+			position: absolute	
+			right: -50px
+			display: block
+			top: 0
+			bottom: 0
+			margin: auto
+
+			
+
+				
+
+	
+
+			
+	
+
+
+
+
+
+
+//VPNSEC
+.vpnsec
+	min-height: 85px
+	background-color: #79bc00		
+
+	&__in
+		width: 852px
+		margin: auto
+		padding: 20px 0 17px
+		+clr
+
+	.button
+		//margin-top: 20px
+		float: right
+		color: black
+		width: 144px
+		line-height: 48px
+		display: inline-block	
+
+	&__content	
+		overflow: hidden
+		padding: 10px 60px 0 0
+
+
+	h3
+		color: white
+		font-family: "Open Sans"
+		font-size: 24px
+		font-weight: 400
+		line-height: 26px	
+		display: inline-block
+
+	
+//STAT
+.stat
+	background-color: #FFF
+
+	&__in
+		width: 852px
+		margin: auto
+
+	&__title
+		color: black
+		font: 400 24px/1 'Open Sans', sans-serif
+
+	&__pic
+		margin: 30px 0 50px	
+	
+	p
+		font: 400 16px/1.6 'Open Sans', sans-serif	
+		margin-bottom: 31px
+
+
+
+
