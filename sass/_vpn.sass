@@ -160,7 +160,7 @@
 	background-color: #fff
 
 	&__col
-		width: 33.333333%
+		width: 31.3%
 		display: inline-block
 		text-align: center
 		vertical-align: top
@@ -169,6 +169,9 @@
 	&__item
 		padding: 63px 20px 69px
 
+	.is-center
+		margin: 0 3%
+		
 	&__title
 		color: black
 		font: 400 24px/1 "Open Sans", sans-serif
@@ -178,25 +181,47 @@
 		color: black
 		font: 400 16px/1.4 "Open Sans", sans-serif
 		margin-bottom: 20px
-		padding: 0 5px //add new
+		padding: 0 5px 
 
 	&__pic
-		//margin-bottom: 40px
 		display: inline-block
 		vertical-align: top
-		//min-height: 183px
-		min-height: 173px
+		min-height: 215px
+		position: relative
+		width: 100%
 
 
 		img
 			display: block
 			margin: auto
+			position: absolute
+			top: 0
+			bottom: 0
+			left: 0
+			right: 0
 
 		&:last-child
 			margin-bottom: 0
 
+
+	&_cn
+		height: 406px
+		.l__pic
+			min-height: 173px
+
 	&_test
-		background-color: #f8fbff		
+		height: 628px	
+		background-color: #f8fbff	
+
+		.l__item
+			padding: 11px 0 46px
+
+		.l__pic
+			min-height: 241px	
+
+			
+
+			
 
 
 //VPN
@@ -399,11 +424,12 @@
 
 //sub
 .sub	
-	min-height: 396px
+	//min-height: 396px
+	height: 396px
 	background-color: #FFF
 
 	&__in
-		padding-top: 30px
+		padding-top: 23px
 	
 	&__left
 		float: left
@@ -422,6 +448,7 @@
 	&_headline
 		margin-top: 36px
 		line-height: 1.2	
+		letter-spacing: 0
 
 		
 //for the ROUTER VPN
@@ -462,7 +489,8 @@
 	overflow: hidden
 	text-align: center
 	font-size: 0
-	padding: 66px 0 70px
+	height: 831px
+	padding: 66px 0 50px
 
 	&_headline
 		margin-bottom: 55px
@@ -532,7 +560,8 @@
 
 	&_text
 		line-height: 1.4
-		margin-bottom: 36px	
+		//margin-bottom: 36px	
+		margin-bottom: 32px
 		
 	&__wrp
 		width: 515px
@@ -630,7 +659,10 @@
 
 		span
 			margin-left: 14px	
-			vertical-align: baseline						
+			vertical-align: baseline
+
+		.button
+			width: 170px						
 	
 	@each $s in ios_i, mac_i, android_i, windows_i, linux_i 
 		.icon__#{$s}

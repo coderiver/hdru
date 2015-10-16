@@ -32,7 +32,7 @@ body { font-family: "Open Sans", sans-serif; }
 
 .text { color: black; font: 400 16px/1.2 "Open Sans", sans-serif; text-align: center; }
 
-.headline { font: 400 36px/1 "Open Sans", sans-serif; color: #002334; }
+.headline { font: 400 36px/1 "Open Sans", sans-serif; color: #002334; letter-spacing: 0; }
 
 .button { height: 48px; line-height: 48px; text-align: center; border-radius: 5px; color: #fff; font-family: "Open Sans", sans-serif; font-size: 18px; font-weight: 600; display: inline-block; }
 
@@ -45,9 +45,11 @@ body { font-family: "Open Sans", sans-serif; }
 .buying { position: relative; width: 420px; font-size: 0; margin-bottom: 92px; }
 .buying_l:before { background: url("../img/btn_wrp.png") no-repeat 0 0; width: 134px; height: 57px; top: 1px; right: 2px; position: absolute; z-index: 1; display: block; content: " "; }
 .buying_b { margin: 0 auto 80px; text-align: center; }
-.buying_b h4 { color: black; font-family: "Open Sans", sans-serif; font-size: 24px; font-weight: 400; line-height: 26px; margin-bottom: 38px; }
+.buying_b h4 { color: black; font-family: "Open Sans", sans-serif; font-size: 24px; font-weight: 400; line-height: 26px; margin-bottom: 36px; }
 .buying .button_dark { width: 266px; }
 .buying .button_green { width: 129px; position: relative; z-index: 99; margin-left: 20px; }
+
+.l.is-white { background-color: #FFF; }
 
 .l { *zoom: 1; }
 .l:after { content: " "; display: table; clear: both; }
@@ -94,14 +96,19 @@ body { font-family: "Open Sans", sans-serif; }
 .connect__input input::placeholder, .connect__input .fieldset-in .suport-form textarea::placeholder, .fieldset-in .suport-form .connect__input textarea::placeholder { color: #000; }
 
 .l { font-size: 0; background-color: #fff; }
-.l__col { width: 33.33333%; display: inline-block; text-align: center; vertical-align: top; }
+.l__col { width: 31.3%; display: inline-block; text-align: center; vertical-align: top; }
 .l__item { padding: 63px 20px 69px; }
+.l .is-center { margin: 0 3%; }
 .l__title { color: black; font: 400 24px/1 "Open Sans", sans-serif; margin-bottom: 20px; }
 .l__content { color: black; font: 400 16px/1.4 "Open Sans", sans-serif; margin-bottom: 20px; padding: 0 5px; }
-.l__pic { display: inline-block; vertical-align: top; min-height: 173px; }
-.l__pic img { display: block; margin: auto; }
+.l__pic { display: inline-block; vertical-align: top; min-height: 215px; position: relative; width: 100%; }
+.l__pic img { display: block; margin: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
 .l__pic:last-child { margin-bottom: 0; }
-.l_test { background-color: #f8fbff; }
+.l_cn { height: 406px; }
+.l_cn .l__pic { min-height: 173px; }
+.l_test { height: 628px; background-color: #f8fbff; }
+.l_test .l__item { padding: 11px 0 46px; }
+.l_test .l__pic { min-height: 241px; }
 
 .vpn { text-align: center; background-color: #f8fbff; font-size: 0; }
 .vpn__in { width: 830px; margin: auto; }
@@ -147,12 +154,12 @@ body { font-family: "Open Sans", sans-serif; }
 .network__countries { margin-left: 720px; overflow: hidden; }
 .network_text { line-height: 1.6; margin-bottom: 60px; }
 
-.sub { min-height: 396px; background-color: #FFF; }
-.sub__in { padding-top: 30px; }
+.sub { height: 396px; background-color: #FFF; }
+.sub__in { padding-top: 23px; }
 .sub__left { float: left; width: 536px; display: block; padding-right: 80px; }
 .sub__left p { color: black; font: 400 16px/23px "Open Sans", sans-serif; }
 .sub__right { overflow: hidden; margin-left: 536px; }
-.sub_headline { margin-top: 36px; line-height: 1.2; }
+.sub_headline { margin-top: 36px; line-height: 1.2; letter-spacing: 0; }
 
 .router { text-align: center; background: url("../img/routerbg.png") no-repeat 0 0; width: 1600px; height: 314px; width: auto; height: auto; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding-top: 56px; }
 .router_headline { margin-bottom: 28px; }
@@ -161,7 +168,7 @@ body { font-family: "Open Sans", sans-serif; }
 
 .sub_r { background-color: #f8fbff; }
 
-.award { background-color: #eef3f9; overflow: hidden; text-align: center; font-size: 0; padding: 66px 0 70px; }
+.award { background-color: #eef3f9; overflow: hidden; text-align: center; font-size: 0; height: 831px; padding: 66px 0 50px; }
 .award_headline { margin-bottom: 55px; }
 .award__pic { margin-bottom: 54px; }
 .award .item { width: 50%; display: inline-block; position: relative; vertical-align: top; text-align: left; padding-right: 15px; margin-bottom: 30px; }
@@ -179,7 +186,7 @@ body { font-family: "Open Sans", sans-serif; }
 .top { text-align: center; background-color: #f8fbff; overflow: hidden; }
 .top__in { position: relative; width: 1140px; margin: auto; }
 .top_headline { padding: 58px 0 26px; }
-.top_text { line-height: 1.4; margin-bottom: 36px; }
+.top_text { line-height: 1.4; margin-bottom: 32px; }
 .top__wrp { width: 515px; margin: auto; position: relative; }
 .top .button { margin-bottom: 67px; width: 276px; }
 .top_r { background: url("../img/router_bg.png") no-repeat 0 0; width: 1600px; height: 314px; width: auto; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
@@ -195,6 +202,7 @@ body { font-family: "Open Sans", sans-serif; }
 .top_linux span { margin-left: 14px; vertical-align: baseline; }
 .top_windows:before { display: block; content: " "; background: url("../img/windows_bg.png") no-repeat 0 0; width: 344px; height: 230px; position: absolute; z-index: 100; right: -380px; top: 59px; }
 .top_windows span { margin-left: 14px; vertical-align: baseline; }
+.top_windows .button { width: 170px; }
 .top .icon__ios_i { background: url('../img/icons-sa243b07a0c.png') 0 -731px no-repeat; width: 19px; height: 35px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
 .top .icon__mac_i { background: url('../img/icons-sa243b07a0c.png') 0 -1064px no-repeat; width: 26px; height: 32px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
 .top .icon__android_i { background: url('../img/icons-sa243b07a0c.png') 0 -109px no-repeat; width: 30px; height: 36px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
