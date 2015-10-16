@@ -11,8 +11,10 @@
 		padding: 55px 0 24px	
 
 	&_text
+		text-indent: 40px
 		width: 730px
 		margin: 0 auto 66px
+		line-height: 23px
 
 	.pform
 		width: 852px
@@ -58,7 +60,7 @@
 			position: relative
 
 		.allcountries
-			//display: none
+			display: none
 			position: absolute
 			top: 80px
 			left: 0
@@ -100,9 +102,13 @@
 
 			img
 				margin: 0 10px 0 0	
+				vertical-align: baseline
 
 			&__bl
-				margin-bottom: 45px		
+				margin-bottom: 44px	
+
+			label 
+				margin-bottom: 11px
 
 
 		&_speed
@@ -140,11 +146,11 @@
 			color: black
 			position: relative
 			padding: 0 5px
+			cursor: pointer	
+			+transition(0.3s)
 			span
 				color: gray
-			&:hover, &:active
-				border-color: #1c98d7
-				cursor: pointer
+
 
 			&:after	
 				content: ' '
@@ -156,6 +162,14 @@
 				border-right: 5px solid transparent
 				border-top: 5px solid black
 				position: absolute
+
+		.select.is-active
+			border-color: #1c98d7
+			cursor: pointer	
+
+		.is-active
+			display: block	
+
 
 		.time
 			position: absolute
@@ -175,7 +189,7 @@
 				content: ' '
 				position: absolute
 				left: 0
-				top: 3px
+				top: 2px
 				+png(check)
 
 		label > input[type="checkbox"]

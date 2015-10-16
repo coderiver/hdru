@@ -16,4 +16,16 @@ head.ready(function() {
 	// });
 
 	// console.log($('body').html());
+
+	$(function(){
+		$('.select').click(function(e){
+			$('.allcountries').toggleClass('is-active')
+		});
+	})
+
+	$(function(){
+		$('.allcountries__close').click(function(e){
+			$('.allcountries').removeClass('is-active')
+		});
+	})
 });
