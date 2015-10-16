@@ -1,0 +1,75 @@
+// FAQ
+.is-activef
+	color: #07293b
+//.is-open__main
+//	display: inline-block
+//	+s(minus)
+.is-drop__open
+	display: none
+.icon-minus:before
+	li:before
+		content: ''
+		display: inline-block
+		margin-right: 15px
+		+s(minus)
+.faq
+	color: #006fb6
+	margin-bottom: 60px
+
+	&__in
+		width: 880px
+		margin: auto
+	&__main
+		cursor: pointer
+		li
+			font-size: 24px
+			font-weight: 400
+			line-height: 50px
+			margin-left: 25px
+			&:before
+				content: ''
+				display: inline-block
+				margin-right: 15px
+				+s(plus)
+		a
+			border-bottom: 1px dotted #006fb6
+			text-decoration: none
+	&__drop
+		li
+			font-size: 18px
+			font-weight: 600
+			line-height: 40px
+			&:before
+				content: ''
+				display: inline-block
+				margin-right: 15px
+				+s(plus)
+	&__second-drop
+		li
+			font-size: 18px
+			font-weight: 400
+			&:before
+				content: ''
+				display: inline-block
+				margin-right: 15px
+				+s(point)
+		p
+			font-size: 16px
+			font-weight: 400
+			line-height: 23px
+			margin-bottom: 25px
+			&:last-child
+				margin-bottom: 0
+
+	.faq__second-text
+		background-color: #eef3f9
+		padding: 25px
+
+
+
+
+.study-cat
+	img
+		position: absolute
+		bottom: -61px
+		right: 64px

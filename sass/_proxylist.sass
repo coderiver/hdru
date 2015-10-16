@@ -62,7 +62,7 @@
 		.allcountries
 			display: none
 			position: absolute
-			top: 80px
+			top: 75px
 			left: 0
 			z-index: 999
 			width: 780px
@@ -118,6 +118,9 @@
 			label
 				padding-right: 10px
 
+			input[type='text']
+				
+
 		&_number
 			width: 100%
 			display: block	
@@ -163,12 +166,12 @@
 				border-top: 5px solid black
 				position: absolute
 
-		.select.is-active
-			border-color: #1c98d7
-			cursor: pointer	
 
 		.is-active
-			display: block	
+			border-color: #1c98d7
+
+		.is-active + .allcountries
+			display: block
 
 
 		.time
@@ -305,8 +308,10 @@
 			height: 62px
 			&:first-child
 				padding-left: 20px
+				border-top-left-radius: 5px
 			&:nth-last-child(1)
 				padding-right: 10px
+				border-top-right-radius: 5px
 				font-size: 14px
 			&:nth-last-child(2)
 				font-size: 14px	
@@ -456,6 +461,9 @@
 
 	dt, dl
 		margin-bottom: 20px	
+
+	dl
+		letter-spacing: 0.002em	
 
 
 		

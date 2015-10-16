@@ -19,13 +19,29 @@ head.ready(function() {
 
 	$(function(){
 		$('.select').click(function(e){
-			$('.allcountries').toggleClass('is-active')
+			$(this).toggleClass('is-active');
 		});
 	})
 
 	$(function(){
 		$('.allcountries__close').click(function(e){
-			$('.allcountries').removeClass('is-active')
+			$('.select').removeClass('is-active')
 		});
 	})
+	$('.js-main-btn').on('click', function() {
+        $('.faq__drop').toggleClass('is-drop__open');
+        $('.js-main-btn').toggleClass('icon-minus');
+        return false;
+    });
+
+
+    $('.js-second-btn').on('click', function() {
+        $('.faq__second-drop').toggleClass('is-drop__open');
+        return false;
+    });
+
+    $('.js-text-btn').on('click', function() {
+        $('.faq__second-text').toggleClass('is-drop__open');
+        return false;
+    });
 });
