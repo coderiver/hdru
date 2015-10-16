@@ -76,7 +76,7 @@ li.active a:hover{opacity: 1;}
 
 .container{
 
-    width: 1140px;
+    width: 1148px;
 
     margin: 0 auto;
 
@@ -142,7 +142,7 @@ h2 + p {
 
     float: left;
 
-    height: 17px;    
+    height: 17px;
 
     box-sizing: content-box;
 
@@ -156,7 +156,7 @@ h2 + p {
 
     vertical-align: middle;
 
-    margin-right: 5px;
+    margin-right: 4px;
 
 }
 
@@ -172,7 +172,7 @@ h2 + p {
 
 .lang li {padding: 0 0 0 15px;position: relative;}
 
-.lang-img {margin-right: 8px;}
+.lang-img {margin-right: 10px; }
 
 .lang li.active{color: #3c4e56;}
 
@@ -194,7 +194,7 @@ h2 + p {
 
     bottom: 0;
 
-    left: 16px;
+    left: 19px;
 
 }
 
@@ -217,9 +217,10 @@ h2 + p {
     width: 37%;
 
 }
+.logo > .img { margin-left: -11px;}
 
 .name {
-
+    margin-left: 13px;
     padding: 12px 0;
 
     vertical-align: top;
@@ -437,7 +438,7 @@ h2 + p {
 
 .block-bkg {
 
-    position: absolute;   
+    position: absolute;
 
     width: 100%;
 

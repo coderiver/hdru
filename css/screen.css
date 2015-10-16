@@ -317,28 +317,28 @@ body { font-family: "Open Sans", sans-serif; }
 .stat dt, .stat dl { margin-bottom: 20px; }
 .stat dl { letter-spacing: 0.002em; }
 
-.support__in { width: 880px; margin-bottom: 66px; }
+.supportt__in { width: 880px; margin: auto; }
 
-.fieldset-in { width: 850px; margin: auto; background-color: #eef3f9; padding: 30px 20px; text-align: left; margin-bottom: 70px; }
-.fieldset-in .suport-form p { font: 600 18px/23px "Open Sans", Arial, Helvetica sans-serif; display: inline-block; width: 160px; margin-right: 30px; }
+.fieldset-in { width: 850px; margin: auto; background-color: #eef3f9; padding: 30px 20px 29px 15px; text-align: left; margin-bottom: 70px; }
+.fieldset-in .suport-form p { font: 600 18px/23px "Open Sans", Arial, Helvetica sans-serif; display: inline-block; width: 160px; margin-right: 33px; }
 .fieldset-in .suport-form span { font-weight: 400; font-size: 14px; }
 .fieldset-in .suport-form select, .fieldset-in .suport-form input, .fieldset-in .suport-form textarea, .fieldset-in .suport-form input, .fieldset-in .suport-form textarea { width: 614px; height: 39px; background-color: white; border: 1px solid #d3d7dc; font-size: 18px; padding: 5px 10px; }
 .fieldset-in .suport-form input, .fieldset-in .suport-form textarea { box-shadow: inset 0 2px 0 rgba(21, 23, 25, 0.06); }
-.fieldset-in .suport-form textarea { height: 189px; }
-.fieldset-in .suport-form__type, .fieldset-in .suport-form__subject { margin-bottom: 30px; }
+.fieldset-in .suport-form textarea { height: 189px; margin-bottom: 1px; }
+.fieldset-in .suport-form__type, .fieldset-in .suport-form__subject { margin-bottom: 31px; }
 .fieldset-in .suport-form__email { margin-bottom: 35px; }
-.fieldset-in .suport-form__email input, .fieldset-in .suport-form__email .suport-form textarea, .fieldset-in .suport-form .suport-form__email textarea { width: 297px; margin-bottom: 15px; }
-.fieldset-in .suport-form__email span { margin-left: 195px; }
-.fieldset-in .suport-form__problem { margin-bottom: 40px; }
+.fieldset-in .suport-form__email input, .fieldset-in .suport-form__email .suport-form textarea, .fieldset-in .suport-form .suport-form__email textarea { width: 297px; margin-bottom: 10px; }
+.fieldset-in .suport-form__email span { margin-left: 199px; }
+.fieldset-in .suport-form__problem { margin-bottom: 34px; }
 .fieldset-in .suport-form__problem p { vertical-align: top; }
-.fieldset-in .suport-form__problem a { color: #006fb6; font-weight: 400; border-bottom: 1px dotted #006fb6; margin-top: 18px; }
+.fieldset-in .suport-form__problem a { color: #006fb6; font-weight: 400; border-bottom: 1px dotted #006fb6; margin-top: 18px; letter-spacing: 1.19px; }
 .fieldset-in .suport-form__problem i { margin-left: 195px; display: inline-block; margin-right: 6px; vertical-align: middle; background: url('../img/icons-sa243b07a0c.png') 0 -395px no-repeat; width: 22px; height: 20px; }
-.fieldset-in .suport-form__code img { vertical-align: middle; margin-right: 10px; margin-bottom: 15px; }
+.fieldset-in .suport-form__code img { vertical-align: middle; margin-right: 6px; margin-bottom: 1px; }
 .fieldset-in .suport-form__code input, .fieldset-in .suport-form__code .suport-form textarea, .fieldset-in .suport-form .suport-form__code textarea { width: 113px; vertical-align: middle; margin-bottom: 15px; }
-.fieldset-in .suport-form__code span { margin-left: 195px; }
-.fieldset-in .suport-form__sent button { margin-left: 195px; margin-right: 20px; }
+.fieldset-in .suport-form__code span { margin-left: 200px; }
+.fieldset-in .suport-form__sent button { margin: 24px 1S4px 0 197px; width: 202px; height: 48px; }
 
-.mail-cat img { position: absolute; bottom: -70px; right: 25px; }
+.mail-cat img { position: absolute; bottom: -69px; right: 36px; }
 
 .price__in, .stock__in, .paymant__in, .price-warning__in { width: 688px; margin: auto; *zoom: 1; }
 .price__in:after, .stock__in:after, .paymant__in:after, .price-warning__in:after { content: " "; display: table; clear: both; }
@@ -409,33 +409,33 @@ body { font-family: "Open Sans", sans-serif; }
 .math-cat img { position: absolute; bottom: -70px; right: 325px; }
 
 .section-text { text-align: center; margin-top: 57px; }
-.section-text__in { width: 830px; margin: auto; }
+.section-text__in { width: 880px; margin: auto; margin-bottom: 62px; }
 .section-text__title h3 { color: #002334; font: 400 36px/42px "Open Sans", Arial, Helvetica sans-serif; }
-.section-text__content { margin-top: 20px; }
-.section-text__content p { color: #000; font: 400 16px/24px "Open Sans", Arial, Helvetica sans-serif; }
+.section-text__content { margin-top: 20px; margin-left: -8px; }
+.section-text__content p { color: #000; font: 400 16px/23px "Open Sans", Arial, Helvetica sans-serif; }
 .section-text__content a { color: #006fb6; text-decoration: underline; }
 
-.begin-text__in { width: 830px; margin: auto; background-color: #eef3f9; padding: 20px 0; margin: 0 auto; margin-top: 70px; text-align: center; }
+.begin-text__in { width: 850px; margin: auto; background-color: #eef3f9; padding-top: 24px; padding-bottom: 16px; margin: 0 auto; text-align: center; }
 .begin-text .type-ports p, .begin-text .type-ports select, .begin-text .type-ports .fieldset-in .suport-form input, .fieldset-in .suport-form .begin-text .type-ports input, .begin-text .type-ports .fieldset-in .suport-form textarea, .fieldset-in .suport-form .begin-text .type-ports textarea { display: inline-block; }
-.begin-text .type-ports__select { position: relative; margin-bottom: 25px; }
-.begin-text .type-ports p { font: 600 16px/23px "Open Sans", Arial, Helvetica sans-serif; color: black; vertical-align: middle; margin-right: 15px; }
-.begin-text .type-ports .type-ports__item { vertical-align: middle; width: 289px; height: 38px; background-color: white; border: 1px solid #d3d7dc; border-radius: 5px; font: 400 16px/23px "Open Sans", Arial, Helvetica sans-serif; padding-left: 40px; }
-.begin-text .type-ports__pic { position: absolute; top: 14px; left: 398px; }
+.begin-text .type-ports__select { position: relative; margin-bottom: 15px; }
+.begin-text .type-ports p { font: 600 16px/23px "Open Sans", Arial, Helvetica sans-serif; color: black; vertical-align: middle; margin-right: 10px; letter-spacing: -0.35px; }
+.begin-text .type-ports .type-ports__item { vertical-align: middle; margin: 2px 10px 0 0; width: 289px; height: 38px; background-color: white; border: 1px solid #d3d7dc; border-radius: 5px; font: 400 16px/23px "Open Sans", Arial, Helvetica sans-serif; padding-left: 33px; }
+.begin-text .type-ports__pic { position: absolute; top: 14px; left: 391px; }
 .begin-text__content { margin: 0 auto; position: relative; }
 .begin-text__content a { margin-top: 25px; }
 .begin-text__content a:hover { background-color: none; }
-.begin-text .super-cat { position: absolute; right: 0; bottom: 22%; }
+.begin-text .super-cat { position: absolute; right: 8px; bottom: 19.5%; }
 
 .green-line { height: 85px; background-color: #79bc00; margin-top: 50px; }
-.green-line__in { width: 830px; margin: auto; }
+.green-line__in { width: 860px; margin: auto; }
 .green-line__text { display: inline-block; line-height: 85px; color: white; font: 400 24px/26px "Open Sans", Arial, Helvetica sans-serif; margin: 30px 38px 30px 0; }
-.green-line__btn { line-height: 85px; background-color: #ffd500; border-radius: 5px; text-align: center; padding: 15px 25px; font: 600 18px "Open Sans", Arial, Helvetica sans-serif; }
+.green-line__btn { float: right; margin-top: 20px; margin-right: 8px; line-height: 85px; background-color: #ffd500; border-radius: 5px; text-align: center; padding: 12px 20px; font: 600 18px "Open Sans", Arial, Helvetica sans-serif; }
 .green-line__btn a { text-decoration: none; background: none; }
 
-.details-ports { margin-bottom: 70px; margin-top: 50px; color: black; font-family: "OpenSans", Arial, Helvetica sans-serif; font-weight: 400; line-height: 23px; }
-.details-ports__in { width: 830px; margin: auto; }
+.details-ports { margin-bottom: 63px; margin-top: 50px; color: black; font-family: "OpenSans", Arial, Helvetica sans-serif; font-weight: 400; line-height: 23px; }
+.details-ports__in { width: 860px; margin: auto; }
 .details-ports__in h3 { font-size: 24px; font-family: "OpenSans", Arial, Helvetica sans-serif; font-weight: normal; }
-.details-ports__in p { font-size: 16px; margin-top: 25px; font-family: "OpenSans", Arial, Helvetica sans-serif; }
+.details-ports__in p { font-size: 16px; margin-top: 24px; font-family: "OpenSans", Arial, Helvetica sans-serif; }
 
 .revise { margin-top: 70px; padding: 30px 0; }
 .revise__in { width: 830px; margin: auto; background-color: #eef3f9; padding: 30px 25px; }
@@ -560,14 +560,14 @@ body { font-family: "Open Sans", sans-serif; }
 .stat dt, .stat dl { margin-bottom: 20px; }
 .stat dl { letter-spacing: 0.002em; }
 
-.tools-text { padding: 0 75px; }
+.tools-text { padding: 0 75px; margin-left: 10px; }
 
-.tools-blue { margin-top: 70px; }
-.tools-blue__in { width: 830px; margin: auto; background-color: #eef3f9; padding: 30px 25px; }
-.tools-blue__left { text-align: left; display: inline-block; vertical-align: top; margin-right: 50px; }
-.tools-blue__left p { font: 600 14px/23px "Open Sans", Arial, Helvetica sans-serif; }
-.tools-blue__left .big-red { color: #bc0000; font: 400 36px/42px "Open Sans", Arial, Helvetica sans-serif; margin-top: 20px; margin-left: -5px; }
-.tools-blue__left .tools-btn { margin-top: 40px; }
+.tools-blue { margin-top: 63px; }
+.tools-blue__in { width: 860px; margin: auto; background-color: #eef3f9; padding: 20px 0; }
+.tools-blue__left { text-align: left; display: inline-block; vertical-align: top; margin-right: 43px; }
+.tools-blue__left p { margin-top: 3px; font: 600 16px/23px "Open Sans", Arial, Helvetica sans-serif; }
+.tools-blue__left .big-red { color: #bc0000; font: 400 36px/42px "Open Sans", Arial, Helvetica sans-serif; margin-top: 10px; margin-left: -5px; }
+.tools-blue__left .tools-btn { height: 48px; margin-top: 32px; width: 252px; }
 .tools-blue__right { text-align: left; display: inline-block; }
 .tools-blue__right .main-table { width: 492px; font: 400 14px/30px "Open Sans", Arial, Helvetica sans-serif; }
 .tools-blue__right .main-table__comp:before { content: ""; display: inline-block; vertical-align: middle; margin-right: 8px; background: url('../img/icons-sa243b07a0c.png') 0 -455px no-repeat; width: 17px; height: 18px; }
@@ -576,21 +576,24 @@ body { font-family: "Open Sans", sans-serif; }
 .tools-blue__right .main-table__title { width: 100px; }
 .tools-blue__right .main-table__content { width: 370px; }
 
-.tool-about { margin-top: 25px; }
-.tool-about__in { width: 830px; margin: auto; padding: 30px 25px; position: relative; *zoom: 1; }
+.tool-about__in { width: 830px; margin: auto; padding: 7px 19px; position: relative; *zoom: 1; }
 .tool-about__in:after { content: " "; display: table; clear: both; }
 .tool-about__in h3 { font: 600 16px/23px "Open Sans", Arial, Helvetica sans-serif; margin-bottom: 25px; }
 .tool-about__in a { color: #006fb6; text-decoration: underline; }
 .tool-about__in p { font: 400 12px/30px "Open Sans", Arial, Helvetica sans-serif; }
-.tool-about__left { float: left; text-align: left; width: 540px; }
-.tool-about__table { font: 400 12px/30px "Open Sans", Arial, Helvetica sans-serif; }
+.tool-about__left { float: left; text-align: left; width: 529px; }
+.tool-about__table { font: 400 12px/30px "Open Sans", Arial, Helvetica sans-serif; margin-top: -10px; }
 .tool-about__title { padding-right: 40px; }
-.tool-about__right { float: right; text-align: left; }
-.tool-about .tool-other { margin-top: 40px; width: 240px; }
+.tool-about__right { float: left; margin-left: 11px; text-align: left; }
+.tool-about .tool-other { margin-top: 20px; width: 240px; }
+.tool-about .tool-other p { font: 400 14px/23px "Open Sans", Arial, Helvetica sans-serif; }
 .tool-about .sherlok-cat img { position: absolute; bottom: -50px; right: -110px; }
 
-.details-tool h4 { margin-top: 35px; }
-.details-tool li { list-style-type: decimal; margin: 30px 0 0 53px; }
+.green-line-p { margin: 30px 50px 30px 0; float: none; }
+
+.details-tool h4 { margin-top: 26px; }
+.details-tool p { margin-top: 20px; }
+.details-tool li { list-style-type: decimal; margin: 27px 0 0 49px; }
 
 .is-activef { color: #07293b; }
 
