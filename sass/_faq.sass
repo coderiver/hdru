@@ -1,6 +1,12 @@
 // FAQ
-.is-activef
+.is-active
 	color: #07293b
+.is-active__point:before
+	content: ''
+	display: inline-block
+	margin-right: 15px
+	+s(active-point)
+
 //.is-open__main
 //	display: inline-block
 //	+s(minus)
@@ -12,12 +18,15 @@
 		display: inline-block
 		margin-right: 15px
 		+s(minus)
+.faq-text__in
+	padding: 0 60px
+	margin-bottom: 51px
 .faq
 	color: #006fb6
-	margin-bottom: 60px
+	margin-bottom: 55px
 
 	&__in
-		width: 880px
+		width: 960px
 		margin: auto
 	&__main
 		cursor: pointer
@@ -29,7 +38,7 @@
 			&:before
 				content: ''
 				display: inline-block
-				margin-right: 15px
+				margin-right: 5px
 				+s(plus)
 		a
 			border-bottom: 1px dotted #006fb6
@@ -39,37 +48,49 @@
 			font-size: 18px
 			font-weight: 600
 			line-height: 40px
+			margin-left: 20px
+			margin-top: -2px
 			&:before
 				content: ''
 				display: inline-block
-				margin-right: 15px
+				margin-right: 5px
 				+s(plus)
 	&__second-drop
+		margin-bottom: 10px
 		li
 			font-size: 18px
 			font-weight: 400
+			margin-left: 12px
+			margin-top: -0.5px
 			&:before
 				content: ''
 				display: inline-block
-				margin-right: 15px
+				margin-right: 9px
 				+s(point)
+			//&:nth-child(6)
+			//	content: ''
+			//	display: inline-block
+			//	margin-right: 15px
+			//	+s(active-point)
 		p
 			font-size: 16px
 			font-weight: 400
 			line-height: 23px
-			margin-bottom: 25px
+			margin-bottom: 23px
 			&:last-child
 				margin-bottom: 0
 
 	.faq__second-text
 		background-color: #eef3f9
-		padding: 25px
-
+		margin-top: 20px
+		margin-bottom: 17px
+		margin-left: -9px
+		padding: 24px 133px 23px 31px
 
 
 
 .study-cat
 	img
 		position: absolute
-		bottom: -61px
-		right: 64px
+		bottom: -56px
+		right: 59px
