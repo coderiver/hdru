@@ -172,13 +172,12 @@ body { font-family: "Open Sans", sans-serif; }
 .sub__left p { color: black; font: 400 16px/23px "Open Sans", sans-serif; }
 .sub__right { overflow: hidden; margin-left: 536px; }
 .sub_headline { margin-top: 36px; line-height: 1.2; letter-spacing: 0; }
+.sub_r { background-color: #f8fbff; }
 
 .router { text-align: center; background: url("../img/routerbg.png") no-repeat 0 0; width: 1600px; height: 314px; width: auto; height: auto; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding-top: 56px; }
 .router_headline { margin-bottom: 28px; }
 .router_text { width: 520px; margin: auto; line-height: 23px; margin-bottom: 35px; }
 .router .button { width: 230px; background-color: #79bc00; margin-bottom: 70px; }
-
-.sub_r { background-color: #f8fbff; }
 
 .award { background-color: #eef3f9; overflow: hidden; text-align: center; font-size: 0; height: 831px; padding: 66px 0 50px; }
 .award_headline { margin-bottom: 55px; }
