@@ -51,11 +51,11 @@ body { font-family: "Open Sans", sans-serif; }
 
 .mainvpn .l_cn { height: 396px; }
 
-.winvpn .l_cn { height: 406px; }
-.winvpn .l_cn .l__item { padding: 59px 20px 43px; }
-.winvpn .l_test { height: 629px; }
-.winvpn .l_test .l__pic { min-height: 243px; }
-.winvpn .sub_r { height: 399px; }
+.nvpn .l_cn { height: 406px; }
+.nvpn .l_cn .l__item { padding: 59px 20px 43px; }
+.nvpn .l_test { height: 629px; }
+.nvpn .l_test .l__pic { min-height: 243px; }
+.nvpn .sub_r { height: 399px; }
 
 .l.is-white { background-color: #FFF; }
 
