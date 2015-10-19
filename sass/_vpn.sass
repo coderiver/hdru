@@ -29,21 +29,21 @@
 
 //LEVEL
 .level
-	min-height: 484px
+	height: 480px
 	background-color: #FFF
+	overflow: hidden
 
 	&__in
 		+clr
 
 	&__left
 		float: left
-		width: 378px
+		width: 372px
 		position: relative
 		text-align: left
 
 	&__right
-		margin-left: 378px
-		overflow: hidden	
+		margin-left: 379px
 
 	&_title
 		margin: 78px 0 25px
@@ -71,36 +71,36 @@
 		line-height: 43px		
 	
 
-	&__cinema
+	.cinema
 		+png(cinema)
 		position: relative
 		overflow: hidden
 
-		.cinema
 
-			&__video
-				display: block
-				position: absolute
-				top: 56px
-				left: 103px
+		&__video
+			display: block
+			position: absolute
+			top: 57px
+			left: 101px
 
-			&__play
-				content: ' '
-				display: block
-				position: absolute
-				margin: auto
-				top: 0
-				bottom: 0
-				left: 0
-				right: 0
-				cursor: pointer
-				+png(play)
+		&__play
+			content: ' '
+			display: block
+			position: absolute
+			margin: auto
+			top: 0
+			bottom: 0
+			left: 0
+			right: 0
+			cursor: pointer
+			+png(play)
 
 
 //CONNECT
 .connect
 	height: 130px
 	background-color: #eef3f9
+	+clr
 
 	&__key
 		display: inline-block
@@ -109,23 +109,22 @@
 	&__pic
 		+png(cover)	
 		display: inline-block
-		margin-top: -14px
+		margin-top: -10px
 
 	&__text
 		display: inline-block
 		vertical-align: top
-		padding: 26px 30px 40px
+		padding: 30px 27px 36px
 		width: 493px
 		color: black
 		font-family: "Open Sans", sans-serif
 		font-size: 24px
 		font-weight: 400
 		line-height: 32px
-		letter-spacing: 0.00003em
-		word-spacing: -1px
+		letter-spacing: 0
 
 	&__input
-		padding: 35px 0 0 23px
+		padding: 38px 0 0 23px
 		display: inline-block
 		vertical-align: top
 
@@ -181,7 +180,7 @@
 		color: black
 		font: 400 16px/1.4 "Open Sans", sans-serif
 		margin-bottom: 20px
-		padding: 0 5px 
+		//padding: 0 5px 
 
 	&__pic
 		display: inline-block
@@ -205,16 +204,26 @@
 
 
 	&_cn
-		height: 406px
+		//height: 406px
 		.l__pic
 			min-height: 173px
+			margin-bottom: 23px
+
+		.l__item
+			padding: 42px 20px 73px	
+
+			// &:nth-child(1) figcaption
+			// 	text-indent: -15px  pixelPerfect 
+
+			// &:nth-child(3) figcaption
+			// 	text-indent: 17px	pixelPerfect
 
 	&_test
 		height: 628px	
 		background-color: #f8fbff	
 
 		.l__item
-			padding: 11px 0 46px
+			padding: 0 0 44px
 
 		.l__pic
 			min-height: 241px	
@@ -228,12 +237,12 @@
 .vpn
 	text-align: center
 	background-color: #f8fbff
-	//padding-top: 50px
-	//padding-bottom: 55px
+	height: 1008px
 	font-size: 0
 	
 	&__in
-		width: 830px
+		//width: 830px
+		width: 756px  //add
 		margin: auto	
 
 	&__row
@@ -242,19 +251,53 @@
 	&__row_1
 
 		h4	
-			margin-top: 64px	
+			margin-top: 64px
+			margin-bottom: 20px	
+
+		.vpn__col:nth-child(1)
+			width: 433px
+			float: left	
+
+		.vpn__col:nth-child(2)
+			float: right
+			margin-right: -76px	
 
 	&__row_2
-		margin-top: -25px
+		position: relative
+		z-index: 100
+		top: -25px
 
 		h4	
-			margin-top: 70px	
+			margin-top: 73px
+			margin-bottom: 20px
+
+		.vpn__col:nth-child(1)
+			width: 433px
+			float: right
+			margin-right: -28px
+			
+
+		.vpn__col:nth-child(2)
+			float: left
+			padding-left: 14px	
 
 	&__row_3
-		margin-top: -25px
+		position: relative
+		z-index: 100
+		top: -50px
 
 		h4	
-			margin-top: 70px			
+			margin-top: 73px
+			margin-bottom: 21px
+
+		.vpn__col:nth-child(1)
+			width: 380px
+			float: left
+			
+
+		.vpn__col:nth-child(2)
+			float: right
+			margin-right: -86px			
 
 	&__col
 		display: inline-block
@@ -275,25 +318,8 @@
 			font-weight: 400
 			line-height: 23px
 
-
-	&__col_anon
-		width: 480px
-		padding-right: 30px
-		float: left		
-
-	&__col_sec
-		width: 480px
-		padding-left: 55px
-		float: right	
-
-	&__col_free
-		width: 377px
-		padding-right: 25px
-		float: left		
-			
-
 	&_title
-		padding: 37px 0 60px
+		padding: 58px 0 60px
 		letter-spacing: 0
 	
 	&__name
@@ -304,7 +330,7 @@
 	&__content
 		color: black
 		font: 400 16px/1.45 "Open Sans", sans-serif
-		margin-bottom: 15px	
+		margin-bottom: 12px	
 
 	&__pic
 		position: relative
@@ -312,7 +338,7 @@
 
 		.tpicture
 			position: absolute
-			top: 138px
+			top: 142px
 			left: 6px
 			font: 400 14px/1.2 "Open Sans", sans-serif
 			line-height: 23px
@@ -332,6 +358,7 @@
 
 //SERVICE
 .service
+	height: 739px
 	background-color: #FFF
 	font-size: 0
 	text-align: center
@@ -355,7 +382,7 @@
 		margin-bottom: 13px	
 
 	&_title
-		padding: 117px 0 20px
+		padding: 59px 0 22px
 		letter-spacing: 0
 
 	&_text
@@ -402,6 +429,7 @@
 //NETWORK
 .network
 	background-color: #f8fbff
+	height: 798px
 
 	&__in
 		padding-bottom: 55px
@@ -429,7 +457,7 @@
 	background-color: #FFF
 
 	&__in
-		padding-top: 23px
+		padding-top: 19px
 	
 	&__left
 		float: left
@@ -498,14 +526,19 @@
 	&__pic
 		margin-bottom: 54px
 
+	&__wrp
+		margin-right: -1%	
+
 	
 	.item
-		width: 50%
+		//width: 50%
+		width: 49%
+		margin-right: 1%
 		display: inline-block
 		position: relative
 		vertical-align: top
 		text-align: left
-		padding-right: 15px
+		//padding-right: 15px
 		margin-bottom: 30px
 
 		h4
@@ -541,7 +574,8 @@
 	@each $s in click, download, ip, func, block, protocol 
 		.icon__#{$s}
 			+s(#{$s})
-			display: block		
+			display: block	
+			margin: auto	
 
 
 //TOP
