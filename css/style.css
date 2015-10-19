@@ -214,7 +214,7 @@ h2 + p {
 
     vertical-align: middle;
 
-    width: 37%;
+    width: 420px;
 
 }
 .logo > .img { margin-left: -11px;}
@@ -222,7 +222,6 @@ h2 + p {
 .name {
     margin-left: 13px;
     padding: 12px 0;
-
     vertical-align: top;
 
 }
@@ -259,7 +258,7 @@ h2 + p {
 
     font-weight: 600;
 
-    padding-left: 5%;
+    padding-left: 36px;
 
 }
 
@@ -277,13 +276,14 @@ h2 + p {
 
     background-color: #1c98d7;
 
-    width: 74%;
+    width: 70%;
 
     margin: auto;
 
     position: relative;
 
     overflow: hidden;
+    font-size: 15px;
 
 }
 
@@ -340,13 +340,13 @@ h2 + p {
 
     display: inline-block;
 
-    padding: 5px 15px;
+    padding: 6px 15px;
 
 }
 
-.header-block3 li:first-child {padding: 5px 15px 5px 36px;}
+.header-block3 li:first-child {padding: 6px 22px 6px 0px;}
 
-.header-block3 li:last-child {padding: 5px 36px 5px 20px;}
+.header-block3 li:last-child {padding: 6px 10px 6px 20px;}
 
 .header-block3 li.active {background-color: #002334;}
 
@@ -1086,12 +1086,10 @@ footer {
 
 footer .container{overflow: hidden;}
 
-.block-menu-ft{vertical-align: top;width: 157px;}
+.block-menu-ft{vertical-align: top;width: 172px;}
 
 .block-menu-ft li {
-
-    line-height: 29px;
-
+    margin-top: 10px;
 }
 
 .block-menu-ft > a{color: #b4c9ce;}
@@ -1101,7 +1099,7 @@ footer .container{overflow: hidden;}
 .col2 {
 
     width: 448px;
-
+    margin-left: -35px;
 }
 
 .col2 li {
@@ -1110,7 +1108,7 @@ footer .container{overflow: hidden;}
 
     float: left;
 
-    width: 50%;
+    width: 46%;
 
 }
 

@@ -28,20 +28,24 @@ head.ready(function() {
 			$('.select').removeClass('is-active')
 		});
 	})
+
+
 	$('.js-main-btn').on('click', function() {
         $('.faq__drop').toggleClass('is-drop__open');
-        $('.js-main-btn').toggleClass('icon-minus');
+        $('.is-marker1').toggleClass('is-active');
         return false;
     });
 
 
     $('.js-second-btn').on('click', function() {
         $('.faq__second-drop').toggleClass('is-drop__open');
+        $('.is-marker2').toggleClass('is-active');
         return false;
     });
 
     $('.js-text-btn').on('click', function() {
         $('.faq__second-text').toggleClass('is-drop__open');
+        $('.is-marker').toggleClass('is-active');
         return false;
     });
 });
