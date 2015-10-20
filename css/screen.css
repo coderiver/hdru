@@ -340,7 +340,7 @@ body { font-family: "Open Sans", sans-serif; }
 
 .supportt__in { width: 880px; margin: auto; }
 
-.fieldset-in { width: 850px; margin: auto; background-color: #eef3f9; padding: 30px 20px 29px 15px; text-align: left; margin-bottom: 70px; }
+.fieldset-in { width: 850px; margin: auto; background-color: #eef3f9; padding: 30px 20px 31px 15px; text-align: left; margin-bottom: 70px; }
 .fieldset-in .suport-form p { font: 600 18px/23px "Open Sans", Arial, Helvetica sans-serif; display: inline-block; width: 160px; margin-right: 33px; }
 .fieldset-in .suport-form span { font-weight: 400; font-size: 14px; }
 .fieldset-in .suport-form select, .fieldset-in .suport-form input, .fieldset-in .suport-form textarea, .fieldset-in .suport-form input, .fieldset-in .suport-form textarea { width: 614px; height: 39px; background-color: white; border: 1px solid #d3d7dc; font-size: 18px; padding: 5px 10px; }
@@ -357,16 +357,16 @@ body { font-family: "Open Sans", sans-serif; }
 .fieldset-in .suport-form__code img { vertical-align: middle; margin-right: 6px; margin-bottom: 1px; }
 .fieldset-in .suport-form__code input, .fieldset-in .suport-form__code .suport-form textarea, .fieldset-in .suport-form .suport-form__code textarea { width: 113px; vertical-align: middle; margin-bottom: 15px; }
 .fieldset-in .suport-form__code span { margin-left: 200px; }
-.fieldset-in .suport-form__sent button { margin: 24px 1S4px 0 197px; width: 202px; height: 48px; }
+.fieldset-in .suport-form__sent button { margin: 24px 14px 0 197px; width: 202px; height: 48px; }
 
 .mail-cat img { position: absolute; bottom: -69px; right: 36px; }
+
+.price__in { width: 860px; padding: 0 100px; margin-bottom: 55px; }
 
 .stock__in, .paymant__in, .price-warning__in { width: 688px; margin: auto; *zoom: 1; }
 .stock__in:after, .paymant__in:after, .price-warning__in:after { content: " "; display: table; clear: both; }
 
-.price__in { width: 860px; padding: 0 30px; }
-
-.stock { margin: 40px 0 70px 0; }
+.stock { margin: 29px 0 50px 0; }
 .stock__item { display: inline-block; width: 320px; text-align: left; margin-right: 20px; }
 .stock__item:last-child { margin-right: 0; }
 .stock__pic { width: 80px; height: 70px; float: left; margin: 0px 15px 0 0; }
@@ -611,11 +611,15 @@ body { font-family: "Open Sans", sans-serif; }
 .tool-about .tool-other p { font: 400 14px/23px "Open Sans", Arial, Helvetica sans-serif; }
 .tool-about .sherlok-cat img { position: absolute; bottom: -50px; right: -110px; }
 
+.green-line__ip { margin-top: 52px; }
+
 .green-line-p { margin: 30px 50px 30px 0; float: none; }
+
+.green-line_ipbtn { float: none; }
 
 .details-tool h4 { margin-top: 26px; }
 .details-tool p { margin-top: 20px; }
-.details-tool li { list-style-type: decimal; margin: 27px 0 0 49px; }
+.details-tool li { list-style-type: decimal; margin: 23px 0 0 49px; }
 
 .is-active { color: #07293b; }
 
