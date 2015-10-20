@@ -194,7 +194,7 @@ body { font-family: "Open Sans", sans-serif; }
 .sub__right { overflow: hidden; margin-left: 536px; }
 .sub_headline { margin-top: 36px; line-height: 1.2; letter-spacing: 0; }
 
-.router { text-align: center; background: url("../img/routerbg.png") no-repeat 0 0; width: 1600px; height: 314px; width: auto; height: auto; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding-top: 56px; }
+.router { text-align: center; background: url("../img/router_bg.png") no-repeat 0 0; width: 1600px; height: 314px; width: auto; height: auto; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding-top: 56px; }
 .router_headline { margin-bottom: 28px; }
 .router_text { width: 520px; margin: auto; line-height: 23px; margin-bottom: 35px; }
 .router .button { width: 230px; background-color: #79bc00; margin-bottom: 70px; }
