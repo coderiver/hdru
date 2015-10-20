@@ -59,13 +59,13 @@ body
 +font('Brendon', 'brandon_med')
 
 .title
-	color: #002334	
+	color: #002334
 	font: 400 36px/1 "Open Sans", sans-serif
 	text-align: center
 
 .text
-	color: black	
-	font: 400 16px/1.2 'Open Sans', sans-serif	
+	color: black
+	font: 400 16px/1.2 'Open Sans', sans-serif
 	text-align: center
 
 .headline
@@ -87,12 +87,12 @@ body
 
 
 .button_dark
-	background-color: #697c81	
+	background-color: #697c81
 
 .button_green
 	background-color: #79bc00
 
-.button_yellow	
+.button_yellow
 	background-color: #ffd500
 
 //BUYING BUTTONS
@@ -102,7 +102,7 @@ body
 	font-size: 0
 	margin-bottom: 92px
 
-	&_l:before	
+	&_l:before
 		+png(btn_wrp)
 		top: 1px
 		right: 2px
@@ -112,7 +112,7 @@ body
 		content: ' '
 
 	&_b
-		margin: 0 auto 80px	
+		margin: 0 auto 80px
 		text-align: center
 
 		h4
@@ -134,30 +134,179 @@ body
 
 
 
-//MOD
-.mainvpn 
-	
-	.l
-		&_cn
-			height: 396px
+//BEGIN BLOCK MODIFICATORS
+
 
 .winvpn
-	.l 
+	.l
 		&_cn
 			height: 406px
 
-			.l__item 
-				padding: 59px 20px 43px
-		&_test
-			height: 629px
-			.l__pic
-				min-height: 243px		
-
-	.sub_r		
-		height: 399px	
-	
+//header
+.headvpn
+	+clr
 
 
+	&_submenu
+		font-size: 0
+		ul
+			width: auto !important
+			display: inline-block
+		li
+			padding: 0 22px !important
+			line-height: 32px
+			float: left
+
+
+	.sub_r
+		height: 399px
+
+
+	.header-nav
+		a
+			border-bottom: 3px solid transparent
+			+transition(all 0.2s ease)
+
+		li.is-active > a, a:hover
+			border-bottom: 3px solid #1c98d7
+			padding-bottom: 3px
+			opacity: 1
+
+
+
+//top
+.top
+	&_r
+		+png(router_bg)
+		width: auto
+		height: 315px
+		+cover
+
+	&_router
+		&:before
+			display: block
+			content: ' '
+			+png(router)
+			position: absolute
+			z-index: 100
+			right: -7px-280px
+			bottom: 0
+
+		.button
+			width: 230px
+
+	&_ios
+		&:before
+			display: block
+			content: ' '
+			+png(ios_bg)
+			position: absolute
+			z-index: 100
+			right: -300px
+			top: 42px
+
+		span
+			margin-left: 14px
+			vertical-align: baseline
+
+	&_mac
+		&:before
+			display: block
+			content: ' '
+			+png(mac_bg)
+			position: absolute
+			z-index: 100
+			right: -36px-344px
+			top: 44px
+
+		span
+			margin-left: 14px
+			vertical-align: baseline
+
+	&_android
+		&:before
+			display: block
+			content: ' '
+			+png(android_bg)
+			position: absolute
+			z-index: 100
+			right: -51px-370px
+			top: 42px
+
+		span
+			margin-left: 14px
+			vertical-align: baseline
+
+	&_linux
+		&:before
+			display: block
+			content: ' '
+			+png(linux_bg)
+			position: absolute
+			z-index: 100
+			right: -10px-370px
+			top: 59px
+
+		span
+			margin-left: 14px
+			vertical-align: baseline
+
+	&_windows
+		&:before
+			display: block
+			content: ' '
+			+png(windows_bg)
+			position: absolute
+			z-index: 100
+			right: -36px-344px
+			top: 59px
+
+		span
+			margin-left: 14px
+			vertical-align: baseline
+
+		.button
+			width: 170px
+
+//l
+.l
+	&_cn
+		height: 396px
+		.l__pic
+			min-height: 173px
+			margin-bottom: 23px
+
+		.l__item
+			padding: 42px 20px 50px
+
+	&_test
+		height: 629px
+		background-color: #f8fbff
+
+		.l__item
+			padding: 0 0 44px
+
+		.l__pic
+			min-height: 243px
 
 .l.is-white
 	background-color: #FFF
+
+.sub.sub_r
+	background-color: #f8fbff
+
+
+//device
+.device
+	&_android
+		.device__in
+			width: 958px
+
+	&_ios
+		.device__in
+			width: 947px
+
+		.device__right
+			margin-left: 382px
+
+//END BLOCK MODIFICATORS

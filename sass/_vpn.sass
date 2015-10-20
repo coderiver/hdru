@@ -8,24 +8,6 @@
 	position: relative
 
 
-//HEADER
-.headvpn
-	&_submenu
-		ul
-			width: auto !important
-			display: inline-block
-		li
-			padding: 5px 17px !important
-
-	.header-nav
-		a
-			border-bottom: 3px solid transparent
-			+transition(all 0.2s ease)
-			
-			&:hover
-				border-bottom: 3px solid #1c98d7
-				padding-bottom: 3px
-				opacity: 1
 
 //LEVEL
 .level
@@ -100,22 +82,29 @@
 .connect
 	height: 130px
 	background-color: #eef3f9
+	font-size: 0
 	+clr
+
+	&__in
+		position: relative
+		&:before
+			content: ' '
+			display: block
+			+png(cover)	
+			margin-top: -10px
+			position: absolute
+			left: 0
+			top: 0
 
 	&__key
 		display: inline-block
 		vertical-align: top
 
-	&__pic
-		+png(cover)	
-		display: inline-block
-		margin-top: -10px
-
 	&__text
 		display: inline-block
 		vertical-align: top
-		padding: 30px 27px 36px
-		width: 493px
+		padding: 30px 27px 36px 180px
+		width: 672px
 		color: black
 		font-family: "Open Sans", sans-serif
 		font-size: 24px
@@ -156,7 +145,6 @@
 //l
 .l
 	font-size: 0
-	background-color: #fff
 
 	&__col
 		width: 31.3%
@@ -166,7 +154,7 @@
 
 
 	&__item
-		padding: 63px 20px 69px
+		padding: 42px 20px 50px
 
 	.is-center
 		margin: 0 3%
@@ -180,7 +168,6 @@
 		color: black
 		font: 400 16px/1.4 "Open Sans", sans-serif
 		margin-bottom: 20px
-		//padding: 0 5px 
 
 	&__pic
 		display: inline-block
@@ -202,37 +189,6 @@
 		&:last-child
 			margin-bottom: 0
 
-
-	&_cn
-		//height: 406px
-		.l__pic
-			min-height: 173px
-			margin-bottom: 23px
-
-		.l__item
-			padding: 42px 20px 73px	
-
-			// &:nth-child(1) figcaption
-			// 	text-indent: -15px  pixelPerfect 
-
-			// &:nth-child(3) figcaption
-			// 	text-indent: 17px	pixelPerfect
-
-	&_test
-		height: 628px	
-		background-color: #f8fbff	
-
-		.l__item
-			padding: 0 0 44px
-
-		.l__pic
-			min-height: 241px	
-
-			
-
-			
-
-
 //VPN
 .vpn
 	text-align: center
@@ -241,8 +197,7 @@
 	font-size: 0
 	
 	&__in
-		//width: 830px
-		width: 756px  //add
+		width: 756px 
 		margin: auto	
 
 	&__row
@@ -375,7 +330,6 @@
 		margin-right: 1.333%
 		vertical-align: top
 		text-align: left
-		//margin-bottom: 56px
 
 	&__logo
 		min-height: 50px
@@ -452,7 +406,7 @@
 
 //SUB
 .sub	
-	height: 396px
+	height: 399px
 	background-color: #FFF
 
 	&__in
@@ -476,12 +430,6 @@
 		margin-top: 36px
 		line-height: 1.2	
 		letter-spacing: 0
-
-	&_r
-		background-color: #f8fbff		
-
-		
-//for the ROUTER VPN
 
 //ROUTER
 .router
@@ -527,14 +475,12 @@
 
 	
 	.item
-		//width: 50%
 		width: 49%
 		margin-right: 1%
 		display: inline-block
 		position: relative
 		vertical-align: top
 		text-align: left
-		//padding-right: 15px
 		margin-bottom: 30px
 
 		h4
@@ -564,21 +510,19 @@
 			float: left
 			width: 68px
 			height: 68px
+			text-align: center
 
 		
 
 	@each $s in click, download, ip, func, block, protocol 
 		.icon__#{$s}
 			+s(#{$s})
-			display: block	
-			margin: auto	
-
+			display: inline-block	
 
 //TOP
 .top
 	text-align: center
 	background-color: #f8fbff
-	overflow: hidden
 
 	&__in
 		position: relative
@@ -590,7 +534,6 @@
 
 	&_text
 		line-height: 1.4
-		//margin-bottom: 36px	
 		margin-bottom: 32px
 		
 	&__wrp
@@ -599,100 +542,8 @@
 		position: relative
 
 	.button
-		margin-bottom: 67px
-		width: 276px
-		// padding: 0 26px	
-
-	&_r
-		+png(router_bg)	
-		width: auto
-		+cover
-
-	&_router
-		&:before
-			display: block
-			content: ' '
-			+png(router)
-			position: absolute
-			z-index: 100
-			right: -7px-280px
-			bottom: 0		
-
-		.button
-			width: 230px
-
-	&_ios
-		&:before
-			display: block
-			content: ' '
-			+png(ios_bg)
-			position: absolute
-			z-index: 100
-			right: -300px
-			top: 42px
-
-		span
-			margin-left: 14px	
-			vertical-align: baseline	
-
-	&_mac
-		&:before
-			display: block
-			content: ' '
-			+png(mac_bg)
-			position: absolute
-			z-index: 100
-			right: -36px-344px
-			top: 44px
-
-		span
-			margin-left: 14px	
-			vertical-align: baseline	
-
-	&_android
-		&:before
-			display: block
-			content: ' '
-			+png(android_bg)
-			position: absolute
-			z-index: 100
-			right: -51px-370px
-			top: 42px
-
-		span
-			margin-left: 14px	
-			vertical-align: baseline
-					
-	&_linux
-		&:before
-			display: block
-			content: ' '
-			+png(linux_bg)
-			position: absolute
-			z-index: 100
-			right: -10px-370px
-			top: 59px	
-
-		span
-			margin-left: 14px	
-			vertical-align: baseline
-				
-	&_windows
-		&:before
-			display: block
-			content: ' '
-			+png(windows_bg)
-			position: absolute
-			z-index: 100
-			right: -36px-344px
-			top: 59px	
-
-		span
-			margin-left: 14px	
-			vertical-align: baseline
-
-		.button
-			width: 170px						
+		margin-bottom: 71px
+		width: 276px					
 	
 	@each $s in ios_i, mac_i, android_i, windows_i, linux_i 
 		.icon__#{$s}
@@ -707,18 +558,7 @@
 .device
 	height: 790px
 	background-color: #eef3f9
-	text-align: center
-	
-	&_android
-		.device__in
-			width: 958px
-
-	&_ios
-		.device__in
-			width: 947px
-
-		.device__right
-			margin-left: 382px			
+	text-align: center	
 		
 	&__in
 		margin-bottom: 70px
@@ -762,7 +602,6 @@
 			top: 0
 			left: -109px
 			border: 69px solid transparent
-			//border-left: 20px solid white
 			border-right: 40px solid white
 
 
