@@ -134,31 +134,166 @@ body
 
 
 
-//MOD
-.mainvpn 
-	
-	.l
-		&_cn
-			height: 396px
+//BEGIN BLOCK MODIFICATORS
 
-.nvpn
-	.l 
-		&_cn
-			height: 406px
+//header
+.headvpn
+	+clr
 
-			.l__item 
-				padding: 59px 20px 43px
-		&_test
-			height: 629px
-			.l__pic
-				min-height: 243px		
+	&_submenu
+		font-size: 0
+		ul
+			width: auto !important
+			display: inline-block
+		li
+			padding: 0 22px !important
+			line-height: 32px
+			float: left
 
-	.sub
+	.header-nav
+		a
+			border-bottom: 3px solid transparent
+			+transition(all 0.2s ease)
+			
+		li.is-active > a, a:hover 
+			border-bottom: 3px solid #1c98d7
+			padding-bottom: 3px
+			opacity: 1
 
-		&_r		
-			height: 399px
 
+//top
+.top
+	&_r
+		+png(router_bg)	
+		width: auto
+		height: 315px
+		+cover
 
+	&_router
+		&:before
+			display: block
+			content: ' '
+			+png(router)
+			position: absolute
+			z-index: 100
+			right: -7px-280px
+			bottom: 0		
+
+		.button
+			width: 230px
+
+	&_ios
+		&:before
+			display: block
+			content: ' '
+			+png(ios_bg)
+			position: absolute
+			z-index: 100
+			right: -300px
+			top: 42px
+
+		span
+			margin-left: 14px	
+			vertical-align: baseline	
+
+	&_mac
+		&:before
+			display: block
+			content: ' '
+			+png(mac_bg)
+			position: absolute
+			z-index: 100
+			right: -36px-344px
+			top: 44px
+
+		span
+			margin-left: 14px	
+			vertical-align: baseline	
+
+	&_android
+		&:before
+			display: block
+			content: ' '
+			+png(android_bg)
+			position: absolute
+			z-index: 100
+			right: -51px-370px
+			top: 42px
+
+		span
+			margin-left: 14px	
+			vertical-align: baseline
+					
+	&_linux
+		&:before
+			display: block
+			content: ' '
+			+png(linux_bg)
+			position: absolute
+			z-index: 100
+			right: -10px-370px
+			top: 59px	
+
+		span
+			margin-left: 14px	
+			vertical-align: baseline
+				
+	&_windows
+		&:before
+			display: block
+			content: ' '
+			+png(windows_bg)
+			position: absolute
+			z-index: 100
+			right: -36px-344px
+			top: 59px	
+
+		span
+			margin-left: 14px	
+			vertical-align: baseline
+
+		.button
+			width: 170px
+
+//l
+.l
+	&_cn
+		height: 396px
+		.l__pic
+			min-height: 173px
+			margin-bottom: 23px
+
+		.l__item
+			padding: 42px 20px 50px	
+
+	&_test
+		height: 629px
+		background-color: #f8fbff	
+
+		.l__item
+			padding: 0 0 44px
+
+		.l__pic
+			min-height: 243px		
 
 .l.is-white
 	background-color: #FFF
+
+.sub.sub_r		
+	background-color: #f8fbff	
+
+
+//device
+.device
+	&_android
+		.device__in
+			width: 958px
+
+	&_ios
+		.device__in
+			width: 947px
+
+		.device__right
+			margin-left: 382px		
+
+//END BLOCK MODIFICATORS	

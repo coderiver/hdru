@@ -49,15 +49,43 @@ body { font-family: "Open Sans", sans-serif; }
 .buying .button_dark { width: 266px; }
 .buying .button_green { width: 129px; position: relative; z-index: 99; margin-left: 20px; }
 
-.mainvpn .l_cn { height: 396px; }
+.headvpn { *zoom: 1; }
+.headvpn:after { content: " "; display: table; clear: both; }
+.headvpn_submenu { font-size: 0; }
+.headvpn_submenu ul { width: auto !important; display: inline-block; }
+.headvpn_submenu li { padding: 0 22px !important; line-height: 32px; float: left; }
+.headvpn .header-nav a { border-bottom: 3px solid transparent; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; transition: all 0.2s ease; }
+.headvpn .header-nav li.is-active > a, .headvpn .header-nav a:hover { border-bottom: 3px solid #1c98d7; padding-bottom: 3px; opacity: 1; }
 
-.nvpn .l_cn { height: 406px; }
-.nvpn .l_cn .l__item { padding: 59px 20px 43px; }
-.nvpn .l_test { height: 629px; }
-.nvpn .l_test .l__pic { min-height: 243px; }
-.nvpn .sub_r { height: 399px; }
+.top_r { background: url("../img/router_bg.png") no-repeat 0 0; width: 1600px; height: 314px; width: auto; height: 315px; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
+.top_router:before { display: block; content: " "; background: url("../img/router.png") no-repeat 0 0; width: 280px; height: 148px; position: absolute; z-index: 100; right: -287px; bottom: 0; }
+.top_router .button { width: 230px; }
+.top_ios:before { display: block; content: " "; background: url("../img/ios_bg.png") no-repeat 0 0; width: 250px; height: 274px; position: absolute; z-index: 100; right: -300px; top: 42px; }
+.top_ios span { margin-left: 14px; vertical-align: baseline; }
+.top_mac:before { display: block; content: " "; background: url("../img/mac_bg.png") no-repeat 0 0; width: 344px; height: 229px; position: absolute; z-index: 100; right: -380px; top: 44px; }
+.top_mac span { margin-left: 14px; vertical-align: baseline; }
+.top_android:before { display: block; content: " "; background: url("../img/android_bg.png") no-repeat 0 0; width: 249px; height: 274px; position: absolute; z-index: 100; right: -421px; top: 42px; }
+.top_android span { margin-left: 14px; vertical-align: baseline; }
+.top_linux:before { display: block; content: " "; background: url("../img/linux_bg.png") no-repeat 0 0; width: 370px; height: 227px; position: absolute; z-index: 100; right: -380px; top: 59px; }
+.top_linux span { margin-left: 14px; vertical-align: baseline; }
+.top_windows:before { display: block; content: " "; background: url("../img/windows_bg.png") no-repeat 0 0; width: 344px; height: 230px; position: absolute; z-index: 100; right: -380px; top: 59px; }
+.top_windows span { margin-left: 14px; vertical-align: baseline; }
+.top_windows .button { width: 170px; }
+
+.l_cn { height: 396px; }
+.l_cn .l__pic { min-height: 173px; margin-bottom: 23px; }
+.l_cn .l__item { padding: 42px 20px 50px; }
+.l_test { height: 629px; background-color: #f8fbff; }
+.l_test .l__item { padding: 0 0 44px; }
+.l_test .l__pic { min-height: 243px; }
 
 .l.is-white { background-color: #FFF; }
+
+.sub.sub_r { background-color: #f8fbff; }
+
+.device_android .device__in { width: 958px; }
+.device_ios .device__in { width: 947px; }
+.device_ios .device__right { margin-left: 382px; }
 
 .l { *zoom: 1; }
 .l:after { content: " "; display: table; clear: both; }
@@ -65,11 +93,6 @@ body { font-family: "Open Sans", sans-serif; }
 .l .l-col2 { float: right; width: 70%; }
 
 .level__in, .connect__in, .service__in, .l__in, .network__in, .sub__in, .router__in, .win__in, .award__in, .linux__in, .mac__in, .ios__in, .android__in, .device__in { width: 1140px; margin: auto; position: relative; }
-
-.headvpn_submenu ul { width: auto !important; display: inline-block; }
-.headvpn_submenu li { padding: 5px 17px !important; }
-.headvpn .header-nav a { border-bottom: 3px solid transparent; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; transition: all 0.2s ease; }
-.headvpn .header-nav a:hover { border-bottom: 3px solid #1c98d7; padding-bottom: 3px; opacity: 1; }
 
 .level { height: 480px; background-color: #FFF; overflow: hidden; }
 .level__in { *zoom: 1; }
@@ -89,11 +112,12 @@ body { font-family: "Open Sans", sans-serif; }
 .level .cinema__video { display: block; position: absolute; top: 57px; left: 101px; }
 .level .cinema__play { content: " "; display: block; position: absolute; margin: auto; top: 0; bottom: 0; left: 0; right: 0; cursor: pointer; background: url("../img/play.png") no-repeat 0 0; width: 121px; height: 121px; }
 
-.connect { height: 130px; background-color: #eef3f9; *zoom: 1; }
+.connect { height: 130px; background-color: #eef3f9; font-size: 0; *zoom: 1; }
 .connect:after { content: " "; display: table; clear: both; }
+.connect__in { position: relative; }
+.connect__in:before { content: " "; display: block; background: url("../img/cover.png") no-repeat 0 0; width: 148px; height: 138px; margin-top: -10px; position: absolute; left: 0; top: 0; }
 .connect__key { display: inline-block; vertical-align: top; }
-.connect__pic { background: url("../img/cover.png") no-repeat 0 0; width: 148px; height: 138px; display: inline-block; margin-top: -10px; }
-.connect__text { display: inline-block; vertical-align: top; padding: 30px 27px 36px; width: 493px; color: black; font-family: "Open Sans", sans-serif; font-size: 24px; font-weight: 400; line-height: 32px; letter-spacing: 0; }
+.connect__text { display: inline-block; vertical-align: top; padding: 30px 27px 36px 180px; width: 672px; color: black; font-family: "Open Sans", sans-serif; font-size: 24px; font-weight: 400; line-height: 32px; letter-spacing: 0; }
 .connect__input { padding: 38px 0 0 23px; display: inline-block; vertical-align: top; }
 .connect__input .button { width: 184px; position: relative; }
 .connect__input .button:active { top: 1px; }
@@ -104,20 +128,15 @@ body { font-family: "Open Sans", sans-serif; }
 .connect__input input::-webkit-input-placeholder, .connect__input .fieldset-in .suport-form textarea::-webkit-input-placeholder, .fieldset-in .suport-form .connect__input textarea::-webkit-input-placeholder { color: #000; }
 .connect__input input::placeholder, .connect__input .fieldset-in .suport-form textarea::placeholder, .fieldset-in .suport-form .connect__input textarea::placeholder { color: #000; }
 
-.l { font-size: 0; background-color: #fff; }
+.l { font-size: 0; }
 .l__col { width: 31.3%; display: inline-block; text-align: center; vertical-align: top; }
-.l__item { padding: 63px 20px 69px; }
+.l__item { padding: 42px 20px 50px; }
 .l .is-center { margin: 0 3%; }
 .l__title { color: black; font: 400 24px/1 "Open Sans", sans-serif; margin-bottom: 20px; }
 .l__content { color: black; font: 400 16px/1.4 "Open Sans", sans-serif; margin-bottom: 20px; }
 .l__pic { display: inline-block; vertical-align: top; min-height: 215px; position: relative; width: 100%; }
 .l__pic img { display: block; margin: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
 .l__pic:last-child { margin-bottom: 0; }
-.l_cn .l__pic { min-height: 173px; margin-bottom: 23px; }
-.l_cn .l__item { padding: 42px 20px 73px; }
-.l_test { height: 628px; background-color: #f8fbff; }
-.l_test .l__item { padding: 0 0 44px; }
-.l_test .l__pic { min-height: 241px; }
 
 .vpn { text-align: center; background-color: #f8fbff; height: 1008px; font-size: 0; }
 .vpn__in { width: 756px; margin: auto; }
@@ -166,13 +185,12 @@ body { font-family: "Open Sans", sans-serif; }
 .network__countries { margin-left: 720px; overflow: hidden; }
 .network_text { line-height: 1.6; margin-bottom: 60px; }
 
-.sub { height: 396px; background-color: #FFF; }
+.sub { height: 399px; background-color: #FFF; }
 .sub__in { padding-top: 19px; }
 .sub__left { float: left; width: 536px; display: block; padding-right: 80px; }
 .sub__left p { color: black; font: 400 16px/23px "Open Sans", sans-serif; }
 .sub__right { overflow: hidden; margin-left: 536px; }
 .sub_headline { margin-top: 36px; line-height: 1.2; letter-spacing: 0; }
-.sub_r { background-color: #f8fbff; }
 
 .router { text-align: center; background: url("../img/routerbg.png") no-repeat 0 0; width: 1600px; height: 314px; width: auto; height: auto; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding-top: 56px; }
 .router_headline { margin-bottom: 28px; }
@@ -187,34 +205,20 @@ body { font-family: "Open Sans", sans-serif; }
 .award .item h4 { color: black; font-family: "Open Sans", sans-serif; font-size: 24px; font-weight: 400; line-height: 1; padding-top: 16px; margin-bottom: 20px; }
 .award .item p { color: black; font-family: "Open Sans", sans-serif; font-size: 16px; font-weight: 400; line-height: 23px; }
 .award .item__content { margin-left: 84px; overflow: hidden; }
-.award .item__pic { float: left; width: 68px; height: 68px; }
-.award .icon__click { background: url('../img/icons-saee2aa29dc.png') 0 -328px no-repeat; width: 57px; height: 57px; display: block; margin: auto; }
-.award .icon__download { background: url('../img/icons-saee2aa29dc.png') 0 -489px no-repeat; width: 61px; height: 61px; display: block; margin: auto; }
-.award .icon__ip { background: url('../img/icons-saee2aa29dc.png') 0 -746px no-repeat; width: 58px; height: 68px; display: block; margin: auto; }
-.award .icon__func { background: url('../img/icons-saee2aa29dc.png') 0 -560px no-repeat; width: 48px; height: 59px; display: block; margin: auto; }
-.award .icon__block { background: url('../img/icons-saee2aa29dc.png') 0 -206px no-repeat; width: 73px; height: 54px; display: block; margin: auto; }
-.award .icon__protocol { background: url('../img/icons-saee2aa29dc.png') 0 -1150px no-repeat; width: 46px; height: 55px; display: block; margin: auto; }
+.award .item__pic { float: left; width: 68px; height: 68px; text-align: center; }
+.award .icon__click { background: url('../img/icons-saee2aa29dc.png') 0 -328px no-repeat; width: 57px; height: 57px; display: inline-block; }
+.award .icon__download { background: url('../img/icons-saee2aa29dc.png') 0 -489px no-repeat; width: 61px; height: 61px; display: inline-block; }
+.award .icon__ip { background: url('../img/icons-saee2aa29dc.png') 0 -746px no-repeat; width: 58px; height: 68px; display: inline-block; }
+.award .icon__func { background: url('../img/icons-saee2aa29dc.png') 0 -560px no-repeat; width: 48px; height: 59px; display: inline-block; }
+.award .icon__block { background: url('../img/icons-saee2aa29dc.png') 0 -206px no-repeat; width: 73px; height: 54px; display: inline-block; }
+.award .icon__protocol { background: url('../img/icons-saee2aa29dc.png') 0 -1150px no-repeat; width: 46px; height: 55px; display: inline-block; }
 
-.top { text-align: center; background-color: #f8fbff; overflow: hidden; }
+.top { text-align: center; background-color: #f8fbff; }
 .top__in { position: relative; width: 1140px; margin: auto; }
 .top_headline { padding: 58px 0 26px; }
 .top_text { line-height: 1.4; margin-bottom: 32px; }
 .top__wrp { width: 515px; margin: auto; position: relative; }
-.top .button { margin-bottom: 67px; width: 276px; }
-.top_r { background: url("../img/router_bg.png") no-repeat 0 0; width: 1600px; height: 314px; width: auto; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
-.top_router:before { display: block; content: " "; background: url("../img/router.png") no-repeat 0 0; width: 280px; height: 148px; position: absolute; z-index: 100; right: -287px; bottom: 0; }
-.top_router .button { width: 230px; }
-.top_ios:before { display: block; content: " "; background: url("../img/ios_bg.png") no-repeat 0 0; width: 250px; height: 274px; position: absolute; z-index: 100; right: -300px; top: 42px; }
-.top_ios span { margin-left: 14px; vertical-align: baseline; }
-.top_mac:before { display: block; content: " "; background: url("../img/mac_bg.png") no-repeat 0 0; width: 344px; height: 229px; position: absolute; z-index: 100; right: -380px; top: 44px; }
-.top_mac span { margin-left: 14px; vertical-align: baseline; }
-.top_android:before { display: block; content: " "; background: url("../img/android_bg.png") no-repeat 0 0; width: 249px; height: 274px; position: absolute; z-index: 100; right: -421px; top: 42px; }
-.top_android span { margin-left: 14px; vertical-align: baseline; }
-.top_linux:before { display: block; content: " "; background: url("../img/linux_bg.png") no-repeat 0 0; width: 370px; height: 227px; position: absolute; z-index: 100; right: -380px; top: 59px; }
-.top_linux span { margin-left: 14px; vertical-align: baseline; }
-.top_windows:before { display: block; content: " "; background: url("../img/windows_bg.png") no-repeat 0 0; width: 344px; height: 230px; position: absolute; z-index: 100; right: -380px; top: 59px; }
-.top_windows span { margin-left: 14px; vertical-align: baseline; }
-.top_windows .button { width: 170px; }
+.top .button { margin-bottom: 71px; width: 276px; }
 .top .icon__ios_i { background: url('../img/icons-saee2aa29dc.png') 0 -701px no-repeat; width: 19px; height: 35px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
 .top .icon__mac_i { background: url('../img/icons-saee2aa29dc.png') 0 -1034px no-repeat; width: 26px; height: 32px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
 .top .icon__android_i { background: url('../img/icons-saee2aa29dc.png') 0 -109px no-repeat; width: 30px; height: 36px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
@@ -222,9 +226,6 @@ body { font-family: "Open Sans", sans-serif; }
 .top .icon__linux_i { background: url('../img/icons-saee2aa29dc.png') 0 -945px no-repeat; width: 30px; height: 37px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
 
 .device { height: 790px; background-color: #eef3f9; text-align: center; }
-.device_android .device__in { width: 958px; }
-.device_ios .device__in { width: 947px; }
-.device_ios .device__right { margin-left: 382px; }
 .device__in { margin-bottom: 70px; *zoom: 1; }
 .device__in:after { content: " "; display: table; clear: both; }
 .device__left { float: left; }
