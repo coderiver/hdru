@@ -53,9 +53,11 @@ body { font-family: "Open Sans", sans-serif; }
 .headvpn:after { content: " "; display: table; clear: both; }
 .headvpn_submenu { font-size: 0; }
 .headvpn_submenu ul { width: auto !important; display: inline-block; }
-.headvpn_submenu li { padding: 0 22px !important; line-height: 32px; float: left; }
+.headvpn_submenu li { padding: 0 22px !important; line-height: 32px; float: left; font-size: 14px; }
 .headvpn .header-nav a { border-bottom: 3px solid transparent; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; transition: all 0.2s ease; }
 .headvpn .header-nav li.is-active > a, .headvpn .header-nav a:hover { border-bottom: 3px solid #1c98d7; padding-bottom: 3px; opacity: 1; }
+.headvpn .header-nav li { padding-left: 5%; }
+.headvpn .block-list1 > div { box-sizing: content-box; }
 
 .top_r { background: url("../img/router_bg.png") no-repeat 0 0; width: 1600px; height: 314px; width: auto; height: 315px; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
 .top_router:before { display: block; content: " "; background: url("../img/router.png") no-repeat 0 0; width: 280px; height: 148px; position: absolute; z-index: 100; right: -287px; bottom: 0; }
