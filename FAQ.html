@@ -24,7 +24,7 @@
 
 
 	<!-- BEGIN header -->
-	<header>
+	<header class="headvpn">
 		<div class="header-block1">
 			<div class="container">
 				<div class="block-list1">
@@ -54,17 +54,28 @@
 						</div>
 					</div>
 					<ul class="header-nav">
-						<li class="active"><a href="#">Анонимайзер</a></li>
+						<li ><a href="#">Анонимайзер</a></li>
 						<li><a href="#">VPN</a></li>
 						<li><a href="#">Цены</a></li>
 						<li><a href="#">Все инструменты</a></li>
-						<li><a href="#">FAQ</a></li>
+						<li class="is-active"><a href="#">FAQ</a></li>
 						<li><a href="#">Поддержка</a></li>
 					</ul>
 				</nav>
 			</div>
 		</div>
-
+		<div class="header-block3 headvpn_submenu">
+			<div class="container">
+				<ul>
+					<li><a href="#">Прокси-лист</a></li>
+					<li><a href="#">Прокси-чекер</a></li>
+					<li><a href="#">Сканер портов</a></li>
+					<li class="active"><a href="#">Тест скорости</a></li>
+					<li><a href="#">Узнать свой IP</a></li>
+					<li><a href="#">Статьи</a></li>
+				</ul>
+			</div>
+		</div>
 	</header>
 	<!-- END header -->
 	<section>
@@ -92,18 +103,18 @@
 			<div class="faq">
 				<div class="faq__in">
 					<ul class="faq__main">
-						<li><a href="#">Вопросы по анонимайзеру</a></li>
-						<li class="is-open__main js-main-btn"><a href="#" class="is-marker1">Вопросы по VPN</a>
+						<li><i></i><a href="#">Вопросы по анонимайзеру</a></li>
+						<li class=" js-main-btn"><i class="is-open"></i><a href="#" class="is-marker1">Вопросы по VPN</a>
 							<ul class="faq__drop is-drop__open">
-								<li><a href="#">Общие вопросы</a></li>
-								<li class="js-second-btn "><a href="#" class="is-marker2">До и во время использования</a>
+								<li><i></i><a href="#">Общие вопросы</a></li>
+								<li class="js-second-btn "><i class="is-open__drop"></i><a href="#" class="is-marker2">До и во время использования</a>
 									<ul class="faq__second-drop is-drop__open">
-										<li><a href="#">Использование на нескольких компьютерах/устройствах</a></li>
-										<li><a href="#">Как выбрать самый быстрый сервер?</a></li>
-										<li><a href="#">Подключение через прокси</a></li>
-										<li><a href="#">Как менять IP-адреса внутри каждого сервера?</a></li>
-										<li><a href="#">Использование почтовых клиентов для отправки почты</a></li>
-										<li class="js-text-btn is-active__point"><a href="#" class="is-active">Использование почтовых клиентов для отправки почты</a>
+										<li><i></i><a href="#">Использование на нескольких компьютерах/устройствах</a></li>
+										<li><i></i><a href="#">Как выбрать самый быстрый сервер?</a></li>
+										<li><i></i><a href="#">Подключение через прокси</a></li>
+										<li><i></i><a href="#">Как менять IP-адреса внутри каждого сервера?</a></li>
+										<li><i></i><a href="#">Использование почтовых клиентов для отправки почты</a></li>
+										<li class="js-text-btn"><i class="is-active__point"></i><a href="#" class="is-active">Использование почтовых клиентов для отправки почты</a>
 											<div class="faq__second-text ">
 												<p>Иногда возникает ситуация, когда доступ в интернет ограничен, например,
 												заблокированы все порты кроме http или запрещён UDP трафик. На этот случай
@@ -114,26 +125,26 @@
 												В данный момент доступна версия для Windows (в будущем и для других систем).</p>
 											</div>
 										</li>
-										<li><a href="#">Несовместимые с VPN программы или подключения</a></li>
-										<li><a href="#">Как изменить используемый по умолчанию DNS?</a></li>
-										<li><a href="#">Как изменить используемый по умолчанию DNS?</a></li>
-										<li><a href="#">Поддерживаете ли вы Double VPN?</a></li>
-										<li><a href="#">Можно ли использовать VPN только для конкретного приложения?</a></li>
-										<li><a href="#">Направление соединений на некоторые IP-адреса в обход VPN</a></li>
-										<li><a href="#">Как отредактировать правила маршрутизации?</a></li>
-										<li><a href="#">Как настроить автоматическое подключение при загрузке компьютера?</a></li>
-										<li><a href="#">Выполнение команд при подключение и отключении VPN</a></li>
-										<li><a href="#">Как ограничить интернет при разрыве VPN?</a></li>
+										<li><i></i><a href="#">Несовместимые с VPN программы или подключения</a></li>
+										<li><i></i><a href="#">Как изменить используемый по умолчанию DNS?</a></li>
+										<li><i></i><a href="#">Как изменить используемый по умолчанию DNS?</a></li>
+										<li><i></i><a href="#">Поддерживаете ли вы Double VPN?</a></li>
+										<li><i></i><a href="#">Можно ли использовать VPN только для конкретного приложения?</a></li>
+										<li><i></i><a href="#">Направление соединений на некоторые IP-адреса в обход VPN</a></li>
+										<li><i></i><a href="#">Как отредактировать правила маршрутизации?</a></li>
+										<li><i></i><a href="#">Как настроить автоматическое подключение при загрузке компьютера?</a></li>
+										<li><i></i><a href="#">Выполнение команд при подключение и отключении VPN</a></li>
+										<li><i></i><a href="#">Как ограничить интернет при разрыве VPN?</a></li>
 									</ul>
 								</li>
-								<li><a href="#">Возможные ошибки</a></li>
+								<li><i></i><a href="#">Возможные ошибки</a></li>
 							</ul>
 						</li>
-						<li><a href="#">Настройка VPN</a></li>
-						<li><a href="#">Про доверие и логи</a></li>
-						<li><a href="#">Способы оплаты и скидки</a></li>
-						<li><a href="#">Сотрудничество с нами</a></li>
-						<li><a href="#">О компании</a></li>
+						<li><i ></i><a href="#">Настройка VPN</a></li>
+						<li><i ></i><a href="#">Про доверие и логи</a></li>
+						<li><i ></i><a href="#">Способы оплаты и скидки</a></li>
+						<li><i ></i><a href="#">Сотрудничество с нами</a></li>
+						<li><i ></i><a href="#">О компании</a></li>
 					</ul>
 				</div>
 			</div>
