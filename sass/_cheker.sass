@@ -13,9 +13,8 @@
 	&__in
 		width: 860px
 		margin: auto
-		padding: 30px 20px 30px 35px
+		padding: 23px 20px 29px 35px
 		background-color: #eef3f9
-		border-radius: 5px
 
 	&__left
 		display: inline-block
@@ -47,7 +46,7 @@
 				&:nth-last-child(1)
 					margin-bottom: 0
 				&:nth-last-child(2)
-					margin-top: 27px
+					margin-top: 23px
 				input[type="checkbox"]
 					display: none
 				input[type="checkbox"] + label span
@@ -68,7 +67,12 @@
 					margin-right: 18px
 
 .testing-btn
-	//margin-top: 16px
+	margin-bottom: 50px
+
+	&__in
+		width: 860px
+		margin: auto
+		padding: 0 0 10px 35px
 	.is-active
 		opacity: 0.6
 		width: 240px
@@ -84,19 +88,18 @@
 		background-color: #697c81
 		width: 240px
 		height: 48px
-		margin-top: 30px
+		margin-top: 20px
 
 
 
 .progress
-	margin: 44px 0
 	&__in
 		width: 860px
 		margin: auto
+		margin-bottom: 44px
 		+clr
 	&__title
 		clear: both
-		+clr
 		h4
 			font: 400 24px/23px 'Open Sans', Arial, Helvetica sans-serif
 			float: left
@@ -115,16 +118,9 @@
 			@extend .number-green
 			background-color: #d00
 	&__bar
-		.progress-bar__bg
-			width: 852px
-			height: 7px
-			background-color: #F0F0F0
-			border-radius: 4px
-			margin-top: 17px
-			position: relative
-			+clr
 		span
-			position: absolute
+			margin-top: 17px
+			display: inline-block
 			width: 272px
 			height: 7px
 			background-color: #79bc00
@@ -149,7 +145,6 @@
 			+s(csv)
 
 .proxy-table
-	box-sizing: border-box
 	&__in
 		width: 870px
 		margin: auto
@@ -176,9 +171,6 @@
 		.body-line
 			//opacity: 0.5
 			background-color: #D8E4B1
-			border-left: 1px solid #e6e6e6
-			border-right: 1px solid #e6e6e6
-			border-bottom: 1px solid #e6e6e6
 			td
 				padding: 0 20px
 				line-height: 50px
@@ -239,8 +231,12 @@
 		.body-line__last
 			td
 				padding: auto
-
-
+				&:first-child
+					border-top-left-radius: 0px
+					border-bottom-left-radius: 5px
+				&:last-child
+					border-top-right-radius: 0px
+					border-bottom-right-radius: 5px
 	&__image
 		img
 			position: absolute

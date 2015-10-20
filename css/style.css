@@ -194,7 +194,7 @@ h2 + p {
 
     bottom: 0;
 
-    left: 17px;
+    left: 19px;
 
 }
 
@@ -253,18 +253,21 @@ h2 + p {
 }
 
 .header-nav > li {
-    font-size: 16px;
-    font-weight: 600;
-    padding-left: 36px;
-}
-.header-nav > li > .is-active {
-    border-bottom: 3px solid #1c98d7
-}
 
+    font-size: 16px;
+
+    font-weight: 600;
+
+    padding-left: 36px;
+
+}
 
 .header-block3 {
+
     text-align: center;
+
     background-color: #98d1ee;
+
     color: #fff;
 
 }

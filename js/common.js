@@ -33,7 +33,6 @@ head.ready(function() {
 	$('.js-main-btn').on('click', function() {
         $('.faq__drop').toggleClass('is-drop__open');
         $('.is-marker1').toggleClass('is-active');
-        $('.is-open').toggleClass('is-close');
         return false;
     });
 
@@ -41,7 +40,6 @@ head.ready(function() {
     $('.js-second-btn').on('click', function() {
         $('.faq__second-drop').toggleClass('is-drop__open');
         $('.is-marker2').toggleClass('is-active');
-        $('.is-open__drop').toggleClass('is-close');
         return false;
     });
 

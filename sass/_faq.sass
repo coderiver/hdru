@@ -1,10 +1,23 @@
 // FAQ
 .is-active
 	color: #07293b
+.is-active__point:before
+	content: ''
+	display: inline-block
+	margin-right: 15px
+	+s(active-point)
 
+//.is-open__main
+//	display: inline-block
+//	+s(minus)
 .is-drop__open
 	display: none
-
+.icon-minus:before
+	li:before
+		content: ''
+		display: inline-block
+		margin-right: 15px
+		+s(minus)
 .faq-text__in
 	padding: 0 60px
 	margin-bottom: 51px
@@ -22,16 +35,11 @@
 			font-weight: 400
 			line-height: 50px
 			margin-left: 25px
-		i
-			display: inline-block
-			margin-right: 5px
-			+s(plus)
-		.is-close
-			display: inline-block
-			margin-right: 5px
-			+s(minus)
 			&:before
-				display: none
+				content: ''
+				display: inline-block
+				margin-right: 5px
+				+s(plus)
 		a
 			border-bottom: 1px dotted #006fb6
 			text-decoration: none
@@ -42,10 +50,11 @@
 			line-height: 40px
 			margin-left: 20px
 			margin-top: -2px
-		i
-			display: inline-block
-			margin-right: 5px
-			+s(plus)
+			&:before
+				content: ''
+				display: inline-block
+				margin-right: 5px
+				+s(plus)
 	&__second-drop
 		margin-bottom: 10px
 		li
@@ -53,16 +62,16 @@
 			font-weight: 400
 			margin-left: 12px
 			margin-top: -0.5px
-		i
-			display: inline-block
-			margin-right: 5px
-			+s(point)
-		.is-active__point
-			display: inline-block
-			margin-right: 5px
-			+s(active-point)
 			&:before
-				display: none
+				content: ''
+				display: inline-block
+				margin-right: 9px
+				+s(point)
+			//&:nth-child(6)
+			//	content: ''
+			//	display: inline-block
+			//	margin-right: 15px
+			//	+s(active-point)
 		p
 			font-size: 16px
 			font-weight: 400
@@ -85,5 +94,3 @@
 		position: absolute
 		bottom: -56px
 		right: 59px
-
-
