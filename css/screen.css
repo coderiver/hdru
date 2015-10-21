@@ -654,7 +654,7 @@ body { font-family: "Open Sans", sans-serif; }
 .faq__second-drop .is-active__point:before { display: none; }
 .faq__second-drop p { font-size: 16px; font-weight: 400; line-height: 23px; margin-bottom: 23px; }
 .faq__second-drop p:last-child { margin-bottom: 0; }
-.faq .faq__second-text { background-color: #eef3f9; margin-top: 20px; margin-bottom: 17px; margin-left: -9px; padding: 24px 133px 23px 31px; }
+.faq .faq__second-text { background-color: #eef3f9; margin-top: 20px; margin-bottom: 17px; margin-left: -9px; color: #000; padding: 24px 133px 23px 31px; }
 
 .study-cat img { position: absolute; bottom: -56px; right: 59px; }
 
