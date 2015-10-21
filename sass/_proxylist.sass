@@ -6,6 +6,16 @@
 		width: 852px
 		margin: auto
 		text-align: center
+		position: relative
+		&:after
+			content: " "
+			+png(catflag)
+			position: absolute
+			bottom: 0
+			right: -229px-12px
+			z-index: 999
+			+r(1350)
+				display: none
 
 	&_headline
 		padding: 55px 0 24px	
@@ -281,18 +291,6 @@
 		position: relative
 		border-collapse: collapse
 
-		&:after
-			content: " "
-			+png(catflag)
-			position: absolute
-			bottom: -80px
-			right: -229px-12px
-			z-index: 999
-			+r(1350)
-				display: none
-
-
-
 		thead
 			background-color: #697c81
 
@@ -426,7 +424,7 @@
 
 	&__content	
 		overflow: hidden
-		padding: 10px 60px 0 0
+		padding: 8px 60px 0 0
 
 
 	h3

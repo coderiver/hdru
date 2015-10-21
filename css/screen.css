@@ -51,9 +51,7 @@ body { font-family: "Open Sans", sans-serif; }
 
 .headvpn { *zoom: 1; }
 .headvpn:after { content: " "; display: table; clear: both; }
-.headvpn .logo { font-size: 0; }
-.headvpn .name { margin-left: 11px; }
-.headvpn .name p:last-child { padding-left: 2px; }
+.headvpn .name p:last-child { padding-left: 3px; }
 .headvpn_submenu { font-size: 0; }
 .headvpn_submenu ul { width: auto !important; display: inline-block; }
 .headvpn_submenu li { padding: 0 22px !important; line-height: 32px; float: left; font-size: 14px; }
@@ -102,7 +100,7 @@ body { font-family: "Open Sans", sans-serif; }
 
 .level__in, .connect__in, .service__in, .l__in, .network__in, .sub__in, .router__in, .win__in, .award__in, .linux__in, .mac__in, .ios__in, .android__in, .device__in { width: 1140px; margin: auto; position: relative; }
 
-.level { height: 480px; background-color: #FFF; overflow: hidden; }
+.level { height: 480px; background-color: #f8fbff; overflow: hidden; }
 .level__in { *zoom: 1; }
 .level__in:after { content: " "; display: table; clear: both; }
 .level__left { float: left; width: 372px; position: relative; text-align: left; }
@@ -247,7 +245,9 @@ body { font-family: "Open Sans", sans-serif; }
 .device h2 { padding: 63px 0 38px; }
 
 .proxy { min-height: 251px; background-color: #FFF; }
-.proxy__in { width: 852px; margin: auto; text-align: center; }
+.proxy__in { width: 852px; margin: auto; text-align: center; position: relative; }
+.proxy__in:after { content: " "; background: url("../img/catflag.png") no-repeat 0 0; width: 229px; height: 176px; position: absolute; bottom: 0; right: -241px; z-index: 999; }
+@media only screen and (max-width: 1350px) { .proxy__in:after { display: none; } }
 .proxy_headline { padding: 55px 0 24px; }
 .proxy_text { text-indent: 40px; width: 730px; margin: 0 auto 66px; line-height: 23px; }
 .proxy .pform { width: 852px; height: 295px; border-radius: 5px; font-size: 0; text-align: left; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; }
@@ -305,8 +305,6 @@ body { font-family: "Open Sans", sans-serif; }
 .proxy__history .browser li { display: inline-block; margin-right: 8px; }
 .proxy__history .browser li:last-child { margin-right: 0; }
 .proxy__t { width: 100%; border-radius: 5px; text-align: left; background-color: white; font-size: 14px; position: relative; border-collapse: collapse; }
-.proxy__t:after { content: " "; background: url("../img/catflag.png") no-repeat 0 0; width: 229px; height: 176px; position: absolute; bottom: -80px; right: -241px; z-index: 999; }
-@media only screen and (max-width: 1350px) { .proxy__t:after { display: none; } }
 .proxy__t thead { background-color: #697c81; }
 .proxy__t tbody { border-left: 1px solid #e6e6e6; border-right: 1px solid #e6e6e6; }
 .proxy__t th { color: white; font-family: "Open Sans"; font-size: 16px; font-weight: 400; vertical-align: middle; height: 62px; }
@@ -336,7 +334,7 @@ body { font-family: "Open Sans", sans-serif; }
 .vpnsec__in { width: 852px; margin: auto; padding: 20px 0 17px; *zoom: 1; }
 .vpnsec__in:after { content: " "; display: table; clear: both; }
 .vpnsec .button { float: right; color: black; width: 144px; line-height: 48px; display: inline-block; }
-.vpnsec__content { overflow: hidden; padding: 10px 60px 0 0; }
+.vpnsec__content { overflow: hidden; padding: 8px 60px 0 0; }
 .vpnsec h3 { color: white; font-family: "Open Sans"; font-size: 24px; font-weight: 400; line-height: 26px; display: inline-block; }
 
 .stat { background-color: #FFF; font: 400 16px/1.4 "Open Sans", sans-serif; }
@@ -498,7 +496,9 @@ body { font-family: "Open Sans", sans-serif; }
 .scan-section img { position: absolute; right: -211px; top: -27px; }
 
 .proxy { min-height: 251px; background-color: #FFF; }
-.proxy__in { width: 852px; margin: auto; text-align: center; }
+.proxy__in { width: 852px; margin: auto; text-align: center; position: relative; }
+.proxy__in:after { content: " "; background: url("../img/catflag.png") no-repeat 0 0; width: 229px; height: 176px; position: absolute; bottom: 0; right: -241px; z-index: 999; }
+@media only screen and (max-width: 1350px) { .proxy__in:after { display: none; } }
 .proxy_headline { padding: 55px 0 24px; }
 .proxy_text { text-indent: 40px; width: 730px; margin: 0 auto 66px; line-height: 23px; }
 .proxy .pform { width: 852px; height: 295px; border-radius: 5px; font-size: 0; text-align: left; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; }
@@ -556,8 +556,6 @@ body { font-family: "Open Sans", sans-serif; }
 .proxy__history .browser li { display: inline-block; margin-right: 8px; }
 .proxy__history .browser li:last-child { margin-right: 0; }
 .proxy__t { width: 100%; border-radius: 5px; text-align: left; background-color: white; font-size: 14px; position: relative; border-collapse: collapse; }
-.proxy__t:after { content: " "; background: url("../img/catflag.png") no-repeat 0 0; width: 229px; height: 176px; position: absolute; bottom: -80px; right: -241px; z-index: 999; }
-@media only screen and (max-width: 1350px) { .proxy__t:after { display: none; } }
 .proxy__t thead { background-color: #697c81; }
 .proxy__t tbody { border-left: 1px solid #e6e6e6; border-right: 1px solid #e6e6e6; }
 .proxy__t th { color: white; font-family: "Open Sans"; font-size: 16px; font-weight: 400; vertical-align: middle; height: 62px; }
@@ -587,7 +585,7 @@ body { font-family: "Open Sans", sans-serif; }
 .vpnsec__in { width: 852px; margin: auto; padding: 20px 0 17px; *zoom: 1; }
 .vpnsec__in:after { content: " "; display: table; clear: both; }
 .vpnsec .button { float: right; color: black; width: 144px; line-height: 48px; display: inline-block; }
-.vpnsec__content { overflow: hidden; padding: 10px 60px 0 0; }
+.vpnsec__content { overflow: hidden; padding: 8px 60px 0 0; }
 .vpnsec h3 { color: white; font-family: "Open Sans"; font-size: 24px; font-weight: 400; line-height: 26px; display: inline-block; }
 
 .stat { background-color: #FFF; font: 400 16px/1.4 "Open Sans", sans-serif; }
