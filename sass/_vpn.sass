@@ -385,7 +385,7 @@
 //NETWORK
 .network
 	background-color: #f8fbff
-	height: 798px
+	min-height: 798px
 
 	&__in
 		padding-bottom: 55px
@@ -398,8 +398,44 @@
 		float: left
 
 	&__countries
-		margin-left: 720px
+		//margin-left: 720px
+		margin-left: 707px
 		overflow: hidden	
+
+		td,th
+			height: 31px
+			vertical-align: top
+			text-align: left
+		td
+			width: 42px
+		th	
+			width: 102px	
+
+		span
+			font: 13px/1.2 Arial, sans-serif
+			border-bottom: 1px dotted #000
+
+		.t-add
+			&__title
+				opacity: 0.9
+				padding: 10px 0
+
+			span
+				border: 0
+				opacity: 0.9
+
+			.under
+				text-decoration: underline		
+
+		@each $s in rus, ger, usa, ukr, lva, nkg, bel, gbr, pol, ita, kaz, idn, nld, can, bol, che, swe, fin, isr, tur, hun, rou, fra, est, nor, spa, vnm, egy, men, isl, jpn, kor, chi, lux, ind, bra, dan, sin, tai, irl, unk
+			.icon__#{$s}
+				+s(#{$s})
+				display: inline-block
+				vertical-align: middle
+
+			
+
+			
 
 	&_text
 		line-height: 1.6
