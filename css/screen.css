@@ -367,17 +367,24 @@ body { font-family: "Open Sans", sans-serif; }
 .stock__in, .paymant__in, .price-warning__in { width: 688px; margin: auto; *zoom: 1; }
 .stock__in:after, .paymant__in:after, .price-warning__in:after { content: " "; display: table; clear: both; }
 
-.price__in { width: 860px; padding: 0 30px; }
+.price__in { width: 860px; padding: 0 100px; }
 
-.stock { margin: 40px 0 70px 0; }
+.wrap__bg { background-color: #f5f9fd; }
+
+.stock { margin: 40px 0 70px 0; position: relative; }
 .stock__item { display: inline-block; width: 320px; text-align: left; margin-right: 20px; }
 .stock__item:last-child { margin-right: 0; }
+.stock__pic8 { width: 95px; height: 90px; position: absolute; top: -17px; }
 .stock__pic { width: 80px; height: 70px; float: left; margin: 0px 15px 0 0; }
 .stock__title h4 { font: 400 18px/26px "Open Sans", Arial, Helvetica sans-serif; color: #000; padding-bottom: 10px; }
 .stock__title p, .stock__title a { font: 400 12px/18px "Open Sans", Arial, Helvetica sans-serif; color: #000; }
 .stock__title a { text-decoration: underline; }
+.stock__title8 { margin-left: 105px; }
 
+.price-rates { position: relative; }
 .price-rates__item { width: 236px; display: inline-block; padding: 20px 15px 20px 15px; }
+.price-rates__item-right { position: absolute; top: 48px; }
+.price-rates__item-left { margin-left: 33px; }
 .price-rates__bg { background-color: #eef3f9; }
 .price-rates__num { color: #006492; font-size: 68px; font-weight: 600; margin-left: 18px; text-align: center; }
 .price-rates__num span { color: #7fb1d3; font-size: 14px; font-weight: 400; display: inline-block; vertical-align: top; margin-top: 22px; }
@@ -396,30 +403,31 @@ body { font-family: "Open Sans", sans-serif; }
 .price-rates .color-btn_grey { background-color: #697c81; }
 .price-rates .price-rates__numgrey { color: #697c81; }
 .price-rates .price-rates__numgrey span { color: #697c81; }
-.price-rates .price-rates__lbody p { font-size: 12px; margin-bottom: 93px; }
+.price-rates .price-rates__lbody p { font-size: 12px; margin-bottom: 54px; }
 .price-rates .price-rates__lbody span { font-size: 14px; border: none; margin-bottom: 20px; }
 .price-rates .price-rates__lbody a { font-size: 18px; text-decoration: underline; }
 
 .paymant { margin: 50px 0 30px 0; text-align: left; *zoom: 1; }
 .paymant:after { content: " "; display: table; clear: both; }
+.paymant h4 { margin-bottom: 15px; }
 .paymant__left { float: left; margin-right: 40px; }
 .paymant__right { float: right; }
 
-.price-warning { text-align: left; position: relative; margin-bottom: 100px; *zoom: 1; }
+.price-warning { text-align: left; position: relative; margin-bottom: 50px; padding-bottom: 50px; *zoom: 1; }
 .price-warning:after { content: " "; display: table; clear: both; }
 .price-warning__left { float: left; text-align: left; width: 450px; }
 .price-warning__left p { font: 400 12px/18px "Open Sans", Arial, Helvetica sans-serif; margin-bottom: 20px; }
 .price-warning__left p:last-child { margin-bottom: 0; }
 .price-warning__left span { color: #b50000; }
 .price-warning__left a { color: #006fb6; line-height: 18px; text-decoration: underline; }
-.price-warning__wma { float: right; margin-right: 10px; background: url('../img/icons-saee2aa29dc.png') 0 -1341px no-repeat; width: 86px; height: 28px; }
-.price-warning__wmw { float: right; margin-right: 20px; background: url('../img/icons-saee2aa29dc.png') 0 0 no-repeat; width: 86px; height: 28px; }
+.price-warning__wma { float: right; margin-right: 10px; margin-top: 5px; background: url('../img/icons-saee2aa29dc.png') 0 -1341px no-repeat; width: 86px; height: 28px; }
+.price-warning__wmw { float: right; margin-right: 20px; margin-top: 5px; background: url('../img/icons-saee2aa29dc.png') 0 0 no-repeat; width: 86px; height: 28px; }
 
-.security-cat img { position: absolute; right: 20px; bottom: -40px; }
+.security-cat img { position: absolute; right: 20px; bottom: 0px; }
 
 .price-question { margin-bottom: 70px; *zoom: 1; }
 .price-question:after { content: " "; display: table; clear: both; }
-.price-question__title { margin-bottom: 40px; *zoom: 1; }
+.price-question__title { margin-bottom: 40px; text-align: center; *zoom: 1; }
 .price-question__title:after { content: " "; display: table; clear: both; }
 .price-question__title h2 { color: #002334; font-family: "Open Sans", Arial, Helvetica sans-serif; font-size: 36px; font-weight: 400; }
 .price-question__left, .price-question__right { float: left; text-align: left; width: 540px; margin-right: 30px; }
@@ -434,7 +442,7 @@ body { font-family: "Open Sans", sans-serif; }
 
 .math-cat img { position: absolute; bottom: -70px; right: 325px; }
 
-.section-text { text-align: center; margin-top: 57px; }
+.section-text { text-align: center; padding-top: 57px; }
 .section-text__in { width: 880px; margin: auto; margin-bottom: 62px; }
 .section-text__title h3 { color: #002334; font: 400 36px/42px "Open Sans", Arial, Helvetica sans-serif; }
 .section-text__content { margin-top: 20px; margin-left: -8px; }
