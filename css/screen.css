@@ -51,9 +51,12 @@ body { font-family: "Open Sans", sans-serif; }
 
 .headvpn { *zoom: 1; }
 .headvpn:after { content: " "; display: table; clear: both; }
+.headvpn .name p:last-child { padding-left: 3px; }
 .headvpn_submenu { font-size: 0; }
 .headvpn_submenu ul { width: auto !important; display: inline-block; }
 .headvpn_submenu li { padding: 0 22px !important; line-height: 32px; float: left; font-size: 14px; }
+.headvpn_submenu li:first-child { padding-left: 29px !important; }
+.headvpn_submenu li:last-child { padding-right: 29px !important; }
 .headvpn .header-nav a { border-bottom: 3px solid transparent; -moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; -webkit-transition: all 0.2s ease; transition: all 0.2s ease; }
 .headvpn .header-nav li.is-active > a, .headvpn .header-nav a:hover { border-bottom: 3px solid #1c98d7; padding-bottom: 3px; opacity: 1; }
 .headvpn .header-nav li { padding-left: 5%; }
@@ -97,7 +100,7 @@ body { font-family: "Open Sans", sans-serif; }
 
 .level__in, .connect__in, .service__in, .l__in, .network__in, .sub__in, .router__in, .win__in, .award__in, .linux__in, .mac__in, .ios__in, .android__in, .device__in { width: 1140px; margin: auto; position: relative; }
 
-.level { height: 480px; background-color: #FFF; overflow: hidden; }
+.level { height: 480px; background-color: #f8fbff; overflow: hidden; }
 .level__in { *zoom: 1; }
 .level__in:after { content: " "; display: table; clear: both; }
 .level__left { float: left; width: 372px; position: relative; text-align: left; }
@@ -110,7 +113,7 @@ body { font-family: "Open Sans", sans-serif; }
 .level__logos .icon__linux { background: url('../img/icons-saee2aa29dc.png') 0 -894px no-repeat; width: 36px; height: 41px; display: inline-block; margin-right: 5px; }
 .level__logos .icon__android { background: url('../img/icons-saee2aa29dc.png') 0 -58px no-repeat; width: 36px; height: 41px; display: inline-block; margin-right: 5px; }
 .level__logos .icon__ios { background: url('../img/icons-saee2aa29dc.png') 0 -650px no-repeat; width: 53px; height: 41px; display: inline-block; margin-right: 5px; }
-.level .button { white-spacing: -1px; text-indent: 5px; line-height: 43px; }
+.level .button { white-spacing: -1px; text-indent: 5px; }
 .level .cinema { background: url("../img/cinema.png") no-repeat 0 0; width: 766px; height: 480px; position: relative; overflow: hidden; }
 .level .cinema__video { display: block; position: absolute; top: 57px; left: 101px; }
 .level .cinema__play { content: " "; display: block; position: absolute; margin: auto; top: 0; bottom: 0; left: 0; right: 0; cursor: pointer; background: url("../img/play.png") no-repeat 0 0; width: 121px; height: 121px; }
@@ -121,7 +124,7 @@ body { font-family: "Open Sans", sans-serif; }
 .connect__in:before { content: " "; display: block; background: url("../img/cover.png") no-repeat 0 0; width: 148px; height: 138px; margin-top: -10px; position: absolute; left: 0; top: 0; }
 .connect__key { display: inline-block; vertical-align: top; }
 .connect__text { display: inline-block; vertical-align: top; padding: 30px 27px 36px 180px; width: 672px; color: black; font-family: "Open Sans", sans-serif; font-size: 24px; font-weight: 400; line-height: 32px; letter-spacing: 0; }
-.connect__input { padding: 38px 0 0 23px; display: inline-block; vertical-align: top; }
+.connect__input { padding: 42px 0 0 23px; display: inline-block; vertical-align: top; }
 .connect__input .button { width: 184px; position: relative; }
 .connect__input .button:active { top: 1px; }
 .connect__input input, .connect__input .fieldset-in .suport-form textarea, .fieldset-in .suport-form .connect__input textarea { width: 225px; height: 48px; background-color: white; border-radius: 5px; box-shadow: inset 0 2px 0 #ccd4dd; padding: 0 13px; opacity: 0.75; color: #000; font-family: "Open Sans", sans-serif; font-size: 18px; font-weight: 600; margin-right: 7px; }
@@ -177,7 +180,8 @@ body { font-family: "Open Sans", sans-serif; }
 .service__alert { color: #d90000; font: 400 14px/1 "Open Sans", sans-serif; }
 .service__wrp { margin-top: -10px; }
 .service__more { position: relative; display: inline-block; }
-.service__more a { display: inline-block; color: #006fb6; font: 400 24px/1 "Open Sans", sans-serif; text-decoration: underline; vertical-align: middle; position: relative; margin: 73px 0px 67px; }
+.service__more a { display: inline-block; color: #006fb6; font: 400 24px/1 "Open Sans", sans-serif; padding-bottom: 2px; border-bottom: 1px dashed #006fb6; vertical-align: middle; position: relative; margin: 73px 0px 67px; }
+.service__more a:hover { border-color: transparent; opacity: 1; }
 .service__more:before { content: " "; display: block; position: absolute; top: 0; left: -292px; background: url("../img/multimedia.png") no-repeat 0 0; width: 287px; height: 164px; }
 .service__more img { display: inline-block; }
 
@@ -241,7 +245,9 @@ body { font-family: "Open Sans", sans-serif; }
 .device h2 { padding: 63px 0 38px; }
 
 .proxy { min-height: 251px; background-color: #FFF; }
-.proxy__in { width: 852px; margin: auto; text-align: center; }
+.proxy__in { width: 852px; margin: auto; text-align: center; position: relative; }
+.proxy__in:after { content: " "; background: url("../img/catflag.png") no-repeat 0 0; width: 229px; height: 176px; position: absolute; bottom: 0; right: -241px; z-index: 999; }
+@media only screen and (max-width: 1350px) { .proxy__in:after { display: none; } }
 .proxy_headline { padding: 55px 0 24px; }
 .proxy_text { text-indent: 40px; width: 730px; margin: 0 auto 66px; line-height: 23px; }
 .proxy .pform { width: 852px; height: 295px; border-radius: 5px; font-size: 0; text-align: left; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; }
@@ -289,7 +295,7 @@ body { font-family: "Open Sans", sans-serif; }
 .proxy .pform .button_green { width: 197px; margin-right: 13px; }
 .proxy .pform .button_dark { width: 240px; }
 .proxy .pform__export { display: inline-block; font: 400 16px/1 "Open Sans", sans-serif; color: black; margin-left: 36px; }
-.proxy .pform__export a { font: 400 16px/1 "Open Sans", sans-serif; text-decoration: underline; color: #006fb6; }
+.proxy .pform__export a { font: 400 16px/1 "Open Sans", sans-serif; text-decoration: underline; color: #006fb6; padding-right: 6px; }
 .proxy .pform__export a:hover { text-decoration: none; }
 .proxy .pform__export img { vertical-align: middle; margin: 0 10px; }
 .proxy__history { position: relative; *zoom: 1; }
@@ -299,8 +305,6 @@ body { font-family: "Open Sans", sans-serif; }
 .proxy__history .browser li { display: inline-block; margin-right: 8px; }
 .proxy__history .browser li:last-child { margin-right: 0; }
 .proxy__t { width: 100%; border-radius: 5px; text-align: left; background-color: white; font-size: 14px; position: relative; border-collapse: collapse; }
-.proxy__t:after { content: " "; background: url("../img/catflag.png") no-repeat 0 0; width: 229px; height: 176px; position: absolute; bottom: -80px; right: -241px; z-index: 999; }
-@media only screen and (max-width: 1350px) { .proxy__t:after { display: none; } }
 .proxy__t thead { background-color: #697c81; }
 .proxy__t tbody { border-left: 1px solid #e6e6e6; border-right: 1px solid #e6e6e6; }
 .proxy__t th { color: white; font-family: "Open Sans"; font-size: 16px; font-weight: 400; vertical-align: middle; height: 62px; }
@@ -330,7 +334,7 @@ body { font-family: "Open Sans", sans-serif; }
 .vpnsec__in { width: 852px; margin: auto; padding: 20px 0 17px; *zoom: 1; }
 .vpnsec__in:after { content: " "; display: table; clear: both; }
 .vpnsec .button { float: right; color: black; width: 144px; line-height: 48px; display: inline-block; }
-.vpnsec__content { overflow: hidden; padding: 10px 60px 0 0; }
+.vpnsec__content { overflow: hidden; padding: 8px 60px 0 0; }
 .vpnsec h3 { color: white; font-family: "Open Sans"; font-size: 24px; font-weight: 400; line-height: 26px; display: inline-block; }
 
 .stat { background-color: #FFF; font: 400 16px/1.4 "Open Sans", sans-serif; }
@@ -492,7 +496,9 @@ body { font-family: "Open Sans", sans-serif; }
 .scan-section img { position: absolute; right: -211px; top: -37px; }
 
 .proxy { min-height: 251px; background-color: #FFF; }
-.proxy__in { width: 852px; margin: auto; text-align: center; }
+.proxy__in { width: 852px; margin: auto; text-align: center; position: relative; }
+.proxy__in:after { content: " "; background: url("../img/catflag.png") no-repeat 0 0; width: 229px; height: 176px; position: absolute; bottom: 0; right: -241px; z-index: 999; }
+@media only screen and (max-width: 1350px) { .proxy__in:after { display: none; } }
 .proxy_headline { padding: 55px 0 24px; }
 .proxy_text { text-indent: 40px; width: 730px; margin: 0 auto 66px; line-height: 23px; }
 .proxy .pform { width: 852px; height: 295px; border-radius: 5px; font-size: 0; text-align: left; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; }
@@ -540,7 +546,7 @@ body { font-family: "Open Sans", sans-serif; }
 .proxy .pform .button_green { width: 197px; margin-right: 13px; }
 .proxy .pform .button_dark { width: 240px; }
 .proxy .pform__export { display: inline-block; font: 400 16px/1 "Open Sans", sans-serif; color: black; margin-left: 36px; }
-.proxy .pform__export a { font: 400 16px/1 "Open Sans", sans-serif; text-decoration: underline; color: #006fb6; }
+.proxy .pform__export a { font: 400 16px/1 "Open Sans", sans-serif; text-decoration: underline; color: #006fb6; padding-right: 6px; }
 .proxy .pform__export a:hover { text-decoration: none; }
 .proxy .pform__export img { vertical-align: middle; margin: 0 10px; }
 .proxy__history { position: relative; *zoom: 1; }
@@ -550,8 +556,6 @@ body { font-family: "Open Sans", sans-serif; }
 .proxy__history .browser li { display: inline-block; margin-right: 8px; }
 .proxy__history .browser li:last-child { margin-right: 0; }
 .proxy__t { width: 100%; border-radius: 5px; text-align: left; background-color: white; font-size: 14px; position: relative; border-collapse: collapse; }
-.proxy__t:after { content: " "; background: url("../img/catflag.png") no-repeat 0 0; width: 229px; height: 176px; position: absolute; bottom: -80px; right: -241px; z-index: 999; }
-@media only screen and (max-width: 1350px) { .proxy__t:after { display: none; } }
 .proxy__t thead { background-color: #697c81; }
 .proxy__t tbody { border-left: 1px solid #e6e6e6; border-right: 1px solid #e6e6e6; }
 .proxy__t th { color: white; font-family: "Open Sans"; font-size: 16px; font-weight: 400; vertical-align: middle; height: 62px; }
@@ -581,7 +585,7 @@ body { font-family: "Open Sans", sans-serif; }
 .vpnsec__in { width: 852px; margin: auto; padding: 20px 0 17px; *zoom: 1; }
 .vpnsec__in:after { content: " "; display: table; clear: both; }
 .vpnsec .button { float: right; color: black; width: 144px; line-height: 48px; display: inline-block; }
-.vpnsec__content { overflow: hidden; padding: 10px 60px 0 0; }
+.vpnsec__content { overflow: hidden; padding: 8px 60px 0 0; }
 .vpnsec h3 { color: white; font-family: "Open Sans"; font-size: 24px; font-weight: 400; line-height: 26px; display: inline-block; }
 
 .stat { background-color: #FFF; font: 400 16px/1.4 "Open Sans", sans-serif; }
