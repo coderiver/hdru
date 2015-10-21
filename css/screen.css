@@ -463,7 +463,7 @@ body { font-family: "Open Sans", sans-serif; }
 .green-line { height: 85px; background-color: #79bc00; margin-top: 50px; }
 .green-line__in { width: 860px; margin: auto; }
 .green-line__text { display: inline-block; line-height: 85px; color: white; font: 400 24px/26px "Open Sans", Arial, Helvetica sans-serif; margin: 30px 38px 30px 0; }
-.green-line__btn { float: right; margin-top: 20px; margin-right: 8px; line-height: 85px; background-color: #ffd500; border-radius: 5px; text-align: center; padding: 12px 20px; font: 600 18px "Open Sans", Arial, Helvetica sans-serif; }
+.green-line__btn { float: right; margin-top: 20px; line-height: 85px; background-color: #ffd500; border-radius: 5px; text-align: center; padding: 12px 20px; font: 600 18px "Open Sans", Arial, Helvetica sans-serif; }
 .green-line__btn a { text-decoration: none; background: none; }
 
 .details-ports { margin-bottom: 63px; margin-top: 50px; color: black; font-family: "OpenSans", Arial, Helvetica sans-serif; font-weight: 400; line-height: 23px; }
@@ -485,11 +485,11 @@ body { font-family: "Open Sans", sans-serif; }
 .revise .result p { font: 600 16px/23px "Open Sans", Arial, Helvetica sans-serif; }
 .revise .result textarea { background-color: white; border: 1px solid #d3d7dc; border-radius: 5px; margin-top: 10px; font-size: 16px; padding: 5px 10px; width: 493px; height: 148px; }
 
-.scan-section { margin-top: 20px; position: relative; }
+.scan-section__in { width: 860px; margin: auto; position: relative; background-color: #f6faff; border-radius: 3px; padding-bottom: 20px; }
 .scan-section__btn, .scan-section p { display: inline-block; }
 .scan-section .scan-section__btn { width: 252px; height: 48px; margin: 21px 31px 0 -65px; }
 .scan-section p { text-align: left; vertical-align: bottom; padding-bottom: 2px; color: black; font: 400 14px/23px "Open Sans", Arial, Helvetica sans-serif; }
-.scan-section img { position: absolute; right: -211px; top: -27px; }
+.scan-section img { position: absolute; right: -211px; top: -37px; }
 
 .proxy { min-height: 251px; background-color: #FFF; }
 .proxy__in { width: 852px; margin: auto; text-align: center; }
@@ -607,8 +607,7 @@ body { font-family: "Open Sans", sans-serif; }
 .tools-blue__right .main-table__title { width: 100px; }
 .tools-blue__right .main-table__content { width: 370px; }
 
-.tool-about { margin-top: 25px; }
-.tool-about__in { width: 830px; margin: auto; padding: 7px 19px; position: relative; *zoom: 1; }
+.tool-about__in { width: 860px; margin: auto; padding: 10px 30px; position: relative; background-color: #f6faff; border-radius: 3px; *zoom: 1; }
 .tool-about__in:after { content: " "; display: table; clear: both; }
 .tool-about__in h3 { font: 600 16px/23px "Open Sans", Arial, Helvetica sans-serif; margin-bottom: 25px; }
 .tool-about__in a { color: #006fb6; text-decoration: underline; }
@@ -619,9 +618,9 @@ body { font-family: "Open Sans", sans-serif; }
 .tool-about__right { float: left; margin-left: 11px; text-align: left; }
 .tool-about .tool-other { margin-top: 20px; width: 240px; }
 .tool-about .tool-other p { font: 400 14px/23px "Open Sans", Arial, Helvetica sans-serif; }
-.tool-about .sherlok-cat img { position: absolute; bottom: -82px; right: -110px; }
+.tool-about .sherlok-cat img { position: absolute; bottom: -30px; right: -75px; }
 
-.green-line__ip { margin-top: 52px; }
+.green-line__ip { margin-top: 30px; }
 
 .green-line-p { margin: 30px 50px 30px 0; float: none; }
 
