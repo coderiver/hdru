@@ -683,11 +683,12 @@ body { font-family: "Open Sans", sans-serif; }
 .proxy-list__right .proxy-visible .item-width_o { margin-right: 25px; }
 .proxy-list__right .proxy-visible .item-width_t { margin-right: 18px; }
 
+.testing-btn .testing-btn__in { width: 860px; margin: 0 auto; padding: 0px 20px 20px 35px; background-color: #f6faff; border-radius: 3px; }
 .testing-btn .is-active { opacity: 0.6; width: 240px; height: 48px; margin-top: 0; }
 .testing-btn .btn-color-blue { background-color: #1c98d7; margin: 0 32px 0 8px; width: 240px; height: 48px; margin-top: 0; }
-.testing-btn .btn-color-grey { background-color: #697c81; width: 240px; height: 48px; margin-top: 30px; }
+.testing-btn .btn-color-grey { background-color: #697c81; width: 240px; height: 48px; margin-top: 20px; }
 
-.progress { margin: 44px 0; }
+.progress { margin: 20px 0 44px 0; }
 .progress__in { width: 860px; margin: auto; *zoom: 1; }
 .progress__in:after { content: " "; display: table; clear: both; }
 .progress__title { clear: both; *zoom: 1; }
@@ -700,14 +701,13 @@ body { font-family: "Open Sans", sans-serif; }
 .progress__bar .progress-bar__bg:after { content: " "; display: table; clear: both; }
 .progress__bar span { position: absolute; width: 272px; height: 7px; background-color: #79bc00; border-radius: 4px; }
 .progress__result { margin-top: 21px; }
-.progress__result span { font-weight: 600; margin-right: 2px; }
-.progress__result a { text-decoration: underline; color: #006fb6; }
-.progress__result a:last-child { margin-left: 10px; }
+.progress__result span { font-weight: 600; }
+.progress__result a { text-decoration: underline; color: #006fb6; margin: 0 10px; }
 .progress__result .txt-img:before, .progress__result .scv-img:before { content: ""; display: inline-block; margin: 0 10px -10px 0; background: url('../img/icons-saee2aa29dc.png') 0 -1284px no-repeat; width: 23px; height: 26px; }
 .progress__result .scv-img:before { background: url('../img/icons-saee2aa29dc.png') 0 -453px no-repeat; width: 23px; height: 26px; }
 
 .proxy-table { box-sizing: border-box; }
-.proxy-table__in { width: 870px; margin: auto; position: relative; }
+.proxy-table__in { width: 860px; margin: auto; position: relative; }
 .proxy-table__main { width: 100%; }
 .proxy-table__head { background-color: #697c81; color: #fff; }
 .proxy-table__head .head-line { width: 852px; height: 60px; }
@@ -735,7 +735,7 @@ body { font-family: "Open Sans", sans-serif; }
 .proxy-line { margin-top: 60px; }
 
 .proxy-cheker__in { width: 860px; margin: auto; }
-.proxy-cheker__in p { margin: 28px 38px 30px 0; }
+.proxy-cheker__in p { margin: 30px 38px 30px 0; }
 .proxy-cheker__in a { float: right; margin-top: 19px; }
 
 .checker-text { width: 860px; margin: auto; }
