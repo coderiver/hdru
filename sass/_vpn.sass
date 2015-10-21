@@ -49,7 +49,6 @@
 	.button
 		white-spacing: -1px
 		text-indent: 5px	
-		line-height: 43px	
 
 	.cinema
 		+png(cinema)
@@ -111,7 +110,7 @@
 		letter-spacing: 0
 
 	&__input
-		padding: 38px 0 0 23px
+		padding: 42px 0 0 23px
 		display: inline-block
 		vertical-align: top
 
@@ -360,10 +359,15 @@
 			display: inline-block
 			color: #006fb6
 			font: 400 24px/1 'Open Sans', sans-serif
-			text-decoration: underline	
+			padding-bottom: 2px
+			border-bottom: 1px dashed #006fb6
 			vertical-align: middle
 			position: relative
-			margin: 73px 0px 67px	
+			margin: 73px 0px 67px
+			&:hover
+				border-color: transparent
+				opacity: 1
+
 		
 		&:before
 			content: ' '
