@@ -434,12 +434,13 @@ body { font-family: "Open Sans", sans-serif; }
 .stock__title8 { margin-left: 105px; }
 
 .price-rates { position: relative; }
-.price-rates__item { width: 236px; display: inline-block; padding: 20px 15px 20px 15px; }
+.price-rates__in { width: 860px; margin: auto; margin-left: 213px; }
+.price-rates__item { width: 236px; display: inline-block; text-align: center; padding: 20px 15px 20px 15px; }
+.price-rates__item:nth-child(3) { box-sizing: border-box; border-left: 5px solid #d3d3d3; }
 .price-rates__item-right { position: absolute; top: 48px; }
-.price-rates__item-left { margin-left: 33px; }
 .price-rates__bg { background-color: #eef3f9; }
-.price-rates__num { color: #006492; font-size: 68px; font-weight: 600; margin-left: 18px; text-align: center; }
-.price-rates__num span { color: #7fb1d3; font-size: 14px; font-weight: 400; display: inline-block; vertical-align: top; margin-top: 22px; }
+.price-rates__num { color: #006492; font-size: 68px; font-weight: 600; text-align: center; position: relative; }
+.price-rates__num span { color: #7fb1d3; font-size: 14px; font-weight: 400; position: absolute; top: 22px; }
 .price-rates__date { color: #000; font-size: 18px; margin-bottom: 25px; }
 .price-rates__date span { color: #94a2a6; font-size: 12px; }
 .price-rates__body { margin-top: 20px; }
@@ -449,7 +450,6 @@ body { font-family: "Open Sans", sans-serif; }
 .price-rates__b-head p { color: #94a2a6; font-size: 18px; line-height: 24px; }
 .price-rates__b-head span:first-child { color: black; font-size: 18px; line-height: 24px; }
 .price-rates__b-head span:last-child { color: #94a2a6; font-size: 12px; line-height: 18px; }
-.price-rates .item-bdb { border-left: 5px solid #d3d3d3; }
 .price-rates .price-rates__btn { width: 204px; margin-top: 0; }
 .price-rates .color-btn_blue { background-color: #006492; }
 .price-rates .color-btn_grey { background-color: #697c81; }

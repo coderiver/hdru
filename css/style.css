@@ -142,7 +142,7 @@ h2 + p {
 
     float: left;
 
-    height: 17px;    
+    height: 17px;
 
 }
 
@@ -182,7 +182,7 @@ h2 + p {
 
     height: 0;
 
-    border-bottom: 5px solid #eef3f9;
+    border-bottom: 5px solid #f8fbff;
 
     border-right: 5px solid transparent;
 
@@ -432,7 +432,7 @@ h2 + p {
 
 .block-bkg {
 
-    position: absolute;   
+    position: absolute;
 
     width: 100%;
 
