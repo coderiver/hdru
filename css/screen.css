@@ -393,9 +393,12 @@ body { font-family: "Open Sans", sans-serif; }
 .stat dt, .stat dl { margin-bottom: 20px; }
 .stat dl { letter-spacing: 0.002em; }
 
+.support-footer { box-sizing: border-box; height: 100%; padding-bottom: -90px; }
+.support-footer__down { margin-top: -90pxs; }
+
 .supportt__in { width: 880px; margin: auto; }
 
-.fieldset-in { width: 850px; margin: auto; background-color: #eef3f9; padding: 30px 20px 31px 15px; text-align: left; margin-bottom: 70px; }
+.fieldset-in { width: 850px; margin: auto; background-color: #eef3f9; padding: 30px 20px 31px 15px; border-radius: 5px; text-align: left; margin-bottom: 70px; }
 .fieldset-in .suport-form p { font: 600 18px/23px "Open Sans", Arial, Helvetica sans-serif; display: inline-block; width: 160px; margin-right: 33px; }
 .fieldset-in .suport-form span { font-weight: 400; font-size: 14px; }
 .fieldset-in .suport-form select, .fieldset-in .suport-form input, .fieldset-in .suport-form textarea, .fieldset-in .suport-form input, .fieldset-in .suport-form textarea { width: 614px; height: 39px; background-color: white; border: 1px solid #d3d7dc; font-size: 18px; padding: 5px 10px; }
