@@ -44,9 +44,11 @@ h2 {
 
     letter-spacing: -0.9px;
 
+    font-weight: 600;
+
 }
 
-h3 {font-size: 24px;}
+h3 {font-size: 24px; font-weight: 600;}
 
 a {
 
@@ -182,7 +184,7 @@ h2 + p {
 
     height: 0;
 
-    border-bottom: 5px solid #f8fbff;
+    border-bottom: 5px solid #eef3f9;
 
     border-right: 5px solid transparent;
 
@@ -407,6 +409,12 @@ h2 + p {
     width: 228px;
 
     cursor: pointer;
+
+    font-family: "Open Sans", sans-serif;
+
+    line-height: 48px;
+
+    font-weight: 600;
 
     -webkit-transition:.3s;
 
@@ -1006,7 +1014,7 @@ table tr:last-child  td:last-child { border-bottom-right-radius: 4px; }
 
     bottom: -82px;
 
-    right: 162px;
+    right: 18px;
 
     position: absolute;
 
@@ -1160,7 +1168,7 @@ footer .container{overflow: hidden;}
 
 /*---------------------------start articles-------------------------*/
 
-.preview-article .text {padding-top: 10px;}
+.preview-article .text {padding: 10px 0 5px;}
 
 .notice {
 

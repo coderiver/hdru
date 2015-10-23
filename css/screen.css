@@ -34,7 +34,7 @@ body { font-family: "Open Sans", sans-serif; }
 
 .headline { font: 400 36px/1 "Open Sans", sans-serif; color: #002334; letter-spacing: 0; }
 
-.button { height: 48px; line-height: 48px; text-align: center; border-radius: 5px; color: #fff; font-family: "Open Sans", sans-serif; font-size: 18px; font-weight: 600; display: inline-block; }
+.button { height: 48px; line-height: 47px; text-align: center; border-radius: 5px; color: #fff; font-family: "Open Sans", sans-serif; font-size: 18px; font-weight: 600; display: inline-block; vertical-align: top; }
 
 .button_dark { background-color: #697c81; }
 
@@ -298,10 +298,10 @@ body { font-family: "Open Sans", sans-serif; }
 @media only screen and (max-width: 1350px) { .proxy__in:after { display: none; } }
 .proxy_headline { padding: 55px 0 24px; }
 .proxy_text { text-indent: 40px; width: 730px; margin: 0 auto 66px; line-height: 23px; }
-.proxy .pform { width: 852px; height: 295px; border-radius: 5px; font-size: 0; text-align: left; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; }
-.proxy .pform__top { min-height: 207px; position: relative; background-color: #eef3f9; padding: 30px 35px 0; *zoom: 1; }
+.proxy .pform { width: 852px; height: 295px; font-size: 0; text-align: left; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; }
+.proxy .pform__top { min-height: 207px; position: relative; background-color: #eef3f9; padding: 30px 35px 0; border-top-left-radius: 5px; border-top-right-radius: 5px; *zoom: 1; }
 .proxy .pform__top:after { content: " "; display: table; clear: both; }
-.proxy .pform__bottom { min-height: 88px; background-color: #f6faff; }
+.proxy .pform__bottom { min-height: 88px; background-color: #f6faff; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; }
 .proxy .pform__left { float: left; width: 444px; }
 .proxy .pform__right { float: right; font-size: 16px; }
 .proxy .pform__right label { margin-bottom: 10px; }
@@ -342,7 +342,7 @@ body { font-family: "Open Sans", sans-serif; }
 .proxy .pform__buttons { display: inline-block; cursor: pointer; margin: 20px 0 0 31px; }
 .proxy .pform .button_green { width: 197px; margin-right: 13px; }
 .proxy .pform .button_dark { width: 240px; }
-.proxy .pform__export { display: inline-block; font: 400 16px/1 "Open Sans", sans-serif; color: black; margin-left: 36px; }
+.proxy .pform__export { display: inline-block; font: 400 16px/1 "Open Sans", sans-serif; color: black; margin-left: 36px; vertical-align: top; padding-top: 33px; }
 .proxy .pform__export a { font: 400 16px/1 "Open Sans", sans-serif; text-decoration: underline; color: #006fb6; padding-right: 6px; }
 .proxy .pform__export a:hover { text-decoration: none; }
 .proxy .pform__export img { vertical-align: middle; margin: 0 10px; }
@@ -549,10 +549,10 @@ body { font-family: "Open Sans", sans-serif; }
 @media only screen and (max-width: 1350px) { .proxy__in:after { display: none; } }
 .proxy_headline { padding: 55px 0 24px; }
 .proxy_text { text-indent: 40px; width: 730px; margin: 0 auto 66px; line-height: 23px; }
-.proxy .pform { width: 852px; height: 295px; border-radius: 5px; font-size: 0; text-align: left; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; }
-.proxy .pform__top { min-height: 207px; position: relative; background-color: #eef3f9; padding: 30px 35px 0; *zoom: 1; }
+.proxy .pform { width: 852px; height: 295px; font-size: 0; text-align: left; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; }
+.proxy .pform__top { min-height: 207px; position: relative; background-color: #eef3f9; padding: 30px 35px 0; border-top-left-radius: 5px; border-top-right-radius: 5px; *zoom: 1; }
 .proxy .pform__top:after { content: " "; display: table; clear: both; }
-.proxy .pform__bottom { min-height: 88px; background-color: #f6faff; }
+.proxy .pform__bottom { min-height: 88px; background-color: #f6faff; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; }
 .proxy .pform__left { float: left; width: 444px; }
 .proxy .pform__right { float: right; font-size: 16px; }
 .proxy .pform__right label { margin-bottom: 10px; }
@@ -593,7 +593,7 @@ body { font-family: "Open Sans", sans-serif; }
 .proxy .pform__buttons { display: inline-block; cursor: pointer; margin: 20px 0 0 31px; }
 .proxy .pform .button_green { width: 197px; margin-right: 13px; }
 .proxy .pform .button_dark { width: 240px; }
-.proxy .pform__export { display: inline-block; font: 400 16px/1 "Open Sans", sans-serif; color: black; margin-left: 36px; }
+.proxy .pform__export { display: inline-block; font: 400 16px/1 "Open Sans", sans-serif; color: black; margin-left: 36px; vertical-align: top; padding-top: 33px; }
 .proxy .pform__export a { font: 400 16px/1 "Open Sans", sans-serif; text-decoration: underline; color: #006fb6; padding-right: 6px; }
 .proxy .pform__export a:hover { text-decoration: none; }
 .proxy .pform__export img { vertical-align: middle; margin: 0 10px; }
