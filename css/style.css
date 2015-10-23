@@ -1014,7 +1014,7 @@ table tr:last-child  td:last-child { border-bottom-right-radius: 4px; }
 
     bottom: -82px;
 
-    right: 18px;
+    right: -70px;
 
     position: absolute;
 
@@ -1033,6 +1033,24 @@ table tr:last-child  td:last-child { border-bottom-right-radius: 4px; }
     width: 47%;
 
 }
+.article_bl {
+    text-align: left;
+    float: left;
+    width: 50%;
+    padding: 25px 20px 0 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.article_bt {
+    display: block;
+    width: auto;
+}
+    
+
 
 .date {
 
@@ -1168,7 +1186,7 @@ footer .container{overflow: hidden;}
 
 /*---------------------------start articles-------------------------*/
 
-.preview-article .text {padding: 10px 0 5px;}
+.preview-article .text {padding: 5px 0 10px;}
 
 .notice {
 
@@ -1182,7 +1200,7 @@ footer .container{overflow: hidden;}
 
 .preview-article {
 
-    margin-top: 5px;
+    margin-top: 10px;
 
 }
 
