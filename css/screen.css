@@ -523,7 +523,7 @@ body { font-family: "Open Sans", sans-serif; }
 .details-ports__in h3 { font-size: 24px; font-family: "OpenSans", Arial, Helvetica sans-serif; font-weight: normal; }
 .details-ports__in p { font-size: 16px; margin-top: 24px; font-family: "OpenSans", Arial, Helvetica sans-serif; }
 
-.revise__in { width: 860px; margin: auto; background-color: #eef3f9; border-radius: 5px; padding: 30px 0px 30px 0; }
+.revise__in { width: 860px; margin: auto; background-color: #eef3f9; border-top-left-radius: 5px; border-top-right-radius: 5px; padding: 30px 0px 30px 0; }
 .revise .revise__left { display: inline-block; margin-right: 31px; margin-left: -8px; vertical-align: top; }
 .revise .porst-enter { text-align: left; }
 .revise .porst-enter p { font: 600 16px/23px "Open Sans", Arial, Helvetica sans-serif; letter-spacing: -0.4px; margin-bottom: 10px; }
@@ -537,7 +537,7 @@ body { font-family: "Open Sans", sans-serif; }
 .revise .result p { font: 600 16px/23px "Open Sans", Arial, Helvetica sans-serif; }
 .revise .result textarea { background-color: white; border: 1px solid #d3d7dc; border-radius: 5px; margin-top: 10px; font-size: 16px; padding: 5px 10px; width: 493px; height: 148px; }
 
-.scan-section__in { width: 860px; margin: auto; position: relative; background-color: #f6faff; border-radius: 3px; padding-bottom: 20px; }
+.scan-section__in { width: 860px; margin: auto; position: relative; background-color: #f6faff; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; padding-bottom: 20px; }
 .scan-section__btn, .scan-section p { display: inline-block; }
 .scan-section .scan-section__btn { width: 252px; height: 48px; margin: 21px 31px 0 -65px; }
 .scan-section p { text-align: left; vertical-align: bottom; padding-bottom: 2px; color: black; font: 400 14px/23px "Open Sans", Arial, Helvetica sans-serif; }
@@ -714,7 +714,7 @@ body { font-family: "Open Sans", sans-serif; }
 .proxy-text span { color: grey; font-size: 12px; font-weight: 400; }
 
 .proxy-list h4 { margin-bottom: 7px; }
-.proxy-list__in { width: 860px; margin: auto; padding: 30px 20px 30px 35px; background-color: #eef3f9; border-radius: 5px; }
+.proxy-list__in { width: 860px; margin: auto; padding: 30px 20px 30px 35px; background-color: #eef3f9; border-top-left-radius: 5px; border-top-right-radius: 5px; }
 .proxy-list__left { display: inline-block; vertical-align: top; margin-right: 30px; }
 .proxy-list__left .window-proxy { overflow: scroll-x; width: 492px; height: 164px; background-color: white; border: 1px solid #d3d7dc; border-radius: 5px; box-shadow: inset 0 2px 0 rgba(21, 23, 25, 0.06); padding: 11px 8px; font-size: 14px; line-height: 21px; }
 .proxy-list__left .window-proxy option { padding-bottom: 5px; }
@@ -731,7 +731,7 @@ body { font-family: "Open Sans", sans-serif; }
 .proxy-list__right .proxy-visible .item-width_o { margin-right: 25px; }
 .proxy-list__right .proxy-visible .item-width_t { margin-right: 18px; }
 
-.testing-btn .testing-btn__in { width: 860px; margin: 0 auto; padding: 0px 20px 20px 35px; background-color: #f6faff; border-radius: 3px; }
+.testing-btn .testing-btn__in { width: 860px; margin: 0 auto; padding: 0px 20px 20px 35px; background-color: #f6faff; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
 .testing-btn .is-active { opacity: 0.6; width: 240px; height: 48px; margin-top: 0; }
 .testing-btn .btn-color-blue { background-color: #1c98d7; margin: 0 32px 0 8px; width: 240px; height: 48px; margin-top: 0; }
 .testing-btn .btn-color-grey { background-color: #697c81; width: 240px; height: 48px; margin-top: 20px; }
