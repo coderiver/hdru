@@ -440,6 +440,7 @@ body { font-family: "Open Sans", sans-serif; }
 .price-rates__in { width: 860px; margin: auto; margin-left: 213px; }
 .price-rates__item { width: 236px; display: inline-block; text-align: center; padding: 20px 15px 20px 15px; }
 .price-rates__item:nth-child(3) { box-sizing: border-box; border-left: 5px solid #d3d3d3; }
+.price-rates__item:nth-child(2) { background-color: #FFF; }
 .price-rates__item-right { position: absolute; top: 48px; }
 .price-rates__bg { background-color: #eef3f9; }
 .price-rates__num { color: #006492; font-size: 68px; font-weight: 600; text-align: center; position: relative; }
@@ -649,7 +650,7 @@ body { font-family: "Open Sans", sans-serif; }
 
 .tools-text { padding: 0 75px; margin-left: 10px; }
 
-.tools-blue__in { width: 860px; margin: auto; background-color: #eef3f9; border-radius: 5px; padding: 30px 0; }
+.tools-blue__in { width: 860px; margin: auto; background-color: #eef3f9; border-top-left-radius: 5px; border-top-right-radius: 5px; padding-top: 30px; padding-bottom: 23px; }
 .tools-blue__left { text-align: left; display: inline-block; vertical-align: top; margin-right: 43px; }
 .tools-blue__left p { margin-top: 3px; font: 600 16px/23px "Open Sans", Arial, Helvetica sans-serif; }
 .tools-blue__left .big-red { color: #bc0000; font: 400 36px/42px "Open Sans", Arial, Helvetica sans-serif; margin-top: 10px; margin-left: -5px; }
@@ -662,9 +663,9 @@ body { font-family: "Open Sans", sans-serif; }
 .tools-blue__right .main-table__title { width: 100px; }
 .tools-blue__right .main-table__content { width: 370px; }
 
-.tool-about__in { width: 860px; margin: auto; padding: 10px 30px; position: relative; background-color: #f6faff; border-radius: 3px; *zoom: 1; }
+.tool-about__in { width: 860px; margin: auto; padding: 10px 30px; position: relative; background-color: #f6faff; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; *zoom: 1; }
 .tool-about__in:after { content: " "; display: table; clear: both; }
-.tool-about__in h3 { font: 600 16px/23px "Open Sans", Arial, Helvetica sans-serif; margin-bottom: 25px; }
+.tool-about__in h3 { font: 600 16px/23px "Open Sans", Arial, Helvetica sans-serif; margin: 12px 0; }
 .tool-about__in a { color: #006fb6; text-decoration: underline; }
 .tool-about__in p { font: 400 12px/30px "Open Sans", Arial, Helvetica sans-serif; }
 .tool-about__left { float: left; text-align: left; width: 529px; }
