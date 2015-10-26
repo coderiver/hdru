@@ -1,6 +1,6 @@
 //For the main VPN
 .level__in, .connect__in, .service__in,
-.l__in, .network__in, .sub__in, 
+.l__in, .network__in, .sub__in,
 .router__in, .win__in, .award__in,
 .linux__in, .mac__in, .ios__in, .android__in, .device__in
 	width: 1140px
@@ -44,16 +44,18 @@
 			.icon__#{$s}
 				+s(#{$s})
 				display: inline-block
-				margin-right: 5px	
+				margin-right: 5px
 
 	.button
 		white-spacing: -1px
-		text-indent: 5px	
+		text-indent: 5px
 
 	.cinema
 		+png(cinema)
 		position: relative
 		overflow: hidden
+		+retina
+			background-image: url("../img/retina/img-x2/cinema.png")
 
 
 		&__video
@@ -73,6 +75,8 @@
 			right: 0
 			cursor: pointer
 			+png(play)
+			+retina
+				background-image: url("../img/retina/img-x2/play.png")
 
 
 //CONNECT
@@ -87,11 +91,13 @@
 		&:before
 			content: ' '
 			display: block
-			+png(cover)	
+			+png(cover)
 			margin-top: -10px
 			position: absolute
 			left: 0
 			top: 0
+			+retina
+				background-image: url("../img/retina/img-x2/cover.png")
 
 	&__key
 		display: inline-block
@@ -117,11 +123,11 @@
 		.button
 			width: 184px
 			position: relative
-			
+
 			&:active
 				top: 1px
 
-		input	
+		input
 			width: 225px
 			height: 48px
 			background-color: white
@@ -137,7 +143,7 @@
 
 			+placeholder
 				color: #000
-	
+
 
 //l
 .l
@@ -155,13 +161,13 @@
 
 	.is-center
 		margin: 0 3%
-		
+
 	&__title
 		color: black
 		font: 400 24px/1 "Open Sans", sans-serif
 		margin-bottom: 20px
 
-	&__content		
+	&__content
 		color: black
 		font: 400 16px/1.4 "Open Sans", sans-serif
 		margin-bottom: 20px
@@ -192,34 +198,34 @@
 	background-color: #f8fbff
 	height: 1008px
 	font-size: 0
-	
+
 	&__in
-		width: 756px 
-		margin: auto	
+		width: 756px
+		margin: auto
 
 	&__row
-		+clr	
+		+clr
 
 	&__row_1
 
-		h4	
+		h4
 			margin-top: 64px
-			margin-bottom: 20px	
+			margin-bottom: 20px
 
 		.vpn__col:nth-child(1)
 			width: 433px
-			float: left	
+			float: left
 
 		.vpn__col:nth-child(2)
 			float: right
-			margin-right: -76px	
+			margin-right: -76px
 
 	&__row_2
 		position: relative
 		z-index: 100
 		top: -25px
 
-		h4	
+		h4
 			margin-top: 73px
 			margin-bottom: 20px
 
@@ -227,29 +233,29 @@
 			width: 433px
 			float: right
 			margin-right: -28px
-			
+
 
 		.vpn__col:nth-child(2)
 			float: left
-			padding-left: 14px	
+			padding-left: 14px
 
 	&__row_3
 		position: relative
 		z-index: 100
 		top: -50px
 
-		h4	
+		h4
 			margin-top: 73px
 			margin-bottom: 21px
 
 		.vpn__col:nth-child(1)
 			width: 380px
 			float: left
-			
+
 
 		.vpn__col:nth-child(2)
 			float: right
-			margin-right: -86px			
+			margin-right: -86px
 
 	&__col
 		display: inline-block
@@ -257,7 +263,7 @@
 		vertical-align: top
 
 
-		.button__more	
+		.button__more
 			width: 80px
 			height: 23px
 			background-color: #697c81
@@ -273,7 +279,7 @@
 	&_title
 		padding: 58px 0 60px
 		letter-spacing: 0
-	
+
 	&__name
 		color: black
 		font: 400 24px/1 "Open Sans", sans-serif
@@ -282,7 +288,7 @@
 	&__content
 		color: black
 		font: 400 16px/1.45 "Open Sans", sans-serif
-		margin-bottom: 12px	
+		margin-bottom: 12px
 
 	&__pic
 		position: relative
@@ -299,12 +305,12 @@
 				margin-bottom: 0
 
 			span
-				
+
 				&:before
 					content: ' '
 					display: inline-block
 					margin-right: 5px
-					+jpg(rus)	
+					+jpg(rus)
 
 
 
@@ -315,12 +321,12 @@
 	font-size: 0
 	text-align: center
 
-	&__row 
+	&__row
 		margin-bottom: 56px
 
 	&__row.row_2
-		margin-bottom: 0	
-		
+		margin-bottom: 0
+
 	&__col
 		display: inline-block
 		width: 32%
@@ -330,7 +336,7 @@
 
 	&__logo
 		min-height: 50px
-		margin-bottom: 13px	
+		margin-bottom: 13px
 
 	&_title
 		padding: 59px 0 22px
@@ -350,12 +356,12 @@
 		font: 400 14px/1 'Open Sans', sans-serif
 
 	&__wrp
-		margin-top: -10px	
+		margin-top: -10px
 
 	&__more
 		position: relative
 		display: inline-block
-		a 
+		a
 			display: inline-block
 			color: #006fb6
 			font: 400 24px/1 'Open Sans', sans-serif
@@ -368,15 +374,17 @@
 				border-color: transparent
 				opacity: 1
 
-		
+
 		&:before
 			content: ' '
 			display: block
 			position: absolute
 			top: 0
 			left: -292px
-			+png(multimedia)				
-				
+			+png(multimedia)
+			+retina
+				background-image: url("../img/retina/img-x2/multimedia.png")
+
 
 		img
 			display: inline-block
@@ -391,7 +399,7 @@
 		padding-bottom: 55px
 
 	&_title
-		padding: 60px 0 20px	
+		padding: 60px 0 20px
 		letter-spacing: 0
 
 	&__atlas
@@ -400,7 +408,7 @@
 	&__countries
 		//margin-left: 720px
 		margin-left: 707px
-		overflow: hidden	
+		overflow: hidden
 
 		td,th
 			height: 31px
@@ -408,8 +416,8 @@
 			text-align: left
 		td
 			width: 42px
-		th	
-			width: 102px	
+		th
+			width: 102px
 
 		span
 			font: 13px/1.2 Arial, sans-serif
@@ -425,7 +433,7 @@
 				opacity: 0.9
 
 			.under
-				text-decoration: underline		
+				text-decoration: underline
 
 		@each $s in rus, ger, usa, ukr, lva, nkg, bel, gbr, pol, ita, kaz, idn, nld, can, bol, che, swe, fin, isr, tur, hun, rou, fra, est, nor, spa, vnm, egy, men, isl, jpn, kor, chi, lux, ind, bra, dan, sin, tai, irl, unk
 			.icon__#{$s}
@@ -433,40 +441,40 @@
 				display: inline-block
 				vertical-align: middle
 
-			
 
-			
+
+
 
 	&_text
 		line-height: 1.6
-		margin-bottom: 60px	
+		margin-bottom: 60px
 
 
 //SUB
-.sub	
+.sub
 	height: 399px
 	background-color: #FFF
 
 	&__in
 		padding-top: 19px
-	
+
 	&__left
 		float: left
 		width: 536px
 		display: block
-		padding-right: 80px	
+		padding-right: 80px
 
-		p 
+		p
 			color: black
 			font: 400 16px/23px 'Open Sans', sans-serif
 
 	&__right
 		overflow: hidden
-		margin-left: 536px	
+		margin-left: 536px
 
 	&_headline
 		margin-top: 36px
-		line-height: 1.2	
+		line-height: 1.2
 		letter-spacing: 0
 
 //ROUTER
@@ -509,9 +517,9 @@
 		margin-bottom: 54px
 
 	&__wrp
-		margin-right: -1%	
+		margin-right: -1%
 
-	
+
 	.item
 		width: 49%
 		margin-right: 1%
@@ -536,13 +544,13 @@
 			font-family: "Open Sans", sans-serif
 			font-size: 16px
 			font-weight: 400
-			line-height: 23px	
+			line-height: 23px
 
 		&__content
 			margin-left: 84px
 			overflow: hidden
 
-		
+
 
 		&__pic
 			float: left
@@ -550,12 +558,12 @@
 			height: 68px
 			text-align: center
 
-		
 
-	@each $s in click, download, ip, func, block, protocol 
+
+	@each $s in click, download, ip, func, block, protocol
 		.icon__#{$s}
 			+s(#{$s})
-			display: inline-block	
+			display: inline-block
 
 //TOP
 .top
@@ -573,30 +581,30 @@
 	&_text
 		line-height: 1.4
 		margin-bottom: 32px
-		
+
 	&__wrp
 		width: 515px
-		margin: auto	
+		margin: auto
 		position: relative
 
 	.button
-		margin-bottom: 71px			
-	
-	@each $s in ios_i, mac_i, android_i, windows_i, linux_i 
+		margin-bottom: 71px
+
+	@each $s in ios_i, mac_i, android_i, windows_i, linux_i
 		.icon__#{$s}
 			+s(#{$s})
-			display: inline-block	
+			display: inline-block
 			vertical-align: middle
 			margin-bottom: 6px
-	
+
 
 
 //DEVICE
 .device
 	height: 790px
 	background-color: #eef3f9
-	text-align: center	
-		
+	text-align: center
+
 	&__in
 		margin-bottom: 70px
 		+clr
@@ -606,8 +614,8 @@
 
 	&__right
 		padding-top: 20px
-		margin-left: 394px	
-	
+		margin-left: 394px
+
 	&__item
 		width: 564px
 		display: inline-block
@@ -629,7 +637,7 @@
 			font: 400 16px/23px 'Open Sans', sans-serif
 
 	&__item.is-active
-		background-color: #FFF	
+		background-color: #FFF
 		position: relative
 
 		&:before
@@ -643,5 +651,5 @@
 
 
 	h2
-		padding: 63px 0 38px	
+		padding: 63px 0 38px
 
