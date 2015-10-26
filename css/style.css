@@ -146,6 +146,8 @@ h2 + p {
 
     height: 17px;
 
+    box-sizing: content-box;
+
 }
 
 .control-vpn, .ip{padding: 7px 17px;}
