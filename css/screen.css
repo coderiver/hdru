@@ -98,6 +98,11 @@ body { font-family: "Open Sans", sans-serif; }
 .l .l-col1 { float: left; width: 20%; }
 .l .l-col2 { float: right; width: 70%; }
 
+#news { padding: 200px; background: red; }
+@media only screen and (max-width: 1200px) { #news .header-nav > li { padding-left: 3%; } }
+
+body { padding: 400px; }
+
 .level__in, .connect__in, .service__in, .l__in, .network__in, .sub__in, .router__in, .win__in, .award__in, .linux__in, .mac__in, .ios__in, .android__in, .device__in { width: 1140px; margin: auto; position: relative; }
 
 .level { height: 480px; background-color: #f8fbff; overflow: hidden; }
