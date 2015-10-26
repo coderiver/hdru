@@ -16,9 +16,11 @@
 			z-index: 999
 			+r(1350)
 				display: none
+			+retina
+				background-image: url("../img/retina/img-x2/catflag.png")
 
 	&_headline
-		padding: 55px 0 24px	
+		padding: 55px 0 24px
 
 	&_text
 		text-indent: 40px
@@ -28,7 +30,7 @@
 
 	.pform
 		width: 852px
-		height: 295px	
+		height: 295px
 		font-size: 0
 		text-align: left
 		//overflow: hidden
@@ -47,7 +49,7 @@
 
 		&__bottom
 			min-height: 88px
-			background-color: #f6faff	
+			background-color: #f6faff
 			border-bottom-left-radius: 3px
 			border-bottom-right-radius: 3px
 
@@ -63,12 +65,12 @@
 				margin-bottom: 10px
 
 		&__col
-			display: inline-block	
-			vertical-align: top	
+			display: inline-block
+			vertical-align: top
 
 		&_country
-			width: 179px	
-			margin-right: 27px	
+			width: 179px
+			margin-right: 27px
 			margin-bottom: 16px
 			position: relative
 
@@ -84,7 +86,7 @@
 			border: 1px solid #1c98d7
 			border-radius: 5px
 			box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25)
-			padding: 20px 0 20px 16px	
+			padding: 20px 0 20px 16px
 			&:before
 				content: ' '
 				display: block
@@ -99,10 +101,13 @@
 				right: -10px
 				top: -10px
 				z-index: 100
-				+png(close)	
+				+png(close)
+				+retina
+					background-image: url("../img/retina/img-x2/close.png")
 				&:hover
 					opacity: 1
 					cursor: pointer
+
 
 			&__col
 				width: 190px
@@ -114,13 +119,13 @@
 				padding-left: 30px
 
 			img
-				margin: 0 10px 0 0	
+				margin: 0 10px 0 0
 				vertical-align: baseline
 
 			&__bl
-				margin-bottom: 44px	
+				margin-bottom: 44px
 
-			label 
+			label
 				margin-bottom: 11px
 
 
@@ -132,22 +137,22 @@
 				padding-right: 10px
 
 			input[type='text']
-				
+
 
 		&_number
 			width: 100%
-			display: block	
+			display: block
 
 		&_type
-			width: 166px	
+			width: 166px
 
-		&__topname	
+		&__topname
 			color: black
 			font-family: "Open Sans", sans-serif
 			font-size: 16px
 			font-weight: 600
 			line-height: 23px
-			margin-bottom: 8px	
+			margin-bottom: 8px
 
 		.select
 			width: 179px
@@ -155,20 +160,20 @@
 			line-height: 36px
 			background-color: white
 			border: 1px solid #d3d7dc
-			border-radius: 5px	
+			border-radius: 5px
 			font-family: "Open Sans"
 			font-size: 16px
 			font-weight: 400
 			color: black
 			position: relative
 			padding: 0 5px
-			cursor: pointer	
+			cursor: pointer
 			+transition(0.3s)
 			span
 				color: gray
 
 
-			&:after	
+			&:after
 				content: ' '
 				display: block
 				top: 50%
@@ -191,10 +196,10 @@
 			position: absolute
 			z-index: 10
 			right: 22px
-			top: 8px	
+			top: 8px
 			margin: 0
-			font-weight: 400	
-			font-size: 16px	
+			font-weight: 400
+			font-size: 16px
 
 		.checktext
 			padding-left: 20px
@@ -207,16 +212,20 @@
 				left: 0
 				top: 2px
 				+png(check)
+				+retina
+					background-image: url("../img/retina/img-x2/check.png")
 
 		label > input[type="checkbox"]
-			display: none		
+			display: none
 
 		input[type="checkbox"]:checked + .checktext:before
-			+png(checked)			
+			+png(checked)
+			+retina
+				background-image: url("../img/retina/img-x2/checked.png")
 
 		label
 			display: block
-			position: relative		
+			position: relative
 
 		input[type="text"]
 			width: 100%
@@ -231,10 +240,10 @@
 				color: black
 				opacity: 0.3
 
-		
+
 		&__buttons
 			display: inline-block
-			//vertical-align: middle	
+			//vertical-align: middle
 			cursor: pointer
 			margin: 20px 0 0 31px
 
@@ -243,7 +252,7 @@
 			margin-right: 13px
 
 		.button_dark
-			width: 240px		
+			width: 240px
 
 		&__export
 			display: inline-block
@@ -253,7 +262,7 @@
 			vertical-align: top
 			padding-top: 33px
 
-			a	
+			a
 				font: 400 16px/1 'Open Sans', sans-serif
 				text-decoration: underline
 				color: #006fb6
@@ -262,10 +271,10 @@
 					text-decoration: none
 
 			img
-				vertical-align: middle	
-				margin: 0 10px	
+				vertical-align: middle
+				margin: 0 10px
 
-		
+
 	&__history
 		position: relative
 		+clr
@@ -275,7 +284,7 @@
 			display: inline-block
 			vertical-align: middle
 			padding: 40px 8px 40px 0
-		
+
 		.browser
 			display: inline-block
 
@@ -286,11 +295,11 @@
 				&:last-child
 					margin-right: 0
 
-	
+
 	&__t
 		width: 100%
 		border-radius: 5px
-		text-align: left	
+		text-align: left
 		background-color: white
 		font-size: 14px
 		position: relative
@@ -301,13 +310,13 @@
 
 		tbody
 			border-left: 1px solid #e6e6e6
-			border-right: 1px solid #e6e6e6	
+			border-right: 1px solid #e6e6e6
 
 		th
 			color: white
 			font-family: "Open Sans"
 			font-size: 16px
-			font-weight: 400	
+			font-weight: 400
 			vertical-align: middle
 			height: 62px
 			&:first-child
@@ -318,13 +327,13 @@
 				border-top-right-radius: 5px
 				font-size: 14px
 			&:nth-last-child(2)
-				font-size: 14px	
+				font-size: 14px
 				padding-right: 15px
 				+prevent-text
 
 		td
 			vertical-align: middle
-			height: 50px	
+			height: 50px
 			border-bottom: 1px solid #e6e6e6
 			position: relative
 
@@ -333,7 +342,7 @@
 
 			span
 				position: relative
-				z-index: 100	
+				z-index: 100
 
 
 			img
@@ -341,29 +350,29 @@
 
 			&:nth-child(1)
 				width: 140px
-				padding-left: 15px	
+				padding-left: 15px
 
 			&:nth-child(2)
-				width: 60px	
+				width: 60px
 
 			&:nth-child(3)
 				width: 302px
 
 			&:nth-child(4)
 				text-align: center
-				width: 102px		
+				width: 102px
 
 			&:nth-child(5)
-				width: 70px	
+				width: 70px
 
 			&:nth-child(6)
-				width: 76px	
+				width: 76px
 
 			&:nth-child(7)
 				width: 102px
-				padding-left: 20px					
-			
-	
+				padding-left: 20px
+
+
 	&__pagination
 		display: inline-block
 		margin: auto
@@ -386,7 +395,7 @@
 
 		.is-active > a
 			background-color: #c9d0d2
-			color: white	
+			color: white
 
 
 		.arrow__left > a
@@ -399,19 +408,19 @@
 			margin: auto
 
 		.arrow__right > a
-			+png(arrow-right)	
-			position: absolute	
+			+png(arrow-right)
+			position: absolute
 			right: -50px
 			display: block
 			top: 0
 			bottom: 0
 			margin: auto
 
-			
+
 //VPNSEC
 .vpnsec
 	min-height: 85px
-	background-color: #79bc00		
+	background-color: #79bc00
 
 	&__in
 		width: 852px
@@ -425,9 +434,9 @@
 		color: black
 		width: 144px
 		line-height: 48px
-		display: inline-block	
+		display: inline-block
 
-	&__content	
+	&__content
 		overflow: hidden
 		padding: 8px 60px 0 0
 
@@ -437,14 +446,14 @@
 		font-family: "Open Sans"
 		font-size: 24px
 		font-weight: 400
-		line-height: 26px	
+		line-height: 26px
 		display: inline-block
 
-	
+
 //STAT
 .stat
 	background-color: #FFF
-	font: 400 16px/1.4 'Open Sans', sans-serif	
+	font: 400 16px/1.4 'Open Sans', sans-serif
 
 	&__in
 		width: 852px
@@ -458,19 +467,19 @@
 		margin-bottom: 30px
 
 	&__pic
-		margin: 30px 0 50px	
-	
+		margin: 30px 0 50px
+
 	p
 		margin-bottom: 30px
 
 	dt, dl
-		margin-bottom: 20px	
+		margin-bottom: 20px
 
 	dl
-		letter-spacing: 0.002em	
+		letter-spacing: 0.002em
 
 
-		
+
 
 
 

@@ -301,6 +301,7 @@ body { padding: 400px; }
 .proxy__in { width: 852px; margin: auto; text-align: center; position: relative; }
 .proxy__in:after { content: " "; background: url("../img/catflag.png") no-repeat 0 0; width: 229px; height: 176px; position: absolute; bottom: 0; right: -241px; z-index: 999; }
 @media only screen and (max-width: 1350px) { .proxy__in:after { display: none; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__in:after { background-image: url("../img/retina/img-x2/catflag.png"); } }
 .proxy_headline { padding: 55px 0 24px; }
 .proxy_text { text-indent: 40px; width: 730px; margin: 0 auto 66px; line-height: 23px; }
 .proxy .pform { width: 852px; height: 295px; font-size: 0; text-align: left; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; }
@@ -315,6 +316,7 @@ body { padding: 400px; }
 .proxy .pform .allcountries { display: none; position: absolute; top: 75px; left: 0; z-index: 999; width: 780px; height: 729px; background-color: white; border: 1px solid #1c98d7; border-radius: 5px; box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25); padding: 20px 0 20px 16px; }
 .proxy .pform .allcountries:before { content: " "; display: block; position: absolute; left: 79px; top: -11px; z-index: 100; background: url("../img/tringle.png") no-repeat 0 0; width: 20px; height: 11px; }
 .proxy .pform .allcountries__close { display: block; position: absolute; right: -10px; top: -10px; z-index: 100; background: url("../img/close.png") no-repeat 0 0; width: 23px; height: 23px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .allcountries__close { background-image: url("../img/retina/img-x2/close.png"); } }
 .proxy .pform .allcountries__close:hover { opacity: 1; cursor: pointer; }
 .proxy .pform .allcountries__col { width: 190px; display: inline-block; vertical-align: top; font-size: 14px; }
 .proxy .pform .allcountries .checktext { padding-left: 30px; }
@@ -335,8 +337,10 @@ body { padding: 400px; }
 .proxy .pform .checktext { padding-left: 20px; }
 .proxy .pform .checktext:hover { cursor: pointer; }
 .proxy .pform .checktext:before { display: inline-block; content: " "; position: absolute; left: 0; top: 2px; background: url("../img/check.png") no-repeat 0 0; width: 15px; height: 16px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .checktext:before { background-image: url("../img/retina/img-x2/check.png"); } }
 .proxy .pform label > input[type="checkbox"], .proxy .pform .fieldset-in .suport-form label > textarea[type="checkbox"], .fieldset-in .suport-form .proxy .pform label > textarea[type="checkbox"] { display: none; }
 .proxy .pform input[type="checkbox"]:checked + .checktext:before, .proxy .pform .fieldset-in .suport-form textarea[type="checkbox"]:checked + .checktext:before, .fieldset-in .suport-form .proxy .pform textarea[type="checkbox"]:checked + .checktext:before { background: url("../img/checked.png") no-repeat 0 0; width: 15px; height: 16px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform input[type="checkbox"]:checked + .checktext:before, .proxy .pform .fieldset-in .suport-form textarea[type="checkbox"]:checked + .checktext:before, .fieldset-in .suport-form .proxy .pform textarea[type="checkbox"]:checked + .checktext:before { background-image: url("../img/retina/img-x2/checked.png"); } }
 .proxy .pform label { display: block; position: relative; }
 .proxy .pform input[type="text"], .proxy .pform .fieldset-in .suport-form textarea[type="text"], .fieldset-in .suport-form .proxy .pform textarea[type="text"] { width: 100%; height: 38px; background-color: white; border: 1px solid #d3d7dc; border-radius: 5px; padding: 0 9px; box-shadow: inset 0 2px 0 rgba(21, 23, 25, 0.06); font: 400 16px/23px "Open Sans", sans-serif; }
 .proxy .pform input[type="text"]:-ms-input-placeholder, .proxy .pform .fieldset-in .suport-form textarea[type="text"]:-ms-input-placeholder, .fieldset-in .suport-form .proxy .pform textarea[type="text"]:-ms-input-placeholder { color: black; opacity: 0.3; }
@@ -422,7 +426,7 @@ body { padding: 400px; }
 .fieldset-in .suport-form__code span { margin-left: 200px; }
 .fieldset-in .suport-form__sent button { margin: 24px 14px 0 197px; width: 202px; height: 48px; }
 
-.mail-cat img { position: absolute; bottom: -69px; right: 36px; }
+.mail-cat img { position: absolute; bottom: -69px; right: 36px; width: 237px; height: 187px; }
 
 .stock__in, .paymant__in, .price-warning__in { width: 688px; margin: auto; *zoom: 1; }
 .stock__in:after, .paymant__in:after, .price-warning__in:after { content: " "; display: table; clear: both; }
@@ -519,7 +523,7 @@ body { padding: 400px; }
 .begin-text__content { margin: 0 auto; position: relative; }
 .begin-text__content a { margin-top: 25px; }
 .begin-text__content a:hover { background-color: none; }
-.begin-text .super-cat { position: absolute; right: 8px; bottom: 19.5%; }
+.begin-text .super-cat { position: absolute; right: 8px; bottom: 19.5%; width: 285px; height: 163px; }
 
 .green-line { height: 85px; background-color: #79bc00; margin-top: 50px; }
 .green-line__in { width: 860px; margin: auto; }
@@ -550,12 +554,13 @@ body { padding: 400px; }
 .scan-section__btn, .scan-section p { display: inline-block; }
 .scan-section .scan-section__btn { width: 252px; height: 48px; margin: 21px 31px 0 -65px; }
 .scan-section p { text-align: left; vertical-align: bottom; padding-bottom: 2px; color: black; font: 400 14px/23px "Open Sans", Arial, Helvetica sans-serif; }
-.scan-section img { position: absolute; right: -211px; top: -37px; }
+.scan-section img { position: absolute; right: -211px; top: -37px; width: 274px; height: 175px; }
 
 .proxy { min-height: 251px; background-color: #FFF; }
 .proxy__in { width: 852px; margin: auto; text-align: center; position: relative; }
 .proxy__in:after { content: " "; background: url("../img/catflag.png") no-repeat 0 0; width: 229px; height: 176px; position: absolute; bottom: 0; right: -241px; z-index: 999; }
 @media only screen and (max-width: 1350px) { .proxy__in:after { display: none; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__in:after { background-image: url("../img/retina/img-x2/catflag.png"); } }
 .proxy_headline { padding: 55px 0 24px; }
 .proxy_text { text-indent: 40px; width: 730px; margin: 0 auto 66px; line-height: 23px; }
 .proxy .pform { width: 852px; height: 295px; font-size: 0; text-align: left; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; }
@@ -570,6 +575,7 @@ body { padding: 400px; }
 .proxy .pform .allcountries { display: none; position: absolute; top: 75px; left: 0; z-index: 999; width: 780px; height: 729px; background-color: white; border: 1px solid #1c98d7; border-radius: 5px; box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25); padding: 20px 0 20px 16px; }
 .proxy .pform .allcountries:before { content: " "; display: block; position: absolute; left: 79px; top: -11px; z-index: 100; background: url("../img/tringle.png") no-repeat 0 0; width: 20px; height: 11px; }
 .proxy .pform .allcountries__close { display: block; position: absolute; right: -10px; top: -10px; z-index: 100; background: url("../img/close.png") no-repeat 0 0; width: 23px; height: 23px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .allcountries__close { background-image: url("../img/retina/img-x2/close.png"); } }
 .proxy .pform .allcountries__close:hover { opacity: 1; cursor: pointer; }
 .proxy .pform .allcountries__col { width: 190px; display: inline-block; vertical-align: top; font-size: 14px; }
 .proxy .pform .allcountries .checktext { padding-left: 30px; }
@@ -590,8 +596,10 @@ body { padding: 400px; }
 .proxy .pform .checktext { padding-left: 20px; }
 .proxy .pform .checktext:hover { cursor: pointer; }
 .proxy .pform .checktext:before { display: inline-block; content: " "; position: absolute; left: 0; top: 2px; background: url("../img/check.png") no-repeat 0 0; width: 15px; height: 16px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .checktext:before { background-image: url("../img/retina/img-x2/check.png"); } }
 .proxy .pform label > input[type="checkbox"], .proxy .pform .fieldset-in .suport-form label > textarea[type="checkbox"], .fieldset-in .suport-form .proxy .pform label > textarea[type="checkbox"] { display: none; }
 .proxy .pform input[type="checkbox"]:checked + .checktext:before, .proxy .pform .fieldset-in .suport-form textarea[type="checkbox"]:checked + .checktext:before, .fieldset-in .suport-form .proxy .pform textarea[type="checkbox"]:checked + .checktext:before { background: url("../img/checked.png") no-repeat 0 0; width: 15px; height: 16px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform input[type="checkbox"]:checked + .checktext:before, .proxy .pform .fieldset-in .suport-form textarea[type="checkbox"]:checked + .checktext:before, .fieldset-in .suport-form .proxy .pform textarea[type="checkbox"]:checked + .checktext:before { background-image: url("../img/retina/img-x2/checked.png"); } }
 .proxy .pform label { display: block; position: relative; }
 .proxy .pform input[type="text"], .proxy .pform .fieldset-in .suport-form textarea[type="text"], .fieldset-in .suport-form .proxy .pform textarea[type="text"] { width: 100%; height: 38px; background-color: white; border: 1px solid #d3d7dc; border-radius: 5px; padding: 0 9px; box-shadow: inset 0 2px 0 rgba(21, 23, 25, 0.06); font: 400 16px/23px "Open Sans", sans-serif; }
 .proxy .pform input[type="text"]:-ms-input-placeholder, .proxy .pform .fieldset-in .suport-form textarea[type="text"]:-ms-input-placeholder, .fieldset-in .suport-form .proxy .pform textarea[type="text"]:-ms-input-placeholder { color: black; opacity: 0.3; }
@@ -716,7 +724,7 @@ body { padding: 400px; }
 .faq__second-drop p:last-child { margin-bottom: 0; }
 .faq .faq__second-text { background-color: #eef3f9; margin-top: 20px; margin-bottom: 17px; margin-left: -9px; color: #000; padding: 24px 133px 23px 31px; }
 
-.study-cat img { position: absolute; bottom: -56px; right: 59px; }
+.study-cat img { position: absolute; bottom: -55px; right: 59px; }
 
 .proxy-checker { margin-bottom: 60px; }
 
@@ -787,7 +795,7 @@ body { padding: 400px; }
 .proxy-table__body .light-color { background-color: #FFD5D5; opacity: 0.6; }
 .proxy-table__body .color-white p { color: #fff; }
 .proxy-table__body .body-line__last td { padding: auto; }
-.proxy-table__image img { position: absolute; right: -234px; bottom: -60px; }
+.proxy-table__image img { position: absolute; right: -234px; bottom: -60px; width: 208px; height: 154px; }
 
 .proxy-line { margin-top: 60px; }
 
