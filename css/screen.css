@@ -177,6 +177,25 @@ body { padding: 400px; }
 .vpn__pic .tpicture p { margin-bottom: 0; }
 .vpn__pic .tpicture span:before { content: " "; display: inline-block; margin-right: 5px; background: url("../img/rus.jpg") no-repeat 0 0; width: 14px; height: 11px; }
 
+.vpn-secur a { margin-right: 10px; }
+.vpn-secur a:hover { opacity: 1; }
+.vpn-secur__trusted { display: inline-block; background: url("../img/trusted.png") no-repeat 0 0; width: 62px; height: 18px; }
+.vpn-secur__trusted:hover { transition: 0.3s; background: url("../img/hover_trusted.png") no-repeat 0 0; width: 62px; height: 18px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__trusted { background-size: cover; background: url("../img/trusted-x2.png") no-repeat 0 0; width: 125px; height: 36px; }
+  .vpn-secur__trusted:hover { background: url("../img/hover_trusted-x2.png") no-repeat 0 0; width: 125px; height: 36px; } }
+.vpn-secur__mcafee { display: inline-block; background: url("../img/mcafee.png") no-repeat 0 0; width: 50px; height: 19px; }
+.vpn-secur__mcafee:hover { transition: 0.3s; background: url("../img/hover_mcafee.png") no-repeat 0 0; width: 50px; height: 19px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__mcafee { background-size: cover; background: url("../img/mcafee-x2.png") no-repeat 0 0; width: 99px; height: 37px; }
+  .vpn-secur__mcafee:hover { background: url("../img/hover_mcafee-x2.png") no-repeat 0 0; width: 99px; height: 37px; } }
+.vpn-secur__thawte { display: inline-block; background: url("../img/thawte.png") no-repeat 0 0; width: 62px; height: 18px; }
+.vpn-secur__thawte:hover { transition: 0.3s; background: url("../img/hover_thawte.png") no-repeat 0 0; width: 62px; height: 18px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__thawte { background-size: cover; background: url("../img/thawte-x2.png") no-repeat 0 0; width: 123px; height: 35px; }
+  .vpn-secur__thawte:hover { background: url("../img/hover_thawte-x2.png") no-repeat 0 0; width: 123px; height: 35px; } }
+.vpn-secur__norton { display: inline-block; background: url("../img/norton.png") no-repeat 0 0; width: 46px; height: 20px; }
+.vpn-secur__norton:hover { transition: 0.3s; background: url("../img/hover_norton.png") no-repeat 0 0; width: 46px; height: 20px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__norton { background-size: cover; background: url("../img/norton-x2.png") no-repeat 0 0; width: 94px; height: 39px; }
+  .vpn-secur__norton:hover { background: url("../img/hover_norton-x2.png") no-repeat 0 0; width: 94px; height: 39px; } }
+
 .service { height: 739px; background-color: #FFF; font-size: 0; text-align: center; }
 .service__row { margin-bottom: 56px; }
 .service__row.row_2 { margin-bottom: 0; }

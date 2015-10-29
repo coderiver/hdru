@@ -221,7 +221,7 @@ h2 + p {
 }
 
 .name {
-
+    margin-left: 10px;
     padding: 12px 0;
 
     vertical-align: top;
@@ -478,6 +478,8 @@ h2 + p {
 
 }
 
+.block2_left { text-align: left;}
+
 .block-input {
 
     width: 856px;
@@ -493,13 +495,13 @@ h2 + p {
 .site-list li{
 
     display: inline-block;
-
+    margin-right: -2px;
     padding: 5px 14px 5px 11px;
 
     position: relative;
 
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dae2eb+0,dae2eb+50,ccd4dd+51,ccd4dd+100 */
-
+    border-top-left-radius: 3px;
     background: #dae2eb; /* Old browsers */ /* FF3.6+ */
 
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dae2eb), color-stop(50%,#dae2eb), color-stop(51%,#ccd4dd), color-stop(100%,#ccd4dd)); /* Chrome,Safari4+ */
@@ -522,11 +524,11 @@ h2 + p {
 
     background: transparent none repeat scroll 0 0;
 
-    border-color: #eef3f9 #eef3f9 transparent transparent;
+    border-color: #eef3f9 #eef3f9 #fff #fff;
 
     border-style: solid;
 
-    border-width: 0 10px 10px 0;
+    border-width: 0 6px 6px 0;
 
     -webkit-box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5);
 
@@ -1051,7 +1053,7 @@ table tr:last-child  td:last-child { border-bottom-right-radius: 4px; }
     display: block;
     width: auto;
 }
-    
+
 
 
 .date {
@@ -1108,7 +1110,7 @@ footer {
 
 footer .container{overflow: hidden;}
 
-.block-menu-ft{vertical-align: top;width: 157px;}
+.block-menu-ft{vertical-align: top;width: 154px;}
 
 .block-menu-ft li {
 
@@ -1398,7 +1400,7 @@ div.inner-img > img {
 }
 
 @media only screen and (max-width: 1200px) {
-    
+
     #news .header-nav > li,
     #inside-news .header-nav > li {
         padding-left: 3%;
