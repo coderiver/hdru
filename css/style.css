@@ -874,10 +874,10 @@ table tr:last-child  td:last-child { border-bottom-right-radius: 4px; }
 
     position: absolute;
 
-    right: 0;
+    right: -80px;
 
 }
-.articles-cat { bottom: -66px; }
+.articles-cat { bottom: -66px;  }
 
 
 .block5{
