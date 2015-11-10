@@ -44,7 +44,7 @@ h2 {
 
     letter-spacing: -0.9px;
 
-    font-weight: 600;
+    font-weight: 400;
 
 }
 
@@ -118,9 +118,9 @@ h2 + p {
 
 .logo-name{
 
-    font-family: Brendon;
+    font-family: Corbel;
 
-    font-size: 17px;
+    font-size: 15px;
 
     font-weight: bold;
 
