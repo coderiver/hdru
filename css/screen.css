@@ -399,9 +399,9 @@ body { padding: 400px; }
 .proxy .pform__export a:hover { text-decoration: none; }
 .proxy .pform__export img { vertical-align: middle; margin: 0 10px; }
 .proxy .pform .ippot { display: inline-block; width: 25px; height: 24px; margin-left: 10px; vertical-align: middle; background-image: url("../img/ipport.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .ippot { background-image: url("../img/retina/img-test-x2/ipport.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .ippot { background-image: url("../img/retina/img-x2/ipport.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy .pform .exel { display: inline-block; width: 26px; height: 26px; margin-left: 10px; vertical-align: middle; background-image: url("../img/exel.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .exel { background-image: url("../img/retina/img-test-x2/exel.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .exel { background-image: url("../img/retina/img-x2/exel.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy__history { position: relative; *zoom: 1; }
 .proxy__history:after { content: " "; display: table; clear: both; }
 .proxy__history > div { display: inline-block; vertical-align: middle; padding: 40px 8px 40px 0; }
@@ -409,15 +409,15 @@ body { padding: 400px; }
 .proxy__history .browser li { display: inline-block; margin-right: 5px; }
 .proxy__history .browser li:last-child { margin-right: 0; }
 .proxy__history .browser .firefox { display: inline-block; width: 27px; height: 26px; background-image: url("../img/firefox.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .firefox { background-image: url("../img/retina/img-test-x2/firefox.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .firefox { background-image: url("../img/retina/img-x2/firefox.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy__history .browser .crome { display: inline-block; width: 26px; height: 26px; background-image: url("../img/crome.png"); }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .crome { background-image: url("../img/retina/img-test-x2/crome.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy__history .browser .opera { display: inline-block; width: 26px; height: 27px; background-image: url("../img/opera.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .opera { background-image: url("../img/retina/img-test-x2/opera.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .opera { background-image: url("../img/retina/img--x2/opera.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy__history .browser .safari { display: inline-block; width: 27px; height: 29px; background-image: url("../img/safari.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .safari { background-image: url("../img/retina/img-test-x2/safari.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .safari { background-image: url("../img/retina/img-x2/safari.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy__history .browser .ie { display: inline-block; width: 29px; height: 28px; background-image: url("../img/ie.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .ie { background-image: url("../img/retina/img-test-x2/ie.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .ie { background-image: url("../img/retina/img-x2/ie.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy__t { width: 100%; border-radius: 5px; text-align: left; background-color: white; font-size: 14px; position: relative; border-collapse: collapse; }
 .proxy__t thead { background-color: #697c81; }
 .proxy__t tbody { border-left: 1px solid #e6e6e6; border-right: 1px solid #e6e6e6; }
@@ -691,9 +691,9 @@ body { padding: 400px; }
 .proxy .pform__export a:hover { text-decoration: none; }
 .proxy .pform__export img { vertical-align: middle; margin: 0 10px; }
 .proxy .pform .ippot { display: inline-block; width: 25px; height: 24px; margin-left: 10px; vertical-align: middle; background-image: url("../img/ipport.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .ippot { background-image: url("../img/retina/img-test-x2/ipport.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .ippot { background-image: url("../img/retina/img-x2/ipport.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy .pform .exel { display: inline-block; width: 26px; height: 26px; margin-left: 10px; vertical-align: middle; background-image: url("../img/exel.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .exel { background-image: url("../img/retina/img-test-x2/exel.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .exel { background-image: url("../img/retina/img-x2/exel.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy__history { position: relative; *zoom: 1; }
 .proxy__history:after { content: " "; display: table; clear: both; }
 .proxy__history > div { display: inline-block; vertical-align: middle; padding: 40px 8px 40px 0; }
@@ -701,15 +701,15 @@ body { padding: 400px; }
 .proxy__history .browser li { display: inline-block; margin-right: 5px; }
 .proxy__history .browser li:last-child { margin-right: 0; }
 .proxy__history .browser .firefox { display: inline-block; width: 27px; height: 26px; background-image: url("../img/firefox.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .firefox { background-image: url("../img/retina/img-test-x2/firefox.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .firefox { background-image: url("../img/retina/img-x2/firefox.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy__history .browser .crome { display: inline-block; width: 26px; height: 26px; background-image: url("../img/crome.png"); }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .crome { background-image: url("../img/retina/img-test-x2/crome.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy__history .browser .opera { display: inline-block; width: 26px; height: 27px; background-image: url("../img/opera.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .opera { background-image: url("../img/retina/img-test-x2/opera.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .opera { background-image: url("../img/retina/img--x2/opera.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy__history .browser .safari { display: inline-block; width: 27px; height: 29px; background-image: url("../img/safari.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .safari { background-image: url("../img/retina/img-test-x2/safari.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .safari { background-image: url("../img/retina/img-x2/safari.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy__history .browser .ie { display: inline-block; width: 29px; height: 28px; background-image: url("../img/ie.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .ie { background-image: url("../img/retina/img-test-x2/ie.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__history .browser .ie { background-image: url("../img/retina/img-x2/ie.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy__t { width: 100%; border-radius: 5px; text-align: left; background-color: white; font-size: 14px; position: relative; border-collapse: collapse; }
 .proxy__t thead { background-color: #697c81; }
 .proxy__t tbody { border-left: 1px solid #e6e6e6; border-right: 1px solid #e6e6e6; }

@@ -50,4 +50,17 @@ head.ready(function() {
         $('.is-marker').toggleClass('is-active');
         return false;
     });
+
+    var forCenteredBottom=($(document).width()/2)-($('.footer-down').width()/2);
+    if($('.support-footer').height() + $('.footer-down').height() < $(window).height() ){
+    	$('.footer-down').css({
+        	position:'absolute',
+        	bottom: 0,
+        	left: forCenteredBottom
+    	})
+	}else{
+    	$('.footer-down').css({
+        	position:'relative'
+    	})
+}
 });
