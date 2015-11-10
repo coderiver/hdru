@@ -51,19 +51,24 @@
 		text-indent: 5px
 
 	.cinema
-		+png(cinema)
 		position: relative
 		overflow: hidden
+		+png(cinema)
 		+retina
 			background-image: url("../img/retina/img-x2/cinema.png")
-
-
+			+cover
 		&__video
-			display: block
-			position: absolute
-			top: 57px
-			left: 101px
-
+			i
+				display: inline-block
+				position: absolute
+				top: 57px
+				left: 101px
+				width: 564px
+				height: 315px
+				+png(video)
+				+retina
+					background-image: url("../img/retina/img-x2/video.png")
+					+cover
 		&__play
 			content: ' '
 			display: block
@@ -77,6 +82,7 @@
 			+png(play)
 			+retina
 				background-image: url("../img/retina/img-x2/play.png")
+				+cover
 
 
 //CONNECT
@@ -98,6 +104,7 @@
 			top: 0
 			+retina
 				background-image: url("../img/retina/img-x2/cover.png")
+				+cover
 
 	&__key
 		display: inline-block
@@ -178,7 +185,9 @@
 		min-height: 215px
 		position: relative
 		width: 100%
-
+	.install
+		width: 157px
+		height: 136px
 
 		img
 			display: block
@@ -322,6 +331,8 @@
 
 	&__trusted
 		display: inline-block
+		width: 62px
+		height: 18px
 		+png(trusted)
 		&:hover
 			transition: 0.3s
@@ -333,6 +344,8 @@
 				+png(hover_trusted-x2)
 	&__mcafee
 		display: inline-block
+		width: 50px
+		height: 19px
 		+png(mcafee)
 		&:hover
 			transition: 0.3s
@@ -344,6 +357,8 @@
 				+png(hover_mcafee-x2)
 	&__thawte
 		display: inline-block
+		width: 62px
+		height: 18px
 		+png(thawte)
 		&:hover
 			transition: 0.3s
@@ -355,6 +370,8 @@
 				+png(hover_thawte-x2)
 	&__norton
 		display: inline-block
+		width: 46px
+		height: 20px
 		+png(norton)
 		&:hover
 			transition: 0.3s
@@ -495,15 +512,9 @@
 				+s(#{$s})
 				display: inline-block
 				vertical-align: middle
-
-
-
-
-
 	&_text
 		line-height: 1.6
 		margin-bottom: 60px
-
 
 //SUB
 .sub
@@ -526,6 +537,15 @@
 	&__right
 		overflow: hidden
 		margin-left: 536px
+		i
+			display: inline-block
+			background-image: url("../img/devices.png")
+			width: 481px
+			height: 365px
+			+retina
+				background-image: url("../img/retina/img-test-x2/devise.png")
+				+cover
+
 
 	&_headline
 		margin-top: 36px
@@ -707,4 +727,18 @@
 
 	h2
 		padding: 63px 0 38px
+.phone_black
+	width: 302px
+	height: 577px
+	background-image: url("../img/phone_black.png")
+	+retina
+		background-image: url("../img/retina/img-test-x2/phone_black.png")
+		+cover
+.phone_white
+	width: 293px
+	height: 591px
+	background-image: url("../img/phone_white.png")
+	+retina
+		background-image: url("../img/retina/img-test-x2/phone_white.png")
+		+cover
 

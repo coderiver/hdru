@@ -101,10 +101,15 @@
 		p
 			font: 400 14px/23px 'Open Sans', Arial, Helvetica sans-serif
 	.sherlok-cat
-		img
-			position: absolute
-			bottom: -30px
-			right: -75px
+		background-image: url("../img/test/sherlok-cat.png")
+		position: absolute
+		bottom: -30px
+		right: -75px
+		width: 266px
+		height: 283px
+		+retina
+			background-image: url("../img/retina/img-test-x2/sherlok-cat.png")
+			+cover
 
 .green-line__ip
 	margin-top: 30px

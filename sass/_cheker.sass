@@ -63,10 +63,12 @@
 					+s(checkbox)
 					+retina
 						background-image: url("../img/retina/img-x2/check.png")
+						+cover
 				input[type="checkbox"]:checked + label span
 					+s(checkbox-active)
 					+retina
 						background-image: url("../img/retina/img-x2/checked.png")
+						+cover
 			.item-width
 				margin-right: 35px
 				&_o
@@ -254,12 +256,15 @@
 
 
 	&__image
-		img
-			position: absolute
-			right: -234px
-			bottom: -60px
-			width: 208px
-			height: 154px
+		background-image: url("../img/test/contain-cat.png")
+		position: absolute
+		right: -234px
+		bottom: -60px
+		width: 208px
+		height: 154px
+		+retina
+			background-image: url("../img/retina/img-test-x2/contain-cat.png")
+			+cover
 .proxy-line
 	margin-top: 60px
 .proxy-cheker__in

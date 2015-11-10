@@ -61,8 +61,15 @@
 			padding-left: 33px
 		&__pic
 			position: absolute
-			top: 14px
-			left: 391px
+			top: 16px
+			left: 389px
+			width: 16px
+			height: 10px
+			+s(ru)
+			+retina
+				background-image: url("../img/retina/img-x2/rus.png")
+				+cover
+
 
 	&__content
 		margin: 0 auto
@@ -72,11 +79,15 @@
 			&:hover
 				background-color: none
 	.super-cat
+		background-image: url("../img/test/super-cat.png")
 		position: absolute
 		right: 8px
 		bottom: 19.5%
 		width: 285px
 		height: 163px
+		+retina
+			background-image: url("../img/retina/img-test-x2/super-cat.png")
+			background-size: cover
 
 .green-line
 	height: 85px
@@ -223,12 +234,16 @@
 		padding-bottom: 2px
 		color: black
 		font: 400 14px/23px 'Open Sans', Arial, Helvetica sans-serif
-	img
+	.scan-cat
+		background-image: url("../img/test/scanner-cat.png")
 		position: absolute
 		right: -211px
 		top: -37px
 		width: 274px
 		height: 175px
+		+retina
+			background-image: url("../img/retina/img-test-x2/scanner-cat.png")
+			+cover
 
 
 

@@ -21,15 +21,24 @@
 		&:last-child
 			margin-right: 0
 	&__pic8
+		background-image: url("../img/price-8years.png")
 		width: 95px
 		height: 90px
 		position: absolute
 		top: -17px
+		+retina
+			background-image: url("../img/retina/img-x2/year.png")
+			+cover
 	&__pic
+		background-image: url("../img/days.png")
 		width: 80px
 		height: 70px
 		float: left
 		margin: 0px 15px 0 0
+		+cover
+		+retina
+			background-image: url("../img/retina/img-x2/days.png")
+			+cover
 	&__title
 		h4
 			font: 600 18px/26px 'Open Sans', Arial, Helvetica sans-serif
@@ -159,7 +168,40 @@
 	.paymant-security
 		display: inline-block
 		vertical-align: middle
-	img
+		&__trusted
+			display: inline-block
+			width: 78px
+			height: 23px
+			background-image: url("../img/price/trusted.png")
+			+retina
+				background-image: url("../img/retina/price/trusted-x2.png")
+				+cover
+		&__mcafee
+			display: inline-block
+			width: 62px
+			height: 24px
+			background-image: url("../img/price/mcafee.png")
+			+retina
+				background-image: url("../img/retina/price/mcafee-x2.png")
+				+cover
+		&__thawte
+			display: inline-block
+			width: 78px
+			height: 22px
+			background-image: url("../img/price/thawte.png")
+			+retina
+				background-image: url("../img/retina/price/thawte-x2.png")
+				+cover
+		&__norton
+			display: inline-block
+			width: 59px
+			height: 25px
+			background-image: url("../img/price/norton.png")
+			+retina
+				background-image: url("../img/retina/price/norton-x2.png")
+				+cover
+
+	span
 		margin-right: 10px
 		&:nth-child(4)
 			margin-right: 0
@@ -167,6 +209,14 @@
 
 	&__right
 		float: right
+	.money-systems
+		display: inline-block
+		width: 322px
+		height: 27px
+		background-image: url("../img/test/money-systems.png")
+		+retina
+			background-image: url("../img/retina/img-test-x2/money-systems.png")
+			+cover
 
 
 
@@ -202,10 +252,15 @@
 		margin-top: 5px
 		+s(a-webmoney)
 .security-cat
-	img
-		position: absolute
-		right: 20px
-		bottom: 0px
+	background-image: url("../img/test/police-cat.png")
+	position: absolute
+	right: 20px
+	bottom: 0px
+	width: 189px
+	height: 190px
+	+retina
+		background-image: url("../img/retina/img-test-x2/police-cat.png")
+		+cover
 
 .price-question
 	margin-bottom: 70px
@@ -257,7 +312,12 @@
 			font-size: 18px
 
 .math-cat
-	img
-		position: absolute
-		bottom: -70px
-		right: 325px
+	background-image: url("../img/test/math-cat.png")
+	position: absolute
+	bottom: -70px
+	right: 325px
+	width: 247px
+	height: 175px
+	+retina
+		background-image: url("../img/retina/img-test-x2/math-cat.png")
+		+cover
