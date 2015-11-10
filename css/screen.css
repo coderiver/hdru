@@ -65,22 +65,22 @@ body { font-family: "Open Sans", sans-serif; }
 .top .button { width: 276px; }
 .top_r { background: url("../img/router_bg.png") no-repeat 0 0; width: 1600px; height: 314px; width: auto; height: 315px; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
 .top_router:before { display: block; content: " "; background: url("../img/router.png") no-repeat 0 0; width: 280px; height: 148px; position: absolute; z-index: 100; right: -287px; bottom: 0; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .top_router:before { background-image: url("../img/retina/img-test-x2/router_bg.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .top_router:before { background-image: url("../img/retina/img-x2/router_bg.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .top_router .button { width: 230px; }
 .top_ios:before { display: block; content: " "; background: url("../img/ios_bg.png") no-repeat 0 0; width: 250px; height: 274px; position: absolute; z-index: 100; right: -300px; top: 42px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .top_ios:before { background-image: url("../img/retina/img-test-x2/ios_bg.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .top_ios:before { background-image: url("../img/retina/img-x2/ios_bg.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .top_ios span { margin-left: 14px; vertical-align: baseline; }
 .top_mac:before { display: block; content: " "; background: url("../img/mac_bg.png") no-repeat 0 0; width: 344px; height: 229px; position: absolute; z-index: 100; right: -380px; top: 44px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .top_mac:before { background-image: url("../img/retina/img-test-x2/mac_bg.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .top_mac:before { background-image: url("../img/retina/img-x2/mac_bg.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .top_mac span { margin-left: 14px; vertical-align: baseline; }
 .top_android:before { display: block; content: " "; background: url("../img/android_bg.png") no-repeat 0 0; width: 249px; height: 274px; position: absolute; z-index: 100; right: -421px; top: 42px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .top_android:before { background-image: url("../img/retina/img-test-x2/android_bg.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .top_android:before { background-image: url("../img/retina/img-x2/android_bg.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .top_android span { margin-left: 14px; vertical-align: baseline; }
 .top_linux:before { display: block; content: " "; background: url("../img/linux_bg.png") no-repeat 0 0; width: 370px; height: 227px; position: absolute; z-index: 100; right: -380px; top: 59px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .top_linux:before { background-image: url("../img/retina/img-test-x2/linux_bg.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .top_linux:before { background-image: url("../img/retina/img-x2/linux_bg.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .top_linux span { margin-left: 14px; vertical-align: baseline; }
 .top_windows:before { display: block; content: " "; background: url("../img/windows_bg.png") no-repeat 0 0; width: 344px; height: 230px; position: absolute; z-index: 100; right: -380px; top: 59px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .top_windows:before { background-image: url("../img/retina/img-test-x2/windows_bg.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .top_windows:before { background-image: url("../img/retina/img-x2/windows_bg.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .top_windows span { margin-left: 14px; vertical-align: baseline; }
 .top_windows .button { width: 170px; }
 
@@ -105,8 +105,6 @@ body { font-family: "Open Sans", sans-serif; }
 .l .l-col2 { float: right; width: 70%; }
 
 body { min-height: 100%; }
-
-.out { display: table; height: 100%; width: 100%; }
 
 #news { padding: 200px; background: red; }
 @media only screen and (max-width: 1200px) { #news .header-nav > li { padding-left: 3%; } }
@@ -193,19 +191,19 @@ body { padding: 400px; }
 .vpn-secur a:hover { opacity: 1; }
 .vpn-secur__trusted { display: inline-block; width: 62px; height: 18px; background: url("../img/trusted.png") no-repeat 0 0; width: 62px; height: 18px; }
 .vpn-secur__trusted:hover { transition: 0.3s; background: url("../img/hover_trusted.png") no-repeat 0 0; width: 62px; height: 18px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__trusted { background-size: cover; background: url("../img/trusted-x2.png") no-repeat 0 0; width: 125px; height: 36px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__trusted { background: url("../img/trusted-x2.png") no-repeat 0 0; width: 125px; height: 36px; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
   .vpn-secur__trusted:hover { background: url("../img/hover_trusted-x2.png") no-repeat 0 0; width: 125px; height: 36px; } }
 .vpn-secur__mcafee { display: inline-block; width: 50px; height: 19px; background: url("../img/mcafee.png") no-repeat 0 0; width: 50px; height: 19px; }
 .vpn-secur__mcafee:hover { transition: 0.3s; background: url("../img/hover_mcafee.png") no-repeat 0 0; width: 50px; height: 19px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__mcafee { background-size: cover; background: url("../img/mcafee-x2.png") no-repeat 0 0; width: 99px; height: 37px; }
-  .vpn-secur__mcafee:hover { background: url("../img/hover_mcafee-x2.png") no-repeat 0 0; width: 99px; height: 37px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__mcafee { background: url("../img/McAfee-x2.png") no-repeat 0 0; width: 99px; height: 37px; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
+  .vpn-secur__mcafee:hover { background: url("../img/hover_McAfee-x2.png") no-repeat 0 0; width: 99px; height: 37px; } }
 .vpn-secur__thawte { display: inline-block; width: 62px; height: 18px; background: url("../img/thawte.png") no-repeat 0 0; width: 62px; height: 18px; }
 .vpn-secur__thawte:hover { transition: 0.3s; background: url("../img/hover_thawte.png") no-repeat 0 0; width: 62px; height: 18px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__thawte { background-size: cover; background: url("../img/thawte-x2.png") no-repeat 0 0; width: 123px; height: 35px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__thawte { background: url("../img/thawte-x2.png") no-repeat 0 0; width: 123px; height: 35px; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
   .vpn-secur__thawte:hover { background: url("../img/hover_thawte-x2.png") no-repeat 0 0; width: 123px; height: 35px; } }
 .vpn-secur__norton { display: inline-block; width: 46px; height: 20px; background: url("../img/norton.png") no-repeat 0 0; width: 46px; height: 20px; }
 .vpn-secur__norton:hover { transition: 0.3s; background: url("../img/hover_norton.png") no-repeat 0 0; width: 46px; height: 20px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__norton { background-size: cover; background: url("../img/norton-x2.png") no-repeat 0 0; width: 94px; height: 39px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__norton { background: url("../img/norton-x2.png") no-repeat 0 0; width: 94px; height: 39px; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
   .vpn-secur__norton:hover { background: url("../img/hover_norton-x2.png") no-repeat 0 0; width: 94px; height: 39px; } }
 
 .service { height: 739px; background-color: #FFF; font-size: 0; text-align: center; }
@@ -222,7 +220,7 @@ body { padding: 400px; }
 .service__more a { display: inline-block; color: #006fb6; font: 400 24px/1 "Open Sans", sans-serif; padding-bottom: 2px; border-bottom: 1px dashed #006fb6; vertical-align: middle; position: relative; margin: 73px 0px 67px; }
 .service__more a:hover { border-color: transparent; opacity: 1; }
 .service__more:before { content: " "; display: block; position: absolute; top: 0; left: -292px; background: url("../img/multimedia.png") no-repeat 0 0; width: 287px; height: 164px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .service__more:before { background-image: url("../img/retina/img-x2/multimedia.png"); } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .service__more:before { background-image: url("../img/retina/img-x2/multimedia.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .service__more img { display: inline-block; }
 
 .network { background-color: #f8fbff; min-height: 798px; }
@@ -286,7 +284,7 @@ body { padding: 400px; }
 .sub__left p { color: black; font: 400 16px/23px "Open Sans", sans-serif; }
 .sub__right { overflow: hidden; margin-left: 536px; }
 .sub__right i { display: inline-block; background-image: url("../img/devices.png"); width: 481px; height: 365px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .sub__right i { background-image: url("../img/retina/img-test-x2/devise.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .sub__right i { background-image: url("../img/retina/img-x2/devise.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .sub_headline { margin-top: 36px; line-height: 1.2; letter-spacing: 0; }
 
 .router { text-align: center; background: url("../img/router_bg.png") no-repeat 0 0; width: 1600px; height: 314px; width: auto; height: auto; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding-top: 56px; }
@@ -335,16 +333,16 @@ body { padding: 400px; }
 .device h2 { padding: 63px 0 38px; }
 
 .phone_black { width: 302px; height: 577px; background-image: url("../img/phone_black.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .phone_black { background-image: url("../img/retina/img-test-x2/phone_black.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .phone_black { background-image: url("../img/retina/img-x2/phone_black.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 
 .phone_white { width: 293px; height: 591px; background-image: url("../img/phone_white.png"); }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .phone_white { background-image: url("../img/retina/img-test-x2/phone_white.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .phone_white { background-image: url("../img/retina/img-x2/phone_white.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 
 .proxy { min-height: 251px; background-color: #FFF; }
 .proxy__in { width: 852px; margin: auto; text-align: center; position: relative; }
 .proxy__in:after { content: " "; background: url("../img/catflag.png") no-repeat 0 0; width: 229px; height: 176px; position: absolute; bottom: 0; right: -241px; z-index: 999; }
 @media only screen and (max-width: 1350px) { .proxy__in:after { display: none; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__in:after { background-image: url("../img/retina/img-x2/catflag.png"); } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__in:after { background-image: url("../img/retina/img-x2/catflag.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy_headline { padding: 55px 0 24px; }
 .proxy_text { text-indent: 40px; width: 730px; margin: 0 auto 66px; line-height: 23px; }
 .proxy .pform { width: 852px; height: 295px; font-size: 0; text-align: left; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; }
@@ -359,7 +357,7 @@ body { padding: 400px; }
 .proxy .pform .allcountries { display: none; position: absolute; top: 75px; left: 0; z-index: 999; width: 780px; height: 729px; background-color: white; border: 1px solid #1c98d7; border-radius: 5px; box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25); padding: 20px 0 20px 16px; }
 .proxy .pform .allcountries:before { content: " "; display: block; position: absolute; left: 79px; top: -11px; z-index: 100; background: url("../img/tringle.png") no-repeat 0 0; width: 20px; height: 11px; }
 .proxy .pform .allcountries__close { display: block; position: absolute; right: -10px; top: -10px; z-index: 100; background: url("../img/close.png") no-repeat 0 0; width: 23px; height: 23px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .allcountries__close { background-image: url("../img/retina/img-x2/close.png"); } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .allcountries__close { background-image: url("../img/retina/img-x2/close.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy .pform .allcountries__close:hover { opacity: 1; cursor: pointer; }
 .proxy .pform .allcountries__col { width: 190px; display: inline-block; vertical-align: top; font-size: 14px; }
 .proxy .pform .allcountries .checktext { padding-left: 30px; }
@@ -380,10 +378,10 @@ body { padding: 400px; }
 .proxy .pform .checktext { padding-left: 20px; }
 .proxy .pform .checktext:hover { cursor: pointer; }
 .proxy .pform .checktext:before { display: inline-block; content: " "; position: absolute; left: 0; top: 2px; background: url("../img/check.png") no-repeat 0 0; width: 15px; height: 16px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .checktext:before { background-image: url("../img/retina/img-x2/check.png"); } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .checktext:before { background-image: url("../img/retina/img-x2/check.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy .pform label > input[type="checkbox"], .proxy .pform .fieldset-in .suport-form label > textarea[type="checkbox"], .fieldset-in .suport-form .proxy .pform label > textarea[type="checkbox"] { display: none; }
 .proxy .pform input[type="checkbox"]:checked + .checktext:before, .proxy .pform .fieldset-in .suport-form textarea[type="checkbox"]:checked + .checktext:before, .fieldset-in .suport-form .proxy .pform textarea[type="checkbox"]:checked + .checktext:before { background: url("../img/checked.png") no-repeat 0 0; width: 15px; height: 16px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform input[type="checkbox"]:checked + .checktext:before, .proxy .pform .fieldset-in .suport-form textarea[type="checkbox"]:checked + .checktext:before, .fieldset-in .suport-form .proxy .pform textarea[type="checkbox"]:checked + .checktext:before { background-image: url("../img/retina/img-x2/checked.png"); } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform input[type="checkbox"]:checked + .checktext:before, .proxy .pform .fieldset-in .suport-form textarea[type="checkbox"]:checked + .checktext:before, .fieldset-in .suport-form .proxy .pform textarea[type="checkbox"]:checked + .checktext:before { background-image: url("../img/retina/img-x2/checked.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy .pform label { display: block; position: relative; }
 .proxy .pform input[type="text"], .proxy .pform .fieldset-in .suport-form textarea[type="text"], .fieldset-in .suport-form .proxy .pform textarea[type="text"] { width: 100%; height: 38px; background-color: white; border: 1px solid #d3d7dc; border-radius: 5px; padding: 0 9px; box-shadow: inset 0 2px 0 rgba(21, 23, 25, 0.06); font: 400 16px/23px "Open Sans", sans-serif; }
 .proxy .pform input[type="text"]:-ms-input-placeholder, .proxy .pform .fieldset-in .suport-form textarea[type="text"]:-ms-input-placeholder, .fieldset-in .suport-form .proxy .pform textarea[type="text"]:-ms-input-placeholder { color: black; opacity: 0.3; }
@@ -636,7 +634,7 @@ body { padding: 400px; }
 .proxy__in { width: 852px; margin: auto; text-align: center; position: relative; }
 .proxy__in:after { content: " "; background: url("../img/catflag.png") no-repeat 0 0; width: 229px; height: 176px; position: absolute; bottom: 0; right: -241px; z-index: 999; }
 @media only screen and (max-width: 1350px) { .proxy__in:after { display: none; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__in:after { background-image: url("../img/retina/img-x2/catflag.png"); } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy__in:after { background-image: url("../img/retina/img-x2/catflag.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy_headline { padding: 55px 0 24px; }
 .proxy_text { text-indent: 40px; width: 730px; margin: 0 auto 66px; line-height: 23px; }
 .proxy .pform { width: 852px; height: 295px; font-size: 0; text-align: left; -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; }
@@ -651,7 +649,7 @@ body { padding: 400px; }
 .proxy .pform .allcountries { display: none; position: absolute; top: 75px; left: 0; z-index: 999; width: 780px; height: 729px; background-color: white; border: 1px solid #1c98d7; border-radius: 5px; box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25); padding: 20px 0 20px 16px; }
 .proxy .pform .allcountries:before { content: " "; display: block; position: absolute; left: 79px; top: -11px; z-index: 100; background: url("../img/tringle.png") no-repeat 0 0; width: 20px; height: 11px; }
 .proxy .pform .allcountries__close { display: block; position: absolute; right: -10px; top: -10px; z-index: 100; background: url("../img/close.png") no-repeat 0 0; width: 23px; height: 23px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .allcountries__close { background-image: url("../img/retina/img-x2/close.png"); } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .allcountries__close { background-image: url("../img/retina/img-x2/close.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy .pform .allcountries__close:hover { opacity: 1; cursor: pointer; }
 .proxy .pform .allcountries__col { width: 190px; display: inline-block; vertical-align: top; font-size: 14px; }
 .proxy .pform .allcountries .checktext { padding-left: 30px; }
@@ -672,10 +670,10 @@ body { padding: 400px; }
 .proxy .pform .checktext { padding-left: 20px; }
 .proxy .pform .checktext:hover { cursor: pointer; }
 .proxy .pform .checktext:before { display: inline-block; content: " "; position: absolute; left: 0; top: 2px; background: url("../img/check.png") no-repeat 0 0; width: 15px; height: 16px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .checktext:before { background-image: url("../img/retina/img-x2/check.png"); } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform .checktext:before { background-image: url("../img/retina/img-x2/check.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy .pform label > input[type="checkbox"], .proxy .pform .fieldset-in .suport-form label > textarea[type="checkbox"], .fieldset-in .suport-form .proxy .pform label > textarea[type="checkbox"] { display: none; }
 .proxy .pform input[type="checkbox"]:checked + .checktext:before, .proxy .pform .fieldset-in .suport-form textarea[type="checkbox"]:checked + .checktext:before, .fieldset-in .suport-form .proxy .pform textarea[type="checkbox"]:checked + .checktext:before { background: url("../img/checked.png") no-repeat 0 0; width: 15px; height: 16px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform input[type="checkbox"]:checked + .checktext:before, .proxy .pform .fieldset-in .suport-form textarea[type="checkbox"]:checked + .checktext:before, .fieldset-in .suport-form .proxy .pform textarea[type="checkbox"]:checked + .checktext:before { background-image: url("../img/retina/img-x2/checked.png"); } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .proxy .pform input[type="checkbox"]:checked + .checktext:before, .proxy .pform .fieldset-in .suport-form textarea[type="checkbox"]:checked + .checktext:before, .fieldset-in .suport-form .proxy .pform textarea[type="checkbox"]:checked + .checktext:before { background-image: url("../img/retina/img-x2/checked.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .proxy .pform label { display: block; position: relative; }
 .proxy .pform input[type="text"], .proxy .pform .fieldset-in .suport-form textarea[type="text"], .fieldset-in .suport-form .proxy .pform textarea[type="text"] { width: 100%; height: 38px; background-color: white; border: 1px solid #d3d7dc; border-radius: 5px; padding: 0 9px; box-shadow: inset 0 2px 0 rgba(21, 23, 25, 0.06); font: 400 16px/23px "Open Sans", sans-serif; }
 .proxy .pform input[type="text"]:-ms-input-placeholder, .proxy .pform .fieldset-in .suport-form textarea[type="text"]:-ms-input-placeholder, .fieldset-in .suport-form .proxy .pform textarea[type="text"]:-ms-input-placeholder { color: black; opacity: 0.3; }
