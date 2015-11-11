@@ -51,16 +51,17 @@ head.ready(function() {
         return false;
     });
 
-    var forCenteredBottom=($(document).width()/2)-($('.footer-down').width()/2);
-    if($('.support-footer').height() + $('.footer-down').height() < $(window).height() ){
-    	$('.footer-down').css({
-        	position:'absolute',
-        	bottom: 0,
-        	left: forCenteredBottom
-    	})
-	}else{
-    	$('.footer-down').css({
-        	position:'relative'
-    	})
-}
+
+	//function footerToBottom() {
+	//var browserHeight = $(window).height(),
+	//footerOuterHeight = $('footer').outerHeight(true),
+	//mainHeightMarginPaddingBorder = $('.support-footer').outerHeight(true) - $('.support-footer').height();
+	//$('.support-footer').css({
+	//'min-height': browserHeight - footerOuterHeight - mainHeightMarginPaddingBorder,
+	//});
+	//};
+	//footerToBottom();
+	//$(window).resize(function () {
+	//footerToBottom();
+	//});
 });

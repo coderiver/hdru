@@ -794,7 +794,7 @@ body { padding: 400px; }
 
 .faq-text__in { padding: 0 60px; margin-bottom: 51px; }
 
-.faq { color: #006fb6; margin-bottom: 55px; }
+.faq { color: #006fb6; }
 .faq__in { width: 960px; margin: auto; }
 .faq__main { cursor: pointer; }
 .faq__main li { font-size: 24px; font-weight: 400; line-height: 50px; margin-left: 25px; }
@@ -813,8 +813,10 @@ body { padding: 400px; }
 .faq__second-drop p:last-child { margin-bottom: 0; }
 .faq .faq__second-text { background-color: #eef3f9; margin-top: 20px; margin-bottom: 17px; margin-left: -9px; color: #000; padding: 24px 133px 23px 31px; }
 
-.study-cat { background-image: url("../img/test/study-cat.png"); width: 209px; height: 180px; position: absolute; bottom: -56px; right: 59px; }
+.study-cat { background-image: url("../img/test/study-cat.png"); width: 209px; height: 180px; position: absolute; bottom: -101px; right: 59px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .study-cat { background-image: url("../img/retina/img-test-x2/study-cat.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+
+.footer__section { margin-bottom: 100px; }
 
 .proxy-checker { margin-bottom: 60px; }
 
