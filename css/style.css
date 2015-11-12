@@ -177,6 +177,23 @@ h2 + p {
         background-size: cover;
       }
     }
+.ip .ip-icon {
+    background-image: url(../img/ip.png);
+    width: 14px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+    @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-moz-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min-device-pixel-ratio: 1.5) {
+      .control-vpn .control {
+        background-image: url(../img/retina/img-x2/ip.png);
+        background-size: cover;
+      }
+    }
 
 .soc, .logo-name{
 
@@ -190,7 +207,7 @@ h2 + p {
 
 .lang li {padding: 0 0 0 15px;position: relative;}
 
-.lang-img {margin-right: 8px;}
+
 
 .lang li.active{color: #3c4e56;}
 
@@ -215,6 +232,59 @@ h2 + p {
     left: 16px;
 
 }
+.lang .lang-image-ru {
+    background-image: url(../img/rus.jpg);
+    width: 14px;
+    height: 11px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+    @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-moz-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min-device-pixel-ratio: 1.5) {
+      .control-vpn .control {
+        background-image: url(../img/retina/img-x2/rus.jpg);
+        background-size: cover;
+      }
+    }
+
+ .lang-image-eng {
+    background-image: url(../img/eng.jpg);
+    width: 14px;
+    height: 11px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    }
+    @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-moz-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min-device-pixel-ratio: 1.5) {
+      .control-vpn .control {
+        background-image: url(../img/retina/img-x2/eng.jpg);
+        background-size: cover;
+      }
+    }
+.lang-image-es {
+    background-image: url(../img/es.jpg);
+    width: 14px;
+    height: 11px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    }
+    @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-moz-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min-device-pixel-ratio: 1.5) {
+      .control-vpn .control {
+        background-image: url(../img/retina/img-x2/es.jpg);
+        background-size: cover;
+      }
+    }
+
 
 .header-block2{
 
@@ -235,7 +305,23 @@ h2 + p {
     width: 37%;
 
 }
+.logo .img {
+    background-image: url(../img/logo.png);
+    width: 68px;
+    height: 67px;
+    display: inline-block;
+    vertical-align: middle;
 
+    }
+    @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-moz-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min-device-pixel-ratio: 1.5) {
+      .control-vpn .control {
+        background-image: url(../img/retina/img-x2/logo.png);
+        background-size: cover;
+    }
+    }
 .name {
     margin-left: 10px;
     padding: 12px 0;
