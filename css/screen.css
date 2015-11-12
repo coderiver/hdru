@@ -193,20 +193,23 @@ body { padding: 400px; }
 .vpn-secur a:hover { opacity: 1; }
 .vpn-secur__trusted { display: inline-block; width: 62px; height: 18px; background: url("../img/trusted.png") no-repeat 0 0; width: 62px; height: 18px; }
 .vpn-secur__trusted:hover { transition: 0.3s; background: url("../img/hover_trusted.png") no-repeat 0 0; width: 62px; height: 18px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__trusted { background: url("../img/trusted-x2.png") no-repeat 0 0; width: 125px; height: 36px; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
-  .vpn-secur__trusted:hover { background: url("../img/hover_trusted-x2.png") no-repeat 0 0; width: 125px; height: 36px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__trusted { background-image: url("../img/trusted-x2.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) and (min-device-pixel-ratio: 2) { .vpn-secur__trusted:hover { background-image: url("../img/hover_trusted-x2.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+
 .vpn-secur__mcafee { display: inline-block; width: 50px; height: 19px; background: url("../img/mcafee.png") no-repeat 0 0; width: 50px; height: 19px; }
 .vpn-secur__mcafee:hover { transition: 0.3s; background: url("../img/hover_mcafee.png") no-repeat 0 0; width: 50px; height: 19px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__mcafee { background: url("../img/McAfee-x2.png") no-repeat 0 0; width: 99px; height: 37px; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
-  .vpn-secur__mcafee:hover { background: url("../img/hover_McAfee-x2.png") no-repeat 0 0; width: 99px; height: 37px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__mcafee { background-image: url("../img/McAfee-x2.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) and (min-device-pixel-ratio: 2) { .vpn-secur__mcafee:hover { background-image: url("../img/hover_McAfee-x2.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+
 .vpn-secur__thawte { display: inline-block; width: 62px; height: 18px; background: url("../img/thawte.png") no-repeat 0 0; width: 62px; height: 18px; }
 .vpn-secur__thawte:hover { transition: 0.3s; background: url("../img/hover_thawte.png") no-repeat 0 0; width: 62px; height: 18px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__thawte { background: url("../img/thawte-x2.png") no-repeat 0 0; width: 123px; height: 35px; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
-  .vpn-secur__thawte:hover { background: url("../img/hover_thawte-x2.png") no-repeat 0 0; width: 123px; height: 35px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__thawte { background-image: url("../img/thawte-x2.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) and (min-device-pixel-ratio: 2) { .vpn-secur__thawte:hover { background-image: url("../img/hover_thawte-x2.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+
 .vpn-secur__norton { display: inline-block; width: 46px; height: 20px; background: url("../img/norton.png") no-repeat 0 0; width: 46px; height: 20px; }
 .vpn-secur__norton:hover { transition: 0.3s; background: url("../img/hover_norton.png") no-repeat 0 0; width: 46px; height: 20px; }
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__norton { background: url("../img/norton-x2.png") no-repeat 0 0; width: 94px; height: 39px; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; }
-  .vpn-secur__norton:hover { background: url("../img/hover_norton-x2.png") no-repeat 0 0; width: 94px; height: 39px; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__norton { background-image: url("../img/norton-x2.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) and (min-device-pixel-ratio: 2) { .vpn-secur__norton:hover { background-image: url("../img/hover_norton-x2.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 
 .service { height: 739px; background-color: #FFF; font-size: 0; text-align: center; }
 .service__row { margin-bottom: 56px; }
