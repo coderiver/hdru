@@ -201,7 +201,7 @@ body { padding: 400px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__mcafee { background-image: url("../img/McAfee-x2.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) and (min-device-pixel-ratio: 2) { .vpn-secur__mcafee:hover { background-image: url("../img/hover_McAfee-x2.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 
-.vpn-secur__thawte { display: inline-block; width: 62px; height: 18px; background: url("../img/thawte.png") no-repeat 0 0; width: 62px; height: 18px; }
+.vpn-secur__thawte { display: inline-block; width: 64px; height: 18px; background: url("../img/thawte.png") no-repeat 0 0; width: 62px; height: 18px; }
 .vpn-secur__thawte:hover { transition: 0.3s; background: url("../img/hover_thawte.png") no-repeat 0 0; width: 62px; height: 18px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .vpn-secur__thawte { background-image: url("../img/thawte-x2.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) and (-webkit-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) and (min-device-pixel-ratio: 2) { .vpn-secur__thawte:hover { background-image: url("../img/hover_thawte-x2.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
@@ -319,11 +319,8 @@ body { padding: 400px; }
 .top_text { line-height: 1.4; margin-bottom: 32px; }
 .top__wrp { width: 515px; margin: auto; position: relative; }
 .top .button { margin-bottom: 71px; }
-.top .icon__ios_i { background: url('../img/icons-s9d67365f61.png') 0 -1185px no-repeat; width: 19px; height: 35px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
-.top .icon__mac_i { background: url('../img/icons-s9d67365f61.png') 0 -1789px no-repeat; width: 26px; height: 32px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
-.top .icon__android_i { background: url('../img/icons-s9d67365f61.png') 0 -109px no-repeat; width: 30px; height: 36px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
-.top .icon__windows_i { background: url('../img/icons-s9d67365f61.png') 0 -2709px no-repeat; width: 32px; height: 29px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
-.top .icon__linux_i { background: url('../img/icons-s9d67365f61.png') 0 -1639px no-repeat; width: 30px; height: 37px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
+.top .icon__android_i { display: inline-block; vertical-align: middle; margin-bottom: 6px; background: url('../img/icons-s9d67365f61.png') 0 -109px no-repeat; width: 30px; height: 36px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .top .icon__android_i { background-image: url("../img/retina/img-x2/icons.png"); background-position: 0 10px; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 
 .device { height: 790px; background-color: #eef3f9; text-align: center; }
 .device__in { margin-bottom: 70px; *zoom: 1; }

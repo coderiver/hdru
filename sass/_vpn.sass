@@ -397,7 +397,7 @@
 					+cover
 	&__thawte
 		display: inline-block
-		width: 62px
+		width: 64px
 		height: 18px
 		+png(thawte)
 		&:hover
@@ -711,13 +711,22 @@
 	.button
 		margin-bottom: 71px
 
-	@each $s in ios_i, mac_i, android_i, windows_i, linux_i
-		.icon__#{$s}
-			+s(#{$s})
-			display: inline-block
-			vertical-align: middle
-			margin-bottom: 6px
+	//@each $s in ios_i, mac_i, android_i, windows_i, linux_i
+	//	.icon__#{$s}
+	//		+s(#{$s})
+	//		display: inline-block
+	//		vertical-align: middle
+	//		margin-bottom: 6px
 
+	.icon__android_i
+		display: inline-block
+		vertical-align: middle
+		margin-bottom: 6px
+		+s(android_i)
+		+retina
+			background-image: url("../img/retina/img-x2/icons.png")
+			background-position: 0 10px
+			+cover
 
 
 //DEVICE
