@@ -135,7 +135,6 @@ h2 + p {
 .soc{
 
     width: 227px;
-
     text-align: center;
 
 }
@@ -161,6 +160,22 @@ h2 + p {
     margin-right: 5px;
 
 }
+.control-vpn .control {
+    background-image: url(../img/control-vpn.png);
+    width: 14px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+    @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-moz-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min-device-pixel-ratio: 1.5) {
+      .control-vpn .control {
+        background-image: url(../img/retina/img-x2/control-vpn.png);
+      }
+    }
 
 .soc, .logo-name{
 
