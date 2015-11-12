@@ -189,7 +189,6 @@ body
 		box-sizing: content-box
 
 
-
 //top
 .top
 	.button
@@ -198,20 +197,21 @@ body
 		+png(router_bg)
 		width: auto
 		height: 315px
-		+cover
+		background-size: cover
+		background-position: 0% 100%
 
-	&_router
-		&:before
-			display: block
-			content: ' '
-			+png(router)
-			position: absolute
-			z-index: 100
-			right: -7px-280px
-			bottom: 0
-			+retina
-				background-image: url("../img/retina/img-x2/router_bg.png")
-				+cover
+	//&_router
+	//	&:before
+	//		display: block
+	//		content: ' '
+	//		+png(router)
+	//		position: absolute
+	//		z-index: 100
+	//		right: -7px-280px
+	//		bottom: 0
+	//		+retina
+	//			background-image: url("../img/retina/img-x2/router_bg.png")
+	//			+cover
 
 		.button
 			width: 230px

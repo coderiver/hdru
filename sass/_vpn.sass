@@ -40,11 +40,47 @@
 
 	&__logos
 		margin: 21px 0 26px
-		@each $s in apple, windows, linux, android, ios
-			.icon__#{$s}
-				+s(#{$s})
-				display: inline-block
-				margin-right: 5px
+		//@each $s in apple, windows, linux, android, ios
+		//	.icon__#{$s}
+		//		+s(#{$s})
+		//		display: inline-block
+		//		margin-right: 5px
+		.icon__apple
+			display: inline-block
+			margin-right: 5px
+			+s(apple)
+			+retina
+				background-image: url("../img/retina/img-os-x2/apple.png")
+				+cover
+		.icon__windows
+			display: inline-block
+			margin-right: 5px
+			+s(windows)
+			+retina
+				background-image: url("../img/retina/img-os-x2/windows.png")
+				+cover
+		.icon__linux
+			display: inline-block
+			margin-right: 5px
+			+s(linux)
+			+retina
+				background-image: url("../img/retina/img-os-x2/linux.png")
+				+cover
+		.icon__android
+			display: inline-block
+			margin-right: 5px
+			+s(android)
+			+retina
+				background-image: url("../img/retina/img-os-x2/android.png")
+				+cover
+		.icon__ios
+			display: inline-block
+			margin-right: 5px
+			+s(ios)
+			+retina
+				background-image: url("../img/retina/img-os-x2/ios.png")
+				+cover
+
 
 	.button
 		white-spacing: -1px
