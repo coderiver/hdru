@@ -189,7 +189,7 @@ h2 + p {
     only screen and (-moz-min-device-pixel-ratio: 1.5),
     only screen and (-o-min-device-pixel-ratio: 3/2),
     only screen and (min-device-pixel-ratio: 1.5) {
-      .control-vpn .control {
+      .ip .ip-icon {
         background-image: url(../img/retina/img-x2/ip.png);
         background-size: cover;
       }
@@ -244,7 +244,7 @@ h2 + p {
     only screen and (-moz-min-device-pixel-ratio: 1.5),
     only screen and (-o-min-device-pixel-ratio: 3/2),
     only screen and (min-device-pixel-ratio: 1.5) {
-      .control-vpn .control {
+      .lang .lang-image-ru  {
         background-image: url(../img/retina/img-x2/rus.jpg);
         background-size: cover;
       }
@@ -262,7 +262,7 @@ h2 + p {
     only screen and (-moz-min-device-pixel-ratio: 1.5),
     only screen and (-o-min-device-pixel-ratio: 3/2),
     only screen and (min-device-pixel-ratio: 1.5) {
-      .control-vpn .control {
+       .lang-image-eng  {
         background-image: url(../img/retina/img-x2/eng.jpg);
         background-size: cover;
       }
@@ -279,7 +279,7 @@ h2 + p {
     only screen and (-moz-min-device-pixel-ratio: 1.5),
     only screen and (-o-min-device-pixel-ratio: 3/2),
     only screen and (min-device-pixel-ratio: 1.5) {
-      .control-vpn .control {
+      .lang-image-es {
         background-image: url(../img/retina/img-x2/es.jpg);
         background-size: cover;
       }
@@ -311,13 +311,12 @@ h2 + p {
     height: 67px;
     display: inline-block;
     vertical-align: middle;
-
     }
     @media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
     only screen and (-moz-min-device-pixel-ratio: 1.5),
     only screen and (-o-min-device-pixel-ratio: 3/2),
     only screen and (min-device-pixel-ratio: 1.5) {
-      .control-vpn .control {
+      .logo .img-logo {
         background-image: url(../img/retina/img-x2/logo.png);
         background-size: cover;
     }
