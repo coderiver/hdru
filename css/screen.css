@@ -63,7 +63,7 @@ body { font-family: "Open Sans", sans-serif; }
 .headvpn .block-list1 > div { box-sizing: content-box; }
 
 .top .button { width: 276px; }
-.top_r { background: url("../img/router_bg.png") no-repeat 0 0; width: 1596px; height: 314px; width: auto; height: 315px; background-size: cover; background-position: 0% 100%; }
+.top_r { background: url("../img/router_bg.png") no-repeat 0 0; width: 1614px; height: 315px; width: auto; height: 315px; background-size: cover; background-position: 0 100%; }
 .top_ios:before { display: block; content: " "; background: url("../img/ios_bg.png") no-repeat 0 0; width: 250px; height: 274px; position: absolute; z-index: 100; right: -300px; top: 42px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .top_ios:before { background-image: url("../img/retina/img-x2/ios_bg.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .top_ios span { margin-left: 14px; vertical-align: baseline; }
@@ -160,8 +160,8 @@ body { padding: 400px; }
 .l__title { color: black; font: 400 24px/1 "Open Sans", sans-serif; margin-bottom: 20px; }
 .l__content { color: black; font: 400 16px/1.4 "Open Sans", sans-serif; margin-bottom: 20px; }
 .l__pic { display: inline-block; vertical-align: top; min-height: 215px; position: relative; width: 100%; }
+.l__pic img { display: block; margin: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
 .l .install { width: 157px; height: 136px; }
-.l .install img { display: block; margin: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
 .l .install:last-child { margin-bottom: 0; }
 
 .vpn { text-align: center; background-color: #f8fbff; height: 1008px; font-size: 0; }
@@ -292,7 +292,7 @@ body { padding: 400px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .sub__right i { background-image: url("../img/retina/img-x2/devise.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .sub_headline { margin-top: 36px; line-height: 1.2; letter-spacing: 0; }
 
-.router { text-align: center; background: url("../img/router_bg.png") no-repeat 0 0; width: 1596px; height: 314px; width: auto; height: auto; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding-top: 56px; }
+.router { text-align: center; background: url("../img/router_bg.png") no-repeat 0 0; width: 1614px; height: 315px; width: auto; height: auto; background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; padding-top: 56px; }
 .router_headline { margin-bottom: 28px; }
 .router_text { width: 520px; margin: auto; line-height: 23px; margin-bottom: 35px; }
 .router .button { width: 230px; background-color: #79bc00; margin-bottom: 70px; }
@@ -300,6 +300,8 @@ body { padding: 400px; }
 .award { background-color: #eef3f9; overflow: hidden; text-align: center; font-size: 0; height: 831px; padding: 66px 0 50px; }
 .award_headline { margin-bottom: 55px; }
 .award__pic { margin-bottom: 54px; }
+.award__pic i { display: inline-block; background-image: url("../img/server.png"); width: 366px; height: 186px; }
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .award__pic i { background-image: url("../img/retina/img-x2/devise.png"); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } }
 .award__wrp { margin-right: -1%; }
 .award .item { width: 49%; margin-right: 1%; display: inline-block; position: relative; vertical-align: top; text-align: left; margin-bottom: 30px; }
 .award .item h4 { color: black; font-family: "Open Sans", sans-serif; font-size: 24px; font-weight: 400; line-height: 1; padding-top: 16px; margin-bottom: 20px; }
@@ -324,6 +326,8 @@ body { padding: 400px; }
 .top .icon__android_i { background: url('../img/icons-s9d67365f61.png') 0 -109px no-repeat; width: 30px; height: 36px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
 .top .icon__windows_i { background: url('../img/icons-s9d67365f61.png') 0 -2709px no-repeat; width: 32px; height: 29px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
 .top .icon__linux_i { background: url('../img/icons-s9d67365f61.png') 0 -1639px no-repeat; width: 30px; height: 37px; display: inline-block; vertical-align: middle; margin-bottom: 6px; }
+.top .icon__linux_i { margin-bottom: 3px; }
+.top .icon__windows_i, .top .icon__ios_i, .top .icon__android_i { margin-bottom: 3px; }
 
 .device { height: 790px; background-color: #eef3f9; text-align: center; }
 .device__in { margin-bottom: 70px; *zoom: 1; }
@@ -849,6 +853,7 @@ body { padding: 400px; }
 .proxy-list__right .proxy-visible .item-width_t { margin-right: 18px; }
 
 .testing-btn .testing-btn__in { width: 860px; margin: 0 auto; padding: 0px 20px 20px 35px; background-color: #f6faff; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
+.testing-btn .testing-btn__in button { font-weight: normal; }
 .testing-btn .is-active { opacity: 0.6; width: 240px; height: 48px; margin-top: 0; }
 .testing-btn .btn-color-blue { background-color: #1c98d7; margin: 0 32px 0 8px; width: 240px; height: 48px; margin-top: 0; }
 .testing-btn .btn-color-grey { background-color: #697c81; width: 240px; height: 48px; margin-top: 20px; }

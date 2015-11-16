@@ -221,10 +221,6 @@
 		min-height: 215px
 		position: relative
 		width: 100%
-	.install
-		width: 157px
-		height: 136px
-
 		img
 			display: block
 			margin: auto
@@ -233,6 +229,11 @@
 			bottom: 0
 			left: 0
 			right: 0
+	.install
+		width: 157px
+		height: 136px
+
+
 
 		&:last-child
 			margin-bottom: 0
@@ -635,6 +636,14 @@
 
 	&__pic
 		margin-bottom: 54px
+		i
+			display: inline-block
+			background-image: url("../img/server.png")
+			width: 366px
+			height: 186px
+			+retina
+				background-image: url("../img/retina/img-x2/devise.png")
+				+cover
 
 	&__wrp
 		margin-right: -1%
@@ -717,7 +726,10 @@
 			display: inline-block
 			vertical-align: middle
 			margin-bottom: 6px
-
+	.icon__linux_i
+		margin-bottom: 3px
+	.icon__windows_i, .icon__ios_i, .icon__android_i
+		margin-bottom: 3px
 	//.icon__android_i
 	//	display: inline-block
 	//	vertical-align: middle
